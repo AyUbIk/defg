@@ -10,7 +10,7 @@
     "run_worker_first": true
   },
   "vars": {
-    "MODEL": "claude-haiku-5-5",
+    "GEMINI_MODEL": "gemini-3.8-flash",
     "SITE_URL": ""
   }
 }
