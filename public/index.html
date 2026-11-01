@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>document.documentElement.classList.add("js")</script>
+<title>Speakyz — курсы английского и IELTS в Ташкенте</title>
+<meta name="description" content="Разговорные клубы, подготовка к IELTS и индивидуальные уроки английского в Ташкенте и онлайн. Первый урок Speaking бесплатный.">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--h:48px;--k:#000;--w:#F5F5F7;--ink:#1D1D1F;--m:#86868B;--bl:#2A3CFF;--y:#FFD60A;--c:#FF4B2B;--ln:rgba(255,255,255,.16);--d:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--b:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--k);color:#fff;font:400 1.0625rem/1.5 var(--b);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#000;z-index:10}
+a{color:inherit}:focus-visible{outline:3px solid var(--y);outline-offset:3px;border-radius:8px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;height:var(--h);background:rgba(0,0,0,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px)}
+header .in{max-width:1080px;margin:0 auto;padding:0 16px;height:100%;display:flex;align-items:center;gap:8px}
+.logo{font:800 1.25rem/1 var(--d);text-decoration:none;letter-spacing:-.03em;margin-right:6px}
+nav{display:flex;flex:1;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav a{text-decoration:none;font-size:.9rem;color:rgba(255,255,255,.72);padding:6px 12px;border-radius:99px;white-space:nowrap}
+nav a:hover{color:#fff}nav a[aria-current="page"]{color:#000;background:#fff}
+.btn{display:inline-block;background:var(--bl);color:#fff;font:700 1rem/1 var(--b);padding:16px 28px;border-radius:99px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s}
+.btn:hover{transform:scale(1.04)}.btn.y{background:var(--y);color:#000}.btn.g{background:transparent;box-shadow:inset 0 0 0 1.5px currentColor}
+header .btn{padding:8px 16px;font-size:.88rem;white-space:nowrap}
+.hbtn{width:40px;height:40px;border:0;background:transparent;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;cursor:pointer;margin-right:2px;padding:0}
+.hbtn span{display:block;width:20px;height:2px;background:#fff;border-radius:2px;transition:transform .25s,opacity .25s}
+.hbtn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hbtn[aria-expanded="true"] span:nth-child(2){opacity:0}
+.hbtn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:7;opacity:0;pointer-events:none;transition:opacity .25s}
+.menu-backdrop.on{opacity:1;pointer-events:auto}
+.menu-panel{position:fixed;top:0;left:0;bottom:0;width:min(300px,82vw);background:#0b0b0d;border-right:1px solid rgba(255,255,255,.08);z-index:8;padding:calc(env(safe-area-inset-top,0px) + 20px) 18px 24px;display:flex;flex-direction:column;gap:2px;transform:translateX(-100%);transition:transform .3s ease;overflow-y:auto}
+.menu-panel.on{transform:translateX(0)}
+.menu-panel a{text-decoration:none;color:rgba(255,255,255,.82);font:600 1.02rem var(--b);padding:12px 14px;border-radius:14px}
+.menu-panel a:hover{background:rgba(255,255,255,.06);color:#fff}
+.menu-panel a[aria-current="page"]{background:var(--bl);color:#fff}
+.page{display:none}.page.on{display:block;animation:in .6s both}@keyframes in{from{opacity:0}}
+.pin{position:relative}
+.stick{position:sticky;top:calc(var(--h) + env(safe-area-inset-top,0px));height:calc(100vh - var(--h));height:calc(100svh - var(--h));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;text-align:center;overflow:hidden;padding:0 20px}
+.lt{background:var(--w);color:var(--ink)}
+h1,h2,.big{font-family:var(--d);font-weight:800;letter-spacing:-.045em;margin:0}
+h1{font-size:clamp(3rem,10.5vw,9rem);line-height:.92}
+h2{font-size:clamp(2.2rem,6.4vw,5rem);line-height:.98}
+h3{font:800 clamp(1.8rem,3.4vw,2.6rem)/1 var(--d);letter-spacing:-.035em;margin:0 0 10px}
+.gt{background:linear-gradient(95deg,#7C89FF,#FFD60A 55%,#FF4B2B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:clamp(1.1rem,2vw,1.45rem);color:var(--m);max-width:30em;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.sec{padding:96px 0}
+.hero{height:340vh;background:#000;overflow:clip}
+.glow{position:absolute;inset:-20%;background:radial-gradient(40% 35% at 30% 35%,rgba(42,60,255,.55),transparent 70%),radial-gradient(35% 30% at 72% 62%,rgba(255,75,43,.4),transparent 70%),radial-gradient(25% 22% at 55% 20%,rgba(255,214,10,.3),transparent 70%);pointer-events:none}
+.stick>*{position:relative}
+.chat{display:flex;flex-direction:column;gap:10px;width:min(520px,100%);text-align:left}
+.bb{max-width:86%;padding:13px 18px;border-radius:24px;font-weight:500;line-height:1.35;background:rgba(255,255,255,.12);border:1px solid var(--ln);backdrop-filter:blur(16px);opacity:0}
+.bb small{display:block;font-weight:700;font-size:.78rem;opacity:.65}
+.bb.s{align-self:flex-end;background:var(--bl);border-color:transparent;border-bottom-right-radius:6px}.bb.t{border-bottom-left-radius:6px}
+.bb.f{background:var(--y);color:#000;border-color:transparent;border-bottom-left-radius:6px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.words{height:300vh}.words p{font:800 clamp(1.8rem,5.2vw,4rem)/1.08 var(--d);letter-spacing:-.035em;max-width:19em;margin:0;text-align:left}
+.w{opacity:.14}
+.sfr{height:340vh;background:var(--y);color:#000}
+.sfr .big{font-size:clamp(4.5rem,21vw,17rem);line-height:.86;display:block;will-change:transform;opacity:0}
+.badge{position:absolute!important;right:max(4vw,16px);top:max(4vh,16px);width:clamp(110px,18vw,190px)}
+.badge text{font:800 19px var(--d);letter-spacing:3px;fill:#000}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;padding:0 16px;max-width:1240px;margin:0 auto}
+.tile{color:#fff;position:relative;overflow:hidden;border-radius:32px;padding:clamp(24px,4vw,44px);min-height:440px;display:flex;flex-direction:column;justify-content:flex-start;gap:6px;grid-column:span 3;will-change:transform,opacity}
+.tile.a{grid-column:span 4}.tile.b2{grid-column:span 2}.tile.full{grid-column:span 6;min-height:340px}
+.tile p{margin:0 0 18px;max-width:24em;font-size:1.15rem}
+.tile ul{margin:0 0 20px;padding-left:1.1em}.tile .btn{align-self:flex-start;margin-top:auto;position:relative;z-index:1}
+.tile::after{content:attr(data-g);position:absolute;right:-.04em;bottom:-.2em;font:800 clamp(9rem,22vw,17rem)/1 var(--d);letter-spacing:-.06em;opacity:.16;pointer-events:none}
+.tl{font-weight:700;font-size:.95rem;opacity:.75;margin-bottom:6px}
+.k{background:#1D1D1F}.bl{background:var(--bl)}.yl{background:var(--y);color:#000}.cr{background:var(--c)}.wh{background:#fff;color:var(--ink)}
+@media(max-width:820px){.tile,.tile.a,.tile.b2,.tile.full{grid-column:span 6;min-height:380px}}
+.steps{list-style:none;margin:48px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:32px;counter-reset:s}
+.steps li{counter-increment:s;border-top:1px solid var(--ln);padding-top:20px}
+.steps li::before{content:counter(s);font:800 5rem/1 var(--d);letter-spacing:-.05em;background:linear-gradient(95deg,#7C89FF,#FFD60A);-webkit-background-clip:text;background-clip:text;color:transparent}
+.steps b{display:block;font:800 1.5rem var(--d);margin:10px 0 6px;letter-spacing:-.02em}.steps span{color:#A1A1A6}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.meter{height:300vh;background:#000}
+.meter .num{font:800 clamp(7rem,32vw,22rem)/.85 var(--d);letter-spacing:-.07em;font-variant-numeric:tabular-nums}
+.bar{width:min(560px,100%);height:10px;border-radius:99px;background:rgba(255,255,255,.16);overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--bl),var(--y),var(--c));transform-origin:left;transform:scaleX(0)}
+.stack .tile{position:sticky;top:calc(var(--h) + 16px + var(--i)*14px);grid-column:span 6;min-height:42vh;margin-bottom:20px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}@media(max-width:760px){.two{grid-template-columns:1fr}}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 24px}.chips label{cursor:pointer}.chips input{position:absolute;opacity:0}
+.chips span{display:inline-block;padding:11px 18px;border-radius:99px;border:1.5px solid var(--ln);font-weight:700}
+.chips input:checked+span{background:#fff;color:#000;border-color:#fff}.chips input:focus-visible+span{outline:3px solid var(--y);outline-offset:2px}
+.msg{width:100%;min-height:110px;padding:16px;border-radius:18px;border:1px solid var(--ln);background:#000;color:#fff;font:inherit;resize:vertical;margin-bottom:16px}
+details{border-bottom:1px solid #D2D2D7;padding:20px 0}summary{font-weight:700;cursor:pointer;font-size:1.25rem}details p{margin:10px 0 0;color:#6E6E73}
+.final{background:linear-gradient(120deg,var(--bl),var(--c));text-align:center;padding:120px 20px}.final .cta{margin-top:32px}
+footer{background:var(--w);color:#6E6E73;font-size:.85rem;padding:24px 0 36px}footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}footer nav{gap:16px}footer a{padding:0;color:#6E6E73}
+@media(prefers-reduced-motion:reduce){.hero,.words,.sfr,.meter{height:auto}.stick{position:static;height:auto;padding:64px 20px}.bb,.sfr .big{opacity:1}.w{opacity:1}.page.on{animation:none}.stack .tile{position:relative;top:0}}
+
+#shop .steps li{border-top-color:#D2D2D7}#shop .steps span{color:#6E6E73;font-size:1.05rem}
+.slang{display:flex;gap:6px;margin-bottom:26px}.slang button{font:700 .85rem var(--b);padding:8px 16px;border-radius:99px;border:1.5px solid #D2D2D7;background:transparent;color:var(--ink);cursor:pointer}
+.slang button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pr{display:flex;align-items:baseline;gap:8px;margin:0 0 18px}.pr b{font:800 3rem/1 var(--d);letter-spacing:-.04em}.pr span{opacity:.75}
+.cover{position:absolute;right:30px;bottom:30px;width:118px;aspect-ratio:3/4;border-radius:5px 12px 12px 5px;background:#12167A;box-shadow:10px 12px 26px rgba(0,0,0,.35),inset 5px 0 0 rgba(255,255,255,.15);padding:13px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;font:800 .68rem var(--d)}
+.cover i{font:800 3.4rem/.85 var(--d);font-style:normal;color:var(--y);letter-spacing:-.06em}
+@media(max-width:820px){.cover{display:none}}
+.rvc{background:#fff;border-radius:24px;padding:22px;margin-bottom:12px}.rvc b{font-family:var(--d)}.rvc small{color:#B58A00;margin-left:8px;font-size:.95rem}.rvc p{margin:8px 0 0;color:#3A3A40}
+#rvDlg{border:0;border-radius:28px;padding:28px;background:#1D1D1F;color:#fff;width:min(460px,calc(100vw - 32px))}#rvDlg::backdrop{background:rgba(0,0,0,.6)}
+#rvDlg h3{margin:0 0 14px}#rvDlg .msg{margin-bottom:12px}
+
+html:not(.js) .bb,html:not(.js) .w,html:not(.js) .sfr .big{opacity:1!important}
+html:not(.js) .hero,html:not(.js) .words,html:not(.js) .sfr,html:not(.js) .meter{height:auto}
+html:not(.js) .stick{position:static;height:auto;padding:56px 20px}
+html:not(.js) [data-zoom]{opacity:1;transform:none}
+html:not(.js) .page:target{display:block}
+html:not(.js) body:has(.page:target:not(#home)) #home{display:none}
+
+.qo{display:block;width:100%;text-align:left;font:600 1.1rem var(--b);padding:16px 20px;margin:0 0 10px;border-radius:18px;border:1.5px solid #D2D2D7;background:#fff;color:var(--ink);cursor:pointer}.qo:hover{border-color:var(--bl)}
+.qp{height:6px;border-radius:9px;background:#E3E3E8;margin:0 0 22px;overflow:hidden}.qp i{display:block;height:100%;background:var(--bl);transition:width .3s}
+.qq{font:800 clamp(1.5rem,3.4vw,2.2rem)/1.1 var(--d);letter-spacing:-.03em;margin:0 0 20px}.qn{color:#6E6E73;font-weight:700;margin:0 0 8px}
+.qr{font:800 clamp(5rem,20vw,11rem)/.9 var(--d);letter-spacing:-.06em;background:linear-gradient(95deg,#2A3CFF,#FF4B2B);-webkit-background-clip:text;background-clip:text;color:transparent;margin:6px 0 14px}
+
+.tc{background:#fff;border-radius:28px;padding:28px;margin-bottom:16px}.tc h3{margin:0 0 14px}
+.tg{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}.tg label{font-weight:700;font-size:.9rem;color:#6E6E73;display:block}
+.sel{width:100%;font:600 1.05rem var(--b);padding:12px;border-radius:14px;border:1.5px solid #D2D2D7;background:#fff;color:var(--ink);margin-top:4px}
+.big{font:800 clamp(3.4rem,12vw,6rem)/1 var(--d);letter-spacing:-.05em;color:var(--bl)}.big small{font-size:1rem;color:#6E6E73;letter-spacing:0;font-family:var(--b);font-weight:600;margin-left:8px}
+@media(max-width:620px){.tg{grid-template-columns:repeat(2,1fr)}}
+
+/* mock tests */
+.mk{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 28px}@media(max-width:820px){.mk{grid-template-columns:repeat(2,1fr)}}
+.mk button{font:800 1.15rem var(--d);letter-spacing:-.02em;padding:22px 16px;border-radius:24px;border:1.5px solid #D2D2D7;background:#fff;color:var(--ink);cursor:pointer;text-align:left;transition:transform .2s}
+.mk button:hover{transform:scale(1.03)}.mk button small{display:block;font:500 .85rem var(--b);color:#6E6E73;margin-top:6px;letter-spacing:0}
+.mk button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}.mk button[aria-pressed="true"] small{color:#C7C7CC}
+.mt{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;background:#fff;border-radius:24px;padding:16px 22px;margin-bottom:16px;position:sticky;top:calc(var(--h) + env(safe-area-inset-top,0px) + 8px);z-index:3;box-shadow:0 2px 14px rgba(0,0,0,.06)}
+.tm{font:800 2rem/1 var(--d);letter-spacing:-.03em;font-variant-numeric:tabular-nums}.tm.low{color:var(--c)}
+.pass{background:#fff;border-radius:24px;padding:26px;margin-bottom:16px;line-height:1.6}.pass h3{margin-bottom:12px}.pass p{margin:0 0 12px}
+.qc{background:#fff;border-radius:20px;padding:18px 20px;margin-bottom:10px}.qc p{margin:0 0 10px;font-weight:600}.qc label{display:block;padding:7px 0;cursor:pointer}.qc input[type=text]{font:600 1rem var(--b);padding:10px 14px;border-radius:12px;border:1.5px solid #D2D2D7;width:min(280px,100%)}
+.qc.ok{box-shadow:inset 0 0 0 2px #1FA463}.qc.bad{box-shadow:inset 0 0 0 2px var(--c)}.qc small{display:block;margin-top:8px;color:#6E6E73}
+.wa{width:100%;min-height:300px;padding:18px;border-radius:20px;border:1.5px solid #D2D2D7;font:inherit;line-height:1.55;resize:vertical;background:#fff;color:var(--ink)}
+.fb{background:#fff;border-radius:24px;padding:24px;margin-top:16px;white-space:pre-wrap;line-height:1.55}
+.note{font-size:.88rem;color:#6E6E73;margin:14px 0 0}
+
+/* practice + teacher */
+.mk.two{grid-template-columns:repeat(2,1fr)}@media(max-width:520px){.mk.two{grid-template-columns:1fr}}
+.hint{margin-top:14px;background:var(--w);border-radius:16px;padding:12px 16px}.hint summary{cursor:pointer;font-weight:800}.hint ul{margin:6px 0 10px;padding-left:1.2em}
+.qlist{margin:0;padding-left:1.2em;font-weight:600}.qlist li{margin-bottom:6px}.qtext{white-space:pre-line;font-weight:600}
+.pass audio{width:min(420px,100%);vertical-align:middle}
+.tch{display:grid;grid-template-columns:290px 1fr;gap:18px;align-items:start}@media(max-width:860px){.tch{grid-template-columns:1fr}}
+.tside{background:#fff;border-radius:28px;padding:22px}
+.tav{width:112px;height:112px;border-radius:50%;margin:0 auto 14px;background:linear-gradient(135deg,var(--bl),var(--c));display:grid;place-items:center;font:800 2.6rem var(--d);color:#fff;position:relative}
+.tav::after{content:"";position:absolute;inset:-8px;border-radius:50%;border:3px solid var(--y);opacity:0}.tav.talk::after{animation:pl 1.1s infinite}@keyframes pl{0%{opacity:.9;transform:scale(.94)}100%{opacity:0;transform:scale(1.18)}}
+.tname{text-align:center;font:800 1.3rem var(--d)}.trole{text-align:center;color:#6E6E73;font-size:.9rem;margin:2px 0 14px}
+.tmodes{display:flex;flex-direction:column;gap:6px}.tmodes button{font:700 .92rem var(--b);text-align:left;padding:11px 14px;border-radius:14px;border:1.5px solid #D2D2D7;background:transparent;color:var(--ink);cursor:pointer}.tmodes button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tvo{display:flex;gap:8px;align-items:center;margin:14px 0 6px;font-weight:600;font-size:.92rem}.tclr{background:none;border:0;color:#6E6E73;text-decoration:underline;cursor:pointer;font:inherit;padding:0;margin-top:6px}
+.tmain{background:#fff;border-radius:28px;display:flex;flex-direction:column;height:min(72svh,680px);min-height:420px;overflow:hidden}
+#tcM{flex:1;overflow-y:auto;padding:20px;display:flex;flex-direction:column;gap:10px}
+.am{max-width:86%;padding:12px 16px;border-radius:22px;line-height:1.45;white-space:pre-wrap;word-wrap:break-word;position:relative}.am.u{align-self:flex-end;background:var(--bl);color:#fff;border-bottom-right-radius:6px}.am.a{align-self:flex-start;background:var(--w);border-bottom-left-radius:6px}
+.am .sp{display:block;margin-top:6px;background:none;border:0;cursor:pointer;font-size:1rem;padding:0;opacity:.7}
+.tsug{display:flex;flex-wrap:wrap;gap:6px;padding:0 20px 10px}.tsug button{font:600 .85rem var(--b);padding:8px 14px;border-radius:99px;border:1.5px solid #D2D2D7;background:transparent;color:var(--ink);cursor:pointer}
+#tcF{display:flex;gap:8px;padding:12px;border-top:1px solid #E5E5EA;align-items:center}#tcF input{flex:1;min-width:0;font:inherit;padding:14px 18px;border-radius:99px;border:1.5px solid #D2D2D7;background:#fff;color:var(--ink)}
+#tcMic{border:1.5px solid #D2D2D7;background:transparent;color:var(--ink);font:700 .9rem var(--b);padding:12px 16px;border-radius:99px;cursor:pointer}#tcMic.on{background:var(--c);color:#fff;border-color:var(--c)}
+#tcG{border:0;background:var(--bl);color:#fff;font:700 .95rem var(--b);padding:14px 22px;border-radius:99px;cursor:pointer}
+
+/* ===== tidy layer: consistent look across all inner pages ===== */
+.mgrp{font:700 .72rem var(--b);letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.42);padding:18px 14px 6px}
+.menu-panel a b{display:block;font-weight:700}
+.menu-panel a small{display:block;white-space:normal;line-height:1.3;font-weight:400;font-size:.78rem;color:rgba(255,255,255,.5);margin-top:1px}
+.menu-panel a.mhome{margin-top:8px}
+.menu-panel a.mcta{margin:22px 14px 0;text-align:center;padding:14px 20px;color:#000;font-weight:700;border-radius:99px}
+.menu-panel a.mcta:hover{background:var(--y);color:#000}
+.glang{display:flex;gap:2px;margin-right:6px}
+.glang button{font:700 .78rem var(--b);padding:6px 9px;border-radius:99px;border:0;background:transparent;color:rgba(255,255,255,.65);cursor:pointer}
+.glang button[aria-pressed="true"]{background:#fff;color:#000}
+@media(max-width:480px){.hcta{display:none}.glang{margin-right:0}}
+/* page-level language pills are replaced by the header switcher */
+.page .wrap > .slang[aria-label="Language"]{display:none}
+/* one rhythm for every inner page: title, lead, content */
+.page.lt .sec{padding:72px 0 88px}
+.page.lt .wrap > h1{margin:0 0 14px}
+.page.lt .wrap > h1 + .lead,.page.lt .wrap > h1 + p.lead{margin:0 0 36px!important;max-width:38em}
+.page.lt .wrap > .note{margin:0 0 24px}
+/* one card language: same radius, soft border, same spacing */
+.page.lt .tc,.page.lt .pass,.page.lt .rev,.page.lt .tside,.page.lt .tmain,.page.lt .fb{border-radius:24px;box-shadow:0 0 0 1px #E3E3E8}
+.page.lt .qc{border-radius:18px;box-shadow:0 0 0 1px #E3E3E8}
+.page.lt .tc,.page.lt .pass{padding:26px;margin-bottom:16px}
+.page.lt h3{font-size:1.35rem;margin-bottom:12px}
+.page.lt .mk{margin:0 0 20px}
+.page.lt .btn{padding:14px 24px}
+.page.lt .tile .btn{padding:14px 24px}
+@media(max-width:620px){.page.lt .sec{padding:48px 0 64px}.page.lt .tc,.page.lt .pass{padding:20px}}
+
+.uvw{overflow-x:auto;background:#fff;border-radius:24px;box-shadow:0 0 0 1px #E3E3E8;padding:6px 8px}
+.uvt{width:100%;min-width:720px;border-collapse:collapse}
+.uvt th{text-align:left;padding:12px;border-bottom:2px solid #1D1D1F;font:700 .8rem var(--b);color:#6E6E73;white-space:nowrap}
+.uvt td{padding:14px 12px;border-bottom:1px solid #EDEDF0;font-size:.92rem;vertical-align:top}
+.uvt tr:last-child td{border-bottom:0}
+.uvt .uvn{font:800 1rem var(--d);letter-spacing:-.02em}
+.uvt .uvb{font:800 1.15rem var(--d);color:var(--bl);white-space:nowrap}
+.uvt a{color:var(--bl);text-decoration:none;font-weight:600;word-break:break-all}.uvt a:hover{text-decoration:underline}
+.ic{display:inline-block;width:22px;height:22px;flex:none;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat}
+.ic-home{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 11.5 12 4l9 7.5M5.5 10v9.5h13V10M10 19.5v-5h4v5'/%3E%3C/svg%3E")}
+.ic-courses{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 6.5C10 5 7 4.5 3.5 5v13c3.5-.5 6.5 0 8.5 1.5 2-1.5 5-2 8.5-1.5V5c-3.5-.5-6.5 0-8.5 1.5ZM12 6.5v13'/%3E%3C/svg%3E")}
+.ic-ielts{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Ccircle cx='12' cy='12' r='5'/%3E%3Ccircle cx='12' cy='12' r='1.2'/%3E%3C/svg%3E")}
+.ic-teachers{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.5 9 12 4.5 21.5 9 12 13.5 2.5 9ZM6.5 11.2v4.3c0 1.4 2.5 3 5.5 3s5.5-1.6 5.5-3v-4.3M21.5 9v5.5'/%3E%3C/svg%3E")}
+.ic-schedule{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3.5' y='5' width='17' height='15' rx='2.5'/%3E%3Cpath d='M3.5 10h17M8 3v4M16 3v4'/%3E%3C/svg%3E")}
+.ic-test{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='m8.2 12.4 2.6 2.6 5-5.4'/%3E%3C/svg%3E")}
+.ic-mock{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='4.5' width='14' height='16.5' rx='2.5'/%3E%3Cpath d='M9 4.5V3.5h6v1M8.8 13l2.2 2.2 4.2-4.4'/%3E%3C/svg%3E")}
+.ic-practice{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='9' y='3' width='6' height='11' rx='3'/%3E%3Cpath d='M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3'/%3E%3C/svg%3E")}
+.ic-ai{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3.5l1.9 5.3 5.3 1.9-5.3 1.9L12 17.9l-1.9-5.3-5.3-1.9 5.3-1.9L12 3.5ZM18.5 16l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z'/%3E%3C/svg%3E")}
+.ic-progress{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3.5 17.5 9 12l3.5 3.5 8-8M15 7.5h5.5V13'/%3E%3C/svg%3E")}
+.ic-tools{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='3' width='14' height='18' rx='2.5'/%3E%3Cpath d='M8.5 7.5h7M9 12h.01M12 12h.01M15 12h.01M9 16h.01M12 16h.01M15 16h.01'/%3E%3C/svg%3E")}
+.ic-university{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9.5 12 4l9 5.5M5 10v8M9.7 10v8M14.3 10v8M19 10v8M3.5 20.5h17'/%3E%3C/svg%3E")}
+.ic-shop{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 8h14l-1 12H6L5 8ZM9 8V6.5a3 3 0 0 1 6 0V8'/%3E%3C/svg%3E")}
+.ic-contact{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H11l-4.5 3.5V17H6.5A2.5 2.5 0 0 1 4 14.5v-8Z'/%3E%3C/svg%3E")}
+.ic-user{--i:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='8' r='3.6'/%3E%3Cpath d='M4.5 20c.8-3.6 3.8-5.5 7.5-5.5s6.7 1.9 7.5 5.5'/%3E%3C/svg%3E")}
+
+/* menu: icon chip + title + caption */
+.menu-panel a{display:flex;align-items:center;gap:14px;white-space:normal}
+.menu-panel a .mtx{display:block;min-width:0}
+.mi{width:38px;height:38px;border-radius:12px;background:rgba(255,255,255,.07);display:grid;place-items:center;flex:none;color:var(--y);transition:background .2s,color .2s}
+.menu-panel a:hover .mi{background:rgba(255,255,255,.12)}
+.menu-panel a[aria-current="page"] .mi{background:var(--y);color:#000}
+.menu-panel a[aria-current="page"] small{color:rgba(255,255,255,.78)}
+.menu-panel a.mcta{display:block}
+/* small icon before tile labels */
+.tl .ic{width:18px;height:18px;margin-right:8px;vertical-align:-4px}
+
+/* anchor jumps stop below the sticky header, so every page starts at the same place */
+html{scroll-padding-top:calc(var(--h) + env(safe-area-inset-top,0px))}
+
+/* mock variants: compact numbered pills */
+#mVariant{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 22px}
+#mVariant[hidden]{display:none}
+#mVariant .note{margin:0!important;font-weight:700;color:#6E6E73}
+#mVariant .mk{display:flex!important;gap:8px;flex-wrap:wrap;margin:0!important}
+#mVariant .mk button{min-width:46px;padding:10px 16px!important;border-radius:99px!important;text-align:center;font-weight:700}
+#mVariant .mk button small{display:none}
+
+.str{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}.str i{font-style:normal;font-weight:700;font-size:.85rem;padding:6px 12px;border-radius:99px;box-shadow:inset 0 0 0 1.5px currentColor}
+.tile.dim{opacity:.35}.tile .bm{display:none;align-self:flex-start;background:#fff;color:#000;font-weight:800;font-size:.8rem;padding:6px 12px;border-radius:99px;margin-bottom:8px}.tile.hit .bm{display:inline-block}
+.pick{margin-bottom:32px}.pick b,.pf{display:block;margin:18px 0 4px}
+.page.lt .chips span{border-color:#C7C7CC;color:var(--ink)}.page.lt .chips input:checked+span{background:var(--bl);color:#fff;border-color:var(--bl)}
+#mpBox .msg,#mpBox input.msg{background:#fff;color:var(--ink);border-color:#C7C7CC}#mpBox ul{margin:0 0 14px;padding-left:1.2em}
+.qo span{font-weight:400;color:#6E6E73}
+.ask{margin:28px 0 0;padding:20px 24px;border-radius:20px;background:#fff;box-shadow:0 0 0 1px #D2D2D7;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;color:var(--ink)}.ask p{margin:0;max-width:40em}
+.page .slang{display:none}
+.subnav{display:flex;gap:8px;overflow-x:auto;padding:18px 0 0;margin:0 auto;max-width:1040px;width:calc(100% - 40px);-webkit-overflow-scrolling:touch;scrollbar-width:none}.subnav::-webkit-scrollbar{display:none}
+.subnav a{flex:none;text-decoration:none;color:inherit;font:700 .92rem var(--b);padding:10px 18px;border-radius:99px;box-shadow:inset 0 0 0 1.5px rgba(128,128,128,.4);white-space:nowrap}
+.subnav a:hover{box-shadow:inset 0 0 0 1.5px currentColor}.subnav a[aria-current="page"]{background:var(--bl);color:#fff;box-shadow:none}
+.page.lt .subnav{padding-top:28px}.page.lt .subnav + .sec{padding-top:36px}
+</style>
+</head>
+<body>
+<header><div class="in">
+<button type="button" class="hbtn" id="menuBtn" aria-expanded="false" aria-controls="menuPanel" aria-label="Menu"><span></span><span></span><span></span></button>
+<a class="logo" href="#home">Speakyz</a>
+<span style="flex:1"></span>
+<div class="glang" id="glang" role="group" aria-label="Site language"><button type="button" data-g="ru" aria-pressed="true">RU</button><button type="button" data-g="uz">UZ</button><button type="button" data-g="en">EN</button></div>
+<a class="btn y hcta" href="https://t.me/speakyz_lern_english_bot">Free lesson</a>
+</div></header>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<nav class="menu-panel" id="menuPanel" aria-label="Main">
+<a class="mhome" href="#home" data-m="home"><em class="mi"><i class="ic ic-home"></i></em><span class="mtx"><b></b></span></a>
+<a href="#courses" data-hub="learn" data-m="learn"><em class="mi"><i class="ic ic-courses"></i></em><span class="mtx"><b></b><small></small></span></a>
+<a href="#test" data-hub="practice" data-m="practice"><em class="mi"><i class="ic ic-test"></i></em><span class="mtx"><b></b><small></small></span></a>
+<a href="#progress" data-hub="plan" data-m="plan"><em class="mi"><i class="ic ic-progress"></i></em><span class="mtx"><b></b><small></small></span></a>
+<a href="#shop" data-m="shop"><em class="mi"><i class="ic ic-shop"></i></em><span class="mtx"><b></b><small></small></span></a>
+<a href="#contact" data-m="contact"><em class="mi"><i class="ic ic-contact"></i></em><span class="mtx"><b></b><small></small></span></a>
+<a class="btn y mcta" href="https://t.me/speakyz_lern_english_bot">Free lesson</a>
+</nav>
+<main>
+<div class="page on" id="home">
+ <div class="pin hero" data-pin="hero"><div class="stick"><div class="glow" id="gl"></div>
+  <h1 class="gt" id="hh">Speak English out loud.</h1>
+  <div class="chat">
+   <div class="bb t"><small>Teacher</small>What did you do last weekend?</div>
+   <div class="bb s"><small>You</small>I go to the mountains with my friends.</div>
+   <div class="bb f"><small>Quick fix</small>I <b>went</b> to the mountains. Say it once more!</div>
+   <div class="bb s"><small>You</small>I went to the mountains with my friends.</div>
+  </div>
+  <div class="cta"><a class="btn y" href="https://t.me/speakyz_lern_english_bot">Book your free first lesson</a><a class="btn g" href="#courses">See courses</a></div>
+ </div></div>
+ <div class="pin words lt" data-pin="words"><div class="stick"><div class="wrap"><p id="wp">You do not learn to speak by reading rules. You learn by talking, getting corrected, and trying again. At Speakyz every lesson is built around that loop, with small groups, friendly teachers and zero fear of mistakes.</p></div></div></div>
+ <div class="pin sfr" data-pin="sfr"><div class="stick" style="align-items:flex-start;text-align:left;padding-left:max(5vw,20px)">
+  <svg class="badge" id="bd" viewBox="0 0 200 200" aria-hidden="true"><defs><path id="cpath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#cpath">FIRST LESSON FREE • FIRST LESSON FREE • </textPath></text><circle cx="100" cy="100" r="46" fill="#FF4B2B"/><text x="100" y="112" text-anchor="middle" style="font-size:34px;fill:#fff;letter-spacing:0">Hi!</text></svg>
+  <span class="big sw">Speak.</span><span class="big sw">Fix.</span><span class="big sw">Repeat.</span>
+ </div></div>
+ <section class="sec lt"><div class="wrap"><h2>Three ways to learn.</h2><p class="lead" style="margin:16px 0 40px">Pick the format that fits your goal. All of them start with a free lesson.</p></div>
+  <div class="tiles">
+   <div class="tile a bl" data-zoom data-g="Hi"><span class="tl"><i class="ic ic-practice"></i>Free first course</span><h3>Speaking club</h3><p>Small groups where talking is the lesson.</p><a class="btn y" href="#courses">Learn more</a></div>
+   <div class="tile b2 yl" data-zoom data-g="7.5"><span class="tl"><i class="ic ic-ielts"></i>Exam</span><h3>IELTS</h3><p>All four parts, mock tests, feedback.</p><a class="btn" style="background:#000" href="#ielts">Learn more</a></div>
+   <div class="tile full k" data-zoom data-g="1:1"><span class="tl"><i class="ic ic-user"></i>One teacher, one student</span><h3>Individual lessons</h3><p>A plan built around your goal and your time.</p><a class="btn y" href="#courses">Learn more</a></div>
+  </div></section>
+ <section class="sec"><div class="wrap"><h2>How you start.</h2>
+  <ol class="steps"><li><b>Take the free lesson</b><span>Message the Telegram bot and pick a time.</span></li><li><b>Get your level and plan</b><span>The teacher checks your speaking and recommends a course.</span></li><li><b>Join your group</b><span>Study in Yunus-Abad or online.</span></li></ol></div></section>
+ <section class="final"><h2>Ready to change how you speak?</h2><div class="cta"><a class="btn y" href="https://t.me/speakyz_lern_english_bot">Start your free lesson</a></div></section>
+</div>
+
+<div class="page lt" id="courses"><section class="sec"><div class="wrap"><h1>Courses.</h1><p class="lead" style="margin:18px 0 44px">Not sure which one? Take the free lesson and we will place you.</p></div>
+ <div class="tiles">
+  <div class="tile a bl" data-zoom data-g="Hi"><span class="tl"><i class="ic ic-practice"></i>Free first course</span><h3>Speaking club</h3><p>For anyone who understands English but freezes when speaking.</p><ul><li>Daily topics: work, travel, study, life</li><li>Instant corrections</li><li>Offline or online</li></ul><a class="btn y" href="https://t.me/speakyz_lern_english_bot">Register for free</a></div>
+  <div class="tile b2 yl" data-zoom data-g="7.5"><span class="tl"><i class="ic ic-ielts"></i>Exam</span><h3>IELTS</h3><p>For students aiming at a target band.</p><ul><li>All four parts</li><li>Timed mock tests</li></ul><a class="btn" style="background:#000" href="#ielts">See the program</a></div>
+  <div class="tile full k" data-zoom data-g="1:1"><span class="tl"><i class="ic ic-user"></i>One teacher, one student</span><h3>Individual lessons</h3><p>Interview, work or relocation goals. Flexible time, offline or online.</p><a class="btn y" href="https://t.me/speakyz_lern_english_bot">Message us</a></div>
+ </div></section></div>
+
+<div class="page" id="ielts"><section class="sec lt"><div class="wrap"><h1>IELTS, part by part.</h1><p class="lead" style="margin:18px 0 44px">Four skills. We train each one on its own, then together.</p></div>
+ <div class="tiles stack">
+  <div class="tile yl" style="--i:0" data-g="S"><h3>Speaking</h3><p>Three parts, one examiner. Full drills for fluency, vocabulary and pronunciation.</p></div>
+  <div class="tile cr" style="--i:1" data-g="W"><h3>Writing</h3><p>Task 1 and Task 2 with structure templates, corrected line by line.</p></div>
+  <div class="tile bl" style="--i:2" data-g="L"><h3>Listening</h3><p>Real exam audio, note-taking skills and the classic trap questions.</p></div>
+  <div class="tile k" style="--i:3" data-g="R"><h3>Reading</h3><p>Speed tactics for the 60-minute limit and every question type.</p></div>
+ </div></section>
+ <div class="pin meter" data-pin="meter"><div class="stick"><div class="num gt" id="mn">4.5</div><div class="bar"><i id="mb"></i></div>
+  <p class="lead">Example path: band 4.5 to 7.5. Tell us your start and your target, and we build the plan.</p><a class="btn y" href="https://t.me/speakyz_lern_english_bot">Ask about IELTS</a></div></div></div>
+
+<div class="page lt" id="teachers"><section class="sec"><div class="wrap"><h1>Your teachers.</h1><p class="lead" style="margin:18px 0 44px">Friendly, direct and focused on making you talk. Choose a teacher and book a lesson with them.</p></div>
+ <div class="wrap pick" id="tpick"><b>What do you want to improve?</b><div class="chips" role="radiogroup" aria-label="Goal">
+  <label><input type="radio" name="tg" value="speaking"><span>Speaking</span></label><label><input type="radio" name="tg" value="listening"><span>Listening</span></label><label><input type="radio" name="tg" value="grammar"><span>Grammar</span></label><label><input type="radio" name="tg" value="discussion"><span>Discussion and confidence</span></label><label><input type="radio" name="tg" value=""><span>Show all</span></label></div>
+  <p class="lead" style="margin:0">Not sure? <a href="#profile" style="color:var(--bl);font-weight:700">Fill in a one-minute profile</a> and we will match you with a teacher.</p></div>
+ <div class="tiles">
+  <div class="tile a yl" data-zoom data-s="speaking" data-g="O"><span class="bm">Best match</span><span class="tl"><i class="ic ic-teachers"></i>Founder and teacher</span><h3>Mr. Ozod</h3><p>Created Speakyz. Keeps lessons light, funny and full of speaking.</p><div class="str"><i>Speaking</i><i>Light and funny lessons</i></div><a class="btn" style="background:#000" data-tg="ozod" href="https://t.me/speakyz_lern_english_bot?start=t_ozod">Message Ozod on Telegram</a></div>
+  <div class="tile b2 bl" data-zoom data-s="grammar" data-g="K"><span class="bm">Best match</span><span class="tl"><i class="ic ic-teachers"></i>Teacher</span><h3>Mr. Kamron</h3><p>Positive and sharp. Makes hard grammar stick.</p><div class="str"><i>Grammar</i><i>Positive and sharp</i></div><a class="btn y" data-tg="kamron" href="https://t.me/speakyz_lern_english_bot?start=t_kamron">Message Kamron on Telegram</a></div>
+  <div class="tile cr" data-zoom data-s="speaking listening grammar" data-g="F"><span class="bm">Best match</span><span class="tl"><i class="ic ic-practice"></i>Speaking and listening</span><h3>Mrs. Farangiz</h3><p>I’m Farangiz Khaidarova! Your English support is just one message away. Feel free to reach out anytime, and I’ll get back to you ASAP!</p><p>Want to improve your speaking and listening skills? I’m right here to help!</p><p>I’ll support you not only with grammar but also with broadening your worldview. And remember, English isn’t just about grammar — it’s also about how you see the world and recognize opportunities!</p><div class="str"><i>Speaking</i><i>Listening</i><i>Grammar</i><i>Broader worldview</i></div><a class="btn y" data-tg="farangiz" href="https://t.me/speakyz_lern_english_bot?start=t_farangiz">Message Farangiz on Telegram</a></div>
+  <div class="tile k" data-zoom data-s="speaking discussion" data-g="L"><span class="bm">Best match</span><span class="tl"><i class="ic ic-teachers"></i>Teacher</span><h3>Mrs. Laziza</h3><p>Creative, supportive and open-minded. Makes lessons engaging through discussions and interactive activities, while inspiring students to think independently and express their ideas with confidence.</p><div class="str"><i>Discussions</i><i>Interactive activities</i><i>Confidence</i></div><a class="btn y" data-tg="laziza" href="https://t.me/speakyz_lern_english_bot?start=t_laziza">Message Laziza on Telegram</a></div>
+ </div></section></div>
+
+<div class="page" id="schedule"><section class="sec"><div class="wrap two">
+ <div><h1>Pick your time.</h1><p class="lead" style="margin-top:18px">Choose what suits you. We confirm the exact group and time in Telegram.</p></div>
+ <div class="tile k" style="min-height:0;grid-column:auto" id="sf">
+  <b>Course</b><div class="chips" data-k="Course"><label><input type="radio" name="c" value="Speaking club" checked><span>Speaking club</span></label><label><input type="radio" name="c" value="IELTS"><span>IELTS</span></label><label><input type="radio" name="c" value="Individual lessons"><span>Individual</span></label></div>
+  <b>Format</b><div class="chips" data-k="Format"><label><input type="radio" name="f" value="Offline in Yunus-Abad" checked><span>Offline</span></label><label><input type="radio" name="f" value="Online"><span>Online</span></label></div>
+  <b>Teacher</b><div class="chips" data-k="Teacher"><label><input type="radio" name="tr" value="Any teacher" checked><span>Any</span></label><label><input type="radio" name="tr" value="Mr. Ozod"><span>Ozod</span></label><label><input type="radio" name="tr" value="Mr. Kamron"><span>Kamron</span></label><label><input type="radio" name="tr" value="Mrs. Farangiz"><span>Farangiz</span></label><label><input type="radio" name="tr" value="Mrs. Laziza"><span>Laziza</span></label></div>
+  <b>Time</b><div class="chips" data-k="Time"><label><input type="radio" name="t" value="Morning" checked><span>Morning</span></label><label><input type="radio" name="t" value="Afternoon"><span>Afternoon</span></label><label><input type="radio" name="t" value="Evening"><span>Evening</span></label></div>
+  <textarea class="msg" id="msg" readonly aria-label="Your message"></textarea>
+  <div class="cta" style="justify-content:flex-start"><button class="btn g" id="cp" type="button">Copy message</button><a class="btn y" data-tg="manager" href="https://t.me/speakyz_lern_english_bot">Open Telegram</a></div>
+  <p id="cs" role="status" style="margin:12px 0 0;color:#A1A1A6"></p></div>
+</div></section></div>
+
+<div class="page" id="shop">
+ <section class="sec" style="padding-bottom:36px"><div class="wrap">
+  <div class="slang" role="group" aria-label="Language"><button type="button" data-sl-l="ru" aria-pressed="true">RU</button><button type="button" data-sl-l="uz">UZ</button><button type="button" data-sl-l="en">EN</button></div>
+  <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" data-sl="h1">Книги и курсы</h1><p class="lead" style="margin-top:18px" data-sl="lead">Всё для уверенной речи и IELTS. Первый урок Speaking бесплатный.</p>
+ </div></section>
+ <div class="yl" style="padding:30px 0"><div class="wrap" style="display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between"><h3 style="margin:0" data-sl="free">Бесплатный первый урок Speaking</h3><a class="btn" style="background:#000" data-sl="book" href="https://t.me/speakyz_lern_english_bot?start=free">Записаться</a></div></div>
+ <section class="sec" style="padding-bottom:0"><div class="tiles">
+  <div class="tile a bl" data-zoom><div class="cover" aria-hidden="true"><span>SPEAKING</span><i>8.0</i><span>Speakyz</span></div><span class="tl"><i class="ic ic-courses"></i>PDF</span><h3>Speaking 8.0</h3><p data-sl="d_book">56 страниц: критерии оценки, образцы ответов Band 8.0, мок-тесты и план на 30 дней. Формат PDF.</p><div class="pr"><b>$50</b><span data-sl="u_pdf">PDF</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=book">Заказать</a></div>
+  <div class="tile b2 yl" data-zoom data-g="Hi"><span class="tl"><i class="ic ic-practice"></i>Speaking</span><h3>Speaking club</h3><p data-sl="d_club">Малые группы, где вы говорите весь урок. Ошибки исправляются на месте.</p><div class="pr"><b>$50</b><span data-sl="u_month">в месяц</span></div><a class="btn" style="background:#000" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=club">Заказать</a></div>
+  <div class="tile b2 cr" data-zoom data-g="7.5"><span class="tl"><i class="ic ic-ielts"></i>IELTS</span><h3>IELTS</h3><p data-sl="d_ielts">Все четыре части экзамена, пробные тесты и разбор баллов.</p><div class="pr"><b>$50</b><span data-sl="u_month">в месяц</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=ielts">Заказать</a></div>
+  <div class="tile a k" data-zoom data-g="1:1"><span class="tl"><i class="ic ic-user"></i>1 : 1</span><h3 data-sl="n_ind">Индивидуальные уроки</h3><p data-sl="d_ind">Личный преподаватель и план под вашу цель и график.</p><div class="pr"><b>$50</b><span data-sl="u_lesson">за урок</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=individual">Заказать</a></div>
+    <div class="tile a bl" data-zoom data-g="W"><span class="tl"><i class="ic ic-courses"></i>PDF</span><h3>Writing 8.0</h3><p data-sl="d_wr">Критерии, образцы Task 1 и Task 2 уровня 8.0, 30 заданий и план на 30 дней. Формат PDF.</p><div class="pr"><b>$50</b><span data-sl="u_pdf">PDF</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=writing">Заказать</a></div>
+  <div class="tile b2 cr" data-zoom data-g="R"><span class="tl"><i class="ic ic-courses"></i>PDF</span><h3>Reading 8.0</h3><p data-sl="d_rd">Стратегии, 12 типов вопросов, три практических текста с ключами и объяснениями. Формат PDF.</p><div class="pr"><b>$50</b><span data-sl="u_pdf">PDF</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=reading">Заказать</a></div>
+  <div class="tile b2 yl" data-zoom data-g="A1"><span class="tl"><i class="ic ic-courses"></i>PDF</span><h3>Super Grammar and Vocab</h3><p data-sl="d_gr">Грамматика и слова от A1 до C2: правила, примеры, упражнения и ключи. Формат PDF.</p><div class="pr"><b>$50</b><span data-sl="u_pdf">PDF</span></div><a class="btn" style="background:#000" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=grammar">Заказать</a></div>
+    <div class="tile a k" data-zoom data-g="L"><span class="tl"><i class="ic ic-courses"></i>PDF</span><h3>Listening 8.0</h3><p data-sl="d_li">Стратегии, ловушки, четыре секции с текстами для озвучивания, ключи и план на 30 дней. Формат PDF.</p><div class="pr"><b>$50</b><span data-sl="u_pdf">PDF</span></div><a class="btn y" data-sl="order" href="https://t.me/speakyz_lern_english_bot?start=listening">Заказать</a></div>
+ </div></section>
+ <section class="sec"><div class="wrap"><h2 data-sl="h3">Как купить</h2>
+  <div class="ask"><p data-sl="ask">Есть вопросы о цене, условиях или выборе курса? Напишите нам: обсудим лично, без спешки.</p><a class="btn" data-sl="ask_b" data-tg="manager" href="https://t.me/speakyz_lern_english_bot">Обсудить с менеджером</a></div>
+  <ol class="steps"><li><span data-sl="s1">Нажмите «Заказать». Откроется наш Telegram-бот.</span></li><li><span data-sl="s2">Оплатите переводом по реквизитам, которые пришлёт бот.</span></li><li><span data-sl="s3">Получите доступ: ссылку на книгу или приглашение в группу.</span></li></ol></div></section>
+ <section class="sec" style="padding-top:0"><div class="wrap"><h2 data-sl="rv">Отзывы</h2>
+  <div id="rvList"></div><p id="rvEmpty" style="color:#6E6E73" data-sl="rv_t">Первые отзывы появятся здесь.</p>
+  <button class="btn" id="rvBtn" type="button" data-sl="rv_b">Оставить отзыв</button><p style="margin:12px 0 0;font-size:.9rem;color:#6E6E73" data-sl="rv_note">Отзывы публикуются после проверки.</p></div></section>
+ <section class="sec" style="padding-top:0"><div class="wrap"><h2 data-sl="h4">Вопросы</h2>
+  <details><summary data-sl="q1">Как я получу книгу?</summary><p data-sl="a1">После оплаты вы получите ссылку на PDF в Telegram.</p></details>
+  <details><summary data-sl="q2">Можно попробовать до покупки?</summary><p data-sl="a2">Да. Первый урок Speaking бесплатный.</p></details>
+  <details><summary data-sl="q3">Когда начнутся группы?</summary><p data-sl="a3">Группы набираются. Напишите нам в Telegram, и мы сообщим дату.</p></details></div></section>
+</div>
+<dialog id="rvDlg" aria-labelledby="rvT0"><h3 id="rvT0" data-sl="rv_b">Оставить отзыв</h3>
+ <input class="msg" id="rvN" style="min-height:0" placeholder="Ваше имя" data-slp="rv_name" aria-label="Name">
+ <div class="chips" role="radiogroup"><label><input type="radio" name="rr" value="5" checked><span>5 &#9733;</span></label><label><input type="radio" name="rr" value="4"><span>4 &#9733;</span></label><label><input type="radio" name="rr" value="3"><span>3 &#9733;</span></label><label><input type="radio" name="rr" value="2"><span>2 &#9733;</span></label><label><input type="radio" name="rr" value="1"><span>1 &#9733;</span></label></div>
+ <textarea class="msg" id="rvTx" placeholder="Ваш отзыв" data-slp="rv_text" aria-label="Review"></textarea>
+ <div class="cta" style="justify-content:flex-start"><button class="btn g" id="rvCp" type="button" data-sl="rv_copy">Скопировать</button><a class="btn y" data-sl="rv_open" href="https://t.me/speakyz_lern_english_bot?start=review">Открыть Telegram</a><button class="btn g" id="rvX" type="button" data-sl="rv_close">Закрыть</button></div>
+ <p id="rvSt" role="status" style="margin:12px 0 0;color:#A1A1A6"></p></dialog>
+
+<div class="page" id="test"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-tl="ru" aria-pressed="true">RU</button><button type="button" data-tl="uz">UZ</button><button type="button" data-tl="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="tH">Узнайте свой уровень английского</h1>
+ <p class="lead" style="margin-top:18px" id="tP">Выберите тест по своему уровню. 15 вопросов, около 5 минут.</p>
+ <div id="tBox" style="margin-top:32px"><noscript>Для теста нужен JavaScript. Откройте сайт в браузере.</noscript></div>
+</div></section></div>
+
+<div class="page" id="mock"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-ml="ru" aria-pressed="true">RU</button><button type="button" data-ml="uz">UZ</button><button type="button" data-ml="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="mH">Пробники IELTS</h1>
+ <p class="lead" style="margin:18px 0 28px" id="mP"></p>
+ <div class="mk" id="mTabs" role="group"></div>
+ <div id="mVariant"></div>
+ <div id="mBox"><noscript>JavaScript required.</noscript></div>
+ <p class="note" id="mNote"></p>
+</div></section></div>
+
+<div class="page" id="practice"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-ml="ru" aria-pressed="true">RU</button><button type="button" data-ml="uz">UZ</button><button type="button" data-ml="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="pH">Практика Speaking и Writing</h1>
+ <p class="lead" style="margin:18px 0 28px" id="pP"></p>
+ <div id="pTabs"></div>
+ <div id="pBox"></div>
+ <p class="note" id="pNote"></p>
+</div></section></div>
+
+<div class="page" id="teacher"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-ml="ru" aria-pressed="true">RU</button><button type="button" data-ml="uz">UZ</button><button type="button" data-ml="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="aiH">Support Teacher</h1>
+ <p class="lead" style="margin:18px 0 28px;max-width:40em" id="aiP"></p>
+ <div class="tch">
+  <aside class="tside">
+   <div class="tav" id="tcAv" aria-hidden="true">S</div>
+   <div class="tname" id="tcName"></div><div class="trole" id="tcRole"></div>
+   <div class="tmodes" id="tcModes" role="group"></div>
+   <label class="tvo"><input type="checkbox" id="tcV"><span id="tcVT"></span></label>
+   <button type="button" class="tclr" id="tcClr"></button>
+  </aside>
+  <div class="tmain">
+   <div id="tcM" aria-live="polite"></div>
+   <div class="tsug" id="tcS"></div>
+   <form id="tcF"><button type="button" id="tcMic"><span id="tcMicT">Speak</span></button><input id="tcI" autocomplete="off" maxlength="1500" aria-label="Message"><button type="submit" id="tcG">Send</button></form>
+  </div>
+ </div>
+ <p class="note" id="tcNote"></p>
+</div></section></div>
+
+<div class="page" id="tools"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-ol="ru" aria-pressed="true">RU</button><button type="button" data-ol="uz">UZ</button><button type="button" data-ol="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="oH">Бесплатные инструменты IELTS</h1>
+ <p class="lead" style="margin:18px 0 32px" id="oP">Калькуляторы баллов и генератор вопросов для Speaking. Без регистрации.</p>
+ <div class="tc"><h3 id="o1t">Итоговый Band</h3><div class="tg" id="o1g"></div><div class="big" id="o1r">7.0</div><p id="o1n" style="margin:8px 0 0;color:#6E6E73"></p></div>
+ <div class="tc"><h3 id="o2t">Listening и Reading: баллы в Band</h3><div class="tg" style="grid-template-columns:repeat(2,1fr)"><div><label id="o2l"></label><input class="sel" id="oL" type="number" min="0" max="40" value="30"></div><div><label id="o2r"></label><input class="sel" id="oR" type="number" min="0" max="40" value="30"></div></div><div class="big"><span id="oLb">7.0</span><small>Listening</small> <span id="oRb" style="margin-left:18px">7.0</span><small>Reading</small></div><p id="o2n" style="margin:8px 0 0;color:#6E6E73"></p></div>
+ <div class="tc"><h3 id="o3t">Генератор вопросов Speaking</h3><div class="slang" id="o3p"></div><p class="qq" id="o3q" style="min-height:3.4em"></p><button class="btn" type="button" id="o3b">Новый вопрос</button><p id="o3n" style="margin:12px 0 0;color:#6E6E73"></p></div>
+</div></section></div>
+
+<div class="page" id="university"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-ul="ru" aria-pressed="true">RU</button><button type="button" data-ul="uz">UZ</button><button type="button" data-ul="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="uvH"></h1>
+ <p class="lead" style="margin:18px 0 10px" id="uvP"></p>
+ <p class="note" id="uvWarn" style="margin:0 0 28px"></p>
+ <div id="uvTable"></div>
+ <p class="note" id="uvFoot" style="margin-top:18px"></p>
+</div></section></div>
+
+<div class="page" id="progress"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-gl="ru" aria-pressed="true">RU</button><button type="button" data-gl="uz">UZ</button><button type="button" data-gl="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="pgH"></h1>
+ <p class="lead" style="margin:18px 0 28px" id="pgP"></p>
+ <div class="tc" id="pgChartBox"><h3 id="pgChartT"></h3><div id="pgChart"></div></div>
+ <div class="tc"><h3 id="pgListT"></h3><div id="pgList"></div></div>
+ <button class="btn g" type="button" id="pgClear" style="color:#1D1D1F"></button>
+</div></section></div>
+
+<div class="page lt" id="profile"><section class="sec"><div class="wrap">
+ <div class="slang" role="group" aria-label="Language"><button type="button" data-pl="ru" aria-pressed="true">RU</button><button type="button" data-pl="uz">UZ</button><button type="button" data-pl="en">EN</button></div>
+ <h1 style="font-size:clamp(2.4rem,6vw,4.4rem)" id="mpH">Мини-профиль</h1>
+ <p class="lead" style="margin-top:18px" id="mpP"></p>
+ <div id="mpBox" style="margin-top:24px"><noscript>JavaScript is required.</noscript></div>
+</div></section></div>
+
+<div class="page" id="contact">
+ <section class="sec yl"><div class="wrap two"><h1>Come to us, or join from home.</h1>
+  <div><h3>Offline</h3><p>Yunus-Abad, 19 kv., near School 257, Tashkent</p><h3>Online</h3><p>Group and individual lessons on video</p><h3>Support and manager</h3><p><a class="btn y" data-tg="support" href="https://t.me/speakyz_lern_english_bot" style="margin:0 8px 8px 0">Support</a><a class="btn" data-tg="manager" href="https://t.me/speakyz_lern_english_bot" style="margin:0 8px 8px 0">Manager</a><a class="btn g" data-tg="admin" href="https://t.me/speakyz_lern_english_bot" style="margin:0 0 8px">Admin</a></p><h3>Message us</h3><p><a href="https://t.me/speakyz_lern_english_bot">Telegram bot</a> · <a href="https://t.me/SpeakyzEnglish">Channel</a> · <a href="https://www.instagram.com/speakyz_engl">Instagram</a> · <a href="https://youtube.com/@speakyz">YouTube</a></p></div></div></section>
+ <section class="sec lt"><div class="wrap"><h2 style="margin-bottom:24px">Questions.</h2>
+  <details><summary>Is the first lesson really free?</summary><p>Yes. Register through the Telegram bot and choose a time.</p></details>
+  <details><summary>Can I study online?</summary><p>Yes. Groups and individual lessons both run online.</p></details>
+  <details><summary>I do not know my level. Is that a problem?</summary><p>No. The teacher checks your level in the first lesson and suggests a group.</p></details>
+  <details><summary>Do you prepare for IELTS from zero?</summary><p>We build a plan from your current level to your target band. Tell us both when you message us.</p></details></div></section>
+</div>
+</main>
+<script>
+/* TELEGRAM ACCOUNTS. Fill in usernames (with or without @, or a full t.me link). Empty = falls back to the bot. */
+var SZ_TG={ozod:"Dream110111",kamron:"ssvvnnvv",farangiz:"khaiiva",laziza:"risbekovnass",support:"speakyz_admin",manager:"speakyz_admin",admin:"speakyz_admin"};
+var SZ_BOT="https://t.me/speakyz_lern_english_bot";
+window.szTg=function(k,fb){var v=(SZ_TG[k]||"").trim();if(!v)return fb||SZ_BOT;v=v.replace(/^https?:\/\/(t\.me|telegram\.me)\//,"").replace(/^@/,"");return /^[A-Za-z0-9_]{4,}$/.test(v)?"https://t.me/"+v:(fb||SZ_BOT)};
+(function(){var L={ru:{support:"Поддержка",manager:"Менеджер",admin:"Админ"},uz:{support:"Yordam",manager:"Menejer",admin:"Admin"},en:{support:"Support",manager:"Manager",admin:"Admin"}};
+var l="ru";try{var v=localStorage.getItem("sz_lang");if(L[v])l=v;else{var n=(navigator.language||"ru").slice(0,2);if(L[n])l=n}}catch(e){}
+[].forEach.call(document.querySelectorAll("[data-tg]"),function(a){a.href=szTg(a.dataset.tg,a.getAttribute("href"));a.target="_blank";a.rel="noopener"})})();
+</script>
+
+<footer><div class="wrap"><span>© Speakyz</span><nav aria-label="Social"><a href="https://www.instagram.com/speakyz_engl">Instagram</a><a href="https://youtube.com/@speakyz">YouTube</a><a href="https://t.me/SpeakyzEnglish">Telegram channel</a></nav></div></footer>
+<script>
+(function(){
+var RM=matchMedia('(prefers-reduced-motion:reduce)').matches,pages=['home','courses','ielts','teachers','schedule','shop','test','practice','teacher','mock','tools','university','progress','profile','contact'];
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))},cl=function(v){return Math.min(1,Math.max(0,v))};
+var HUB={courses:'learn',ielts:'learn',teachers:'learn',schedule:'learn',test:'practice',mock:'practice',practice:'practice',teacher:'practice',tools:'practice',progress:'plan',profile:'plan',university:'plan'};
+function route(first){var n=(location.hash||'').replace('#','');if(!n){var pp=location.pathname.replace(/^\/+|\/+$/g,'');if(pages.indexOf(pp)>=0)n=pp}if(pages.indexOf(n)<0)n='home';
+ $$('.page').forEach(function(p){p.classList.toggle('on',p.id===n);p.classList.toggle('lt',p.id!=='home'&&p.id!=='schedule'&&p.id!=='contact')});
+ $$('#menuPanel a').forEach(function(a){a.setAttribute('aria-current',(a.dataset.hub?HUB[n]===a.dataset.hub:a.getAttribute('href')==='#'+n)?'page':'false')});
+ if(window.szSub)szSub(n);if(!first)scrollTo(0,0);tick()}
+var menuBtn=$('#menuBtn'),menuPanel=$('#menuPanel'),menuBackdrop=$('#menuBackdrop');
+function openMenu(){menuPanel.classList.add('on');menuBackdrop.classList.add('on');menuBtn.setAttribute('aria-expanded','true');document.body.style.overflow='hidden'}
+function closeMenu(){menuPanel.classList.remove('on');menuBackdrop.classList.remove('on');menuBtn.setAttribute('aria-expanded','false');document.body.style.overflow=''}
+menuBtn.addEventListener('click',function(){menuPanel.classList.contains('on')?closeMenu():openMenu()});
+menuBackdrop.addEventListener('click',closeMenu);
+$$('#menuPanel a').forEach(function(a){a.addEventListener('click',closeMenu)});
+addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu()});
+addEventListener('hashchange',function(){route(false)});addEventListener('resize',function(){tick()});
+var wp=$('#wp');wp.innerHTML=wp.textContent.split(' ').map(function(w){return'<span class="w">'+w+'</span>'}).join(' ');
+var ws=$$('.w',wp),hh=$('#hh'),gl=$('#gl'),bs=$$('.bb'),sw=$$('.sw'),bd=$('#bd'),mn=$('#mn'),mb=$('#mb');
+window.szWp=function(t){wp.innerHTML=t.split(' ').map(function(w){return'<span class="w">'+w+'</span>'}).join(' ');ws=$$('.w',wp);tick()};
+function prog(el){var r=el.getBoundingClientRect(),h=r.height-innerHeight;return h<=0?1:cl(-r.top/h)}
+function tick(){if(RM)return;var pg=$('.page.on');if(!pg)return;
+ $$('[data-pin]',pg).forEach(function(el){var p=prog(el),k=el.dataset.pin;
+  if(k==='hero'){hh.style.transform='scale('+(1-.45*cl(p*3))+')';gl.style.transform='translateY('+(-p*18)+'%) scale('+(1+p*.5)+')';bs.forEach(function(b,i){var o=cl((p-(.2+i*.17))/.1);b.style.opacity=o;b.style.transform='translateY('+((1-o)*28)+'px)'})}
+  if(k==='words'){ws.forEach(function(w,i){w.style.opacity=.14+.86*cl((p*1.3-i/ws.length)*ws.length/6)})}
+  if(k==='sfr'){sw.forEach(function(s,i){var o=cl((p-i*.22)/.2);s.style.opacity=o;s.style.transform='translateX('+((1-o)*(i%2?-1:1)*60)+'vw) rotate('+(-4+i*2)+'deg)'});bd.style.transform='rotate('+(p*540)+'deg)'}
+  if(k==='meter'){var v=4.5+3*p;mn.textContent=v.toFixed(1);mb.style.transform='scaleX('+(v/9)+')'}});
+ $$('[data-zoom]',pg).forEach(function(c){var r=c.getBoundingClientRect(),t=cl((innerHeight-r.top)/(innerHeight*.6));c.style.transform='scale('+(.93+.07*t)+')';c.style.opacity=.3+.7*t})}
+var q=0;addEventListener('scroll',function(){if(!q){q=1;requestAnimationFrame(function(){q=0;tick()})}},{passive:true});
+function compose(){var a=$$('#sf .chips').map(function(g){return g.dataset.k+': '+$('input:checked',g).value});$('#msg').value='Hello Speakyz! I would like a free lesson.\n'+a.join('\n')}
+$$('#sf input').forEach(function(i){i.addEventListener('change',compose)});compose();
+$('#cp').addEventListener('click',function(){var m=$('#msg'),s=$('#cs');
+ function ok(){s.textContent=({ru:'Скопировано. Вставьте в чат Telegram.',uz:'Nusxalandi. Telegram chatiga qo\u02BBying.',en:'Copied. Paste it in the Telegram chat.'})[window.szLang?szLang():'en']}
+ function no(){m.removeAttribute('readonly');m.select();s.textContent=({ru:'Выделите текст выше, скопируйте и вставьте в Telegram.',uz:'Yuqoridagi matnni belgilab, nusxalang va Telegramga qo\u02BBying.',en:'Select the text above, copy it, and paste it in Telegram.'})[window.szLang?szLang():'en']}
+ try{navigator.clipboard.writeText(m.value).then(ok,no)}catch(e){no()}});
+route(true);
+})();
+</script>
+<script>
+(function(){
+var FORM_URL=''; /* optional: Google Form link for reviews; when set, the button opens it instead of the in-page form */
+var REVIEWS=[]; /* approved reviews: {n:"Name",r:5,t:"Text"} */
+var D={
+ru:{h1:"Книги и курсы",lead:"Всё для уверенной речи и IELTS. Первый урок Speaking бесплатный.",free:"Бесплатный первый урок Speaking",book:"Записаться",order:"Заказать",
+ d_book:"56 страниц: критерии оценки, образцы ответов Band 8.0, мок-тесты и план на 30 дней. Формат PDF.",d_club:"Малые группы, где вы говорите весь урок. Ошибки исправляются на месте.",d_ielts:"Все четыре части экзамена, пробные тесты и разбор баллов.",n_ind:"Индивидуальные уроки",d_ind:"Личный преподаватель и план под вашу цель и график.",d_wr:"Критерии, образцы Task 1 и Task 2 уровня 8.0, 30 заданий и план на 30 дней. Формат PDF.",d_rd:"Стратегии, 12 типов вопросов, три практических текста с ключами и объяснениями. Формат PDF.",d_gr:"Грамматика и слова от A1 до C2: правила, примеры, упражнения и ключи. Формат PDF.",d_li:"Стратегии, ловушки, четыре секции с текстами для озвучивания, ключи и план на 30 дней. Формат PDF.",soon:"Скоро",
+ u_pdf:"PDF",u_month:"в месяц",u_lesson:"за урок",h3:"Как купить",s1:"Нажмите «Заказать». Откроется наш Telegram-бот.",s2:"Оплатите переводом по реквизитам, которые пришлёт бот.",s3:"Получите доступ: ссылку на книгу или приглашение в группу.",ask:"Есть вопросы о цене, условиях или выборе курса? Напишите нам: обсудим лично, без спешки.",ask_b:"Обсудить с менеджером",
+ rv:"Отзывы",rv_t:"Первые отзывы появятся здесь.",rv_b:"Оставить отзыв",rv_note:"Отзывы публикуются после проверки.",rv_name:"Ваше имя",rv_text:"Ваш отзыв",rv_copy:"Скопировать",rv_open:"Открыть Telegram",rv_close:"Закрыть",rv_done:"Скопировано. Вставьте текст в чат Telegram.",rv_manual:"Выделите текст и скопируйте вручную.",
+ h4:"Вопросы",q1:"Как я получу книгу?",a1:"После оплаты вы получите ссылку на PDF в Telegram.",q2:"Можно попробовать до покупки?",a2:"Да. Первый урок Speaking бесплатный.",q3:"Когда начнутся группы?",a3:"Группы набираются. Напишите нам в Telegram, и мы сообщим дату."},
+uz:{h1:"Kitoblar va kurslar",lead:"Ishonchli nutq va IELTS uchun hammasi. Speaking bo\u02BByicha birinchi dars bepul.",free:"Speaking bo\u02BByicha birinchi dars bepul",book:"Yozilish",order:"Buyurtma",
+ d_book:"56 sahifa: baholash mezonlari, Band 8.0 namunaviy javoblar, mock testlar va 30 kunlik reja. PDF formatida.",d_club:"Kichik guruhlar: butun dars davomida gapirasiz. Xatolar o\u02BBsha zahoti tuzatiladi.",d_ielts:"Imtihonning to\u02BBrt qismi, sinov testlari va ballar tahlili.",n_ind:"Individual darslar",d_ind:"Shaxsiy o\u02BBqituvchi, maqsad va jadvalingizga mos reja.",d_wr:"Mezonlar, Task 1 va Task 2 bo\u02BByicha 8.0 darajadagi namunalar, 30 ta topshiriq va 30 kunlik reja. PDF formatida.",d_rd:"Strategiyalar, 12 turdagi savol, kalitlar va izohlar bilan uchta amaliy matn. PDF formatida.",d_gr:"A1 dan C2 gacha grammatika va lug\u02BBat: qoidalar, misollar, mashqlar va kalitlar. PDF formatida.",d_li:"Strategiyalar, tuzoqlar, ovoz chiqarib o\u02BBqish uchun matnlar bilan to\u02BBrt qism, kalitlar va 30 kunlik reja. PDF formatida.",soon:"Tez orada",
+ u_pdf:"PDF",u_month:"oyiga",u_lesson:"bir dars uchun",h3:"Qanday sotib olinadi",s1:"\u00ABBuyurtma\u00BB tugmasini bosing. Telegram botimiz ochiladi.",s2:"Bot yuboradigan rekvizitlar bo\u02BByicha o\u02BBtkazma qiling.",s3:"Kirish oling: kitobga havola yoki guruhga taklif.",ask:"Narx, shartlar yoki kurs tanlash bo\u02BByicha savollaringiz bormi? Bizga yozing: hammasini shaxsan, shoshilmasdan muhokama qilamiz.",ask_b:"Menejer bilan gaplashish",
+ rv:"Sharhlar",rv_t:"Birinchi sharhlar shu yerda paydo bo\u02BBladi.",rv_b:"Sharh qoldirish",rv_note:"Sharhlar tekshiruvdan keyin e\u02BClon qilinadi.",rv_name:"Ismingiz",rv_text:"Sharhingiz",rv_copy:"Nusxalash",rv_open:"Telegramni ochish",rv_close:"Yopish",rv_done:"Nusxalandi. Matnni Telegram chatiga qo\u02BBying.",rv_manual:"Matnni belgilab, qo\u02BBlda nusxalang.",
+ h4:"Savollar",q1:"Kitobni qanday olaman?",a1:"To\u02BBlovdan keyin Telegramda PDF havolasi yuboriladi.",q2:"Sotib olishdan oldin sinab ko\u02BBrsam bo\u02BBladimi?",a2:"Ha. Speaking bo\u02BByicha birinchi dars bepul.",q3:"Guruhlar qachon boshlanadi?",a3:"Guruhlar yig\u02BBilmoqda. Telegramda yozing, sanani aytamiz."},
+en:{h1:"Books and courses",lead:"Everything for confident speaking and IELTS. Your first Speaking lesson is free.",free:"Free first Speaking lesson",book:"Book now",order:"Order",
+ d_book:"56 pages: scoring criteria, Band 8.0 model answers, mock tests and a 30-day plan. PDF format.",d_club:"Small groups where you talk the whole lesson, with instant corrections.",d_ielts:"All four exam parts, mock tests and score feedback.",n_ind:"Individual lessons",d_ind:"A personal teacher and a plan built around your goal and schedule.",d_wr:"Scoring criteria, Band 8.0 Task 1 and Task 2 models, 30 practice prompts and a 30-day plan. PDF format.",d_rd:"Strategies, 12 question types and three practice texts with explained answer keys. PDF format.",d_gr:"Grammar and vocabulary from A1 to C2: rules, examples, exercises and keys. PDF format.",d_li:"Strategies, traps, four sections with texts to read aloud, answer keys and a 30-day plan. PDF format.",soon:"Coming soon",
+ u_pdf:"PDF",u_month:"per month",u_lesson:"per lesson",h3:"How to buy",s1:"Press \u201COrder\u201D. Our Telegram bot opens.",s2:"Pay by transfer using the details the bot sends.",s3:"Get access: a book link or a group invitation.",ask:"Questions about price, terms or choosing a course? Message us and we will talk it through personally, no rush.",ask_b:"Talk to a manager",
+ rv:"Reviews",rv_t:"The first reviews will appear here.",rv_b:"Leave a review",rv_note:"Reviews are published after a check.",rv_name:"Your name",rv_text:"Your review",rv_copy:"Copy",rv_open:"Open Telegram",rv_close:"Close",rv_done:"Copied. Paste the text into the Telegram chat.",rv_manual:"Select the text and copy it manually.",
+ h4:"Questions",q1:"How do I get the book?",a1:"After payment you receive a PDF link in Telegram.",q2:"Can I try before buying?",a2:"Yes. The first Speaking lesson is free.",q3:"When do groups start?",a3:"Groups are being formed. Message us on Telegram and we will tell you the date."}};
+var $=function(s){return document.querySelector(s)},$$=function(s){return [].slice.call(document.querySelectorAll(s))};
+var L='ru';
+function setL(l){L=l;
+  $$('#shop [data-sl],#rvDlg [data-sl]').forEach(function(e){e.textContent=D[l][e.dataset.sl]});
+  $$('#rvDlg [data-slp]').forEach(function(e){e.placeholder=D[l][e.dataset.slp]});
+  $$('#shop [data-sl-l]').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.slL===l)});
+  try{localStorage.setItem('sz_lang',l)}catch(e){}
+}
+function stars(n){return new Array(n+1).join('\u2605')}
+function renderRv(){var box=$('#rvList');box.textContent='';
+  REVIEWS.forEach(function(r){var d=document.createElement('div');d.className='rvc';var b=document.createElement('b');b.textContent=r.n;var s=document.createElement('small');s.textContent=stars(r.r||5);var p=document.createElement('p');p.textContent=r.t;d.appendChild(b);d.appendChild(s);d.appendChild(p);box.appendChild(d)});
+  $('#rvEmpty').hidden=REVIEWS.length>0}
+var st=null;try{st=localStorage.getItem('sz_lang')}catch(e){}
+var nl=(navigator.language||'ru').slice(0,2);
+$$('#shop [data-sl-l]').forEach(function(b){b.addEventListener('click',function(){setL(b.dataset.slL)})});
+setL(D[st]?st:(D[nl]?nl:'ru'));renderRv();
+var dlg=$('#rvDlg');
+$('#rvBtn').addEventListener('click',function(){
+  if(FORM_URL){window.open(FORM_URL,'_blank','noopener');return}
+  $('#rvSt').textContent='';
+  if(dlg.showModal){dlg.showModal()}else{dlg.setAttribute('open','')}
+});
+$('#rvX').addEventListener('click',function(){if(dlg.close){dlg.close()}else{dlg.removeAttribute('open')}});
+$('#rvCp').addEventListener('click',function(){
+  var r=$('input[name=rr]:checked');
+  var txt='Speakyz review\nName: '+($('#rvN').value||'-')+'\nRating: '+(r?r.value:'5')+'/5\n'+$('#rvTx').value;
+  var s=$('#rvSt');
+  function ok(){s.textContent=D[L].rv_done}
+  function no(){var t=$('#rvTx');t.select();s.textContent=D[L].rv_manual}
+  try{navigator.clipboard.writeText(txt).then(ok,no)}catch(e){no()}
+});
+})();
+</script>
+<script>
+(function(){
+var TR={
+A:{id:"A",q:[["My name ___ Anna.",["is","are","am","be"],0],["They ___ from Uzbekistan.",["is","am","are","be"],2],["I have ___ apple.",["a","an","the","two"],1],["She ___ coffee every morning.",["drink","drinks","drinking","drank"],1],["There ___ three books on the table.",["is","are","am","be"],1],["Yesterday we ___ to the park.",["go","goes","went","going"],2],["What time ___ you get up?",["do","does","are","is"],0],["My brother is ___ than me.",["tall","taller","tallest","more tall"],1],["I am ___ TV now.",["watch","watches","watching","to watch"],2],["Can you ___ me, please?",["help","helping","helps","to help"],0],["___ is your phone? It is on the sofa.",["Who","Where","When","Why"],1],["I ___ my homework last night.",["do","did","done","doing"],1],["We did not ___ the film.",["liked","like","likes","liking"],1],["How ___ water do you drink a day?",["many","much","few","a lot"],1],["She is going ___ visit her grandmother tomorrow.",["to","for","at","in"],0]],
+ lv:function(n){return n<=6?{l:"A1",r:"Speaking club, Super Grammar and Vocab",s:0}:n<=11?{l:"A2",r:"Speaking club, Super Grammar and Vocab",s:0}:{l:"A2+",r:"Speaking club, Super Grammar and Vocab",s:1}}},
+B:{id:"B",q:[["If it rains tomorrow, we ___ at home.",["stay","will stay","stayed","would stay"],1],["I have lived here ___ 2019.",["for","since","from","during"],1],["I wonder where ___.",["is she","she is","does she","she does"],1],["The book ___ by millions of people.",["read","is read","reads","has read"],1],["I am not used ___ up early.",["to get","to getting","get","getting"],1],["You ___ wear a seatbelt. It is the law.",["must","might","can","would"],0],["If I ___ you, I would apologise.",["am","were","will be","have been"],1],["He suggested ___ to the cinema.",["to go","going","go","went"],1],["This is the man ___ car was stolen.",["who","whose","which","whom"],1],["By the time we arrived, the film ___.",["already started","has already started","had already started","already starts"],2],["He is ___ tired to drive safely.",["too","so","very","enough"],0],["She is the most talented singer ___ I have ever heard.",["who","which","that","what"],2],["He did not pass the exam, ___ he had studied hard.",["although","because","so","despite"],0],["I look forward ___ you soon.",["to see","to seeing","seeing","for seeing"],1],["We ___ the report by Friday if the team works hard.",["finish","will have finished","are finishing","finished"],1]],
+ lv:function(n){return n<=7?{l:"A2",r:"Speaking club, Super Grammar and Vocab",s:-1}:n<=10?{l:"B1",r:"Speaking club, Super Grammar and Vocab",s:0}:n<=13?{l:"B2",r:"Speaking club, Speaking 8.0, Reading 8.0",s:0}:{l:"B2+",r:"Speaking club, Speaking 8.0, Reading 8.0",s:1}}},
+C:{id:"C",q:[["If I ___ harder, I would have passed.",["studied","had studied","would study","have studied"],1],["I wish I ___ more free time.",["have","had","would have","having"],1],["By 2030 she ___ here for twenty years.",["will work","will have worked","is working","has worked"],1],["___ had she arrived when it began to rain.",["Hardly","Seldom","Not only","Even"],0],["It is essential that he ___ on time.",["is","be","will be","was"],1],["Not only ___ late, but he was also rude.",["he was","was he","is he","he is"],1],["The company is believed ___ millions last year.",["to lose","to have lost","losing","having lose"],1],["___ for your help, I would have failed.",["But","Because","Although","Despite"],0],["Her argument was ___: it relied on one source.",["tenuous","tenacious","tentative","tenable"],0],["Be that as it ___, we must go.",["may","is","will","can"],0],["She has a real ___ for languages.",["flair","flare","flaw","flame"],0],["Had I known about the delay, I ___ earlier.",["would leave","would have left","will leave","had left"],1],["The results were ___ with what we had expected.",["consistent","coherent","accordant","concurrent"],0],["Seldom ___ such a beautiful view.",["I have seen","have I seen","I saw","did I seen"],1],["The film, ___ I had heard so much, was disappointing.",["about which","which about","of that","that"],0]],
+ lv:function(n){return n<=7?{l:"B2",r:"Speaking club, Speaking 8.0, Reading 8.0",s:-1}:n<=11?{l:"C1",r:"IELTS, Writing 8.0, Listening 8.0",s:0}:{l:"C1–C2",r:"IELTS, individual lessons, 8.0 books",s:0}}}
+};
+var T={
+ru:{h:"Узнайте свой уровень английского",p:"Выберите тест по своему уровню. 15 вопросов, около 5 минут.",pick:"С чего начать?",tA:"Начальный",tAd:"A1–A2. Если вы только начинаете или помните базу.",tB:"Средний",tBd:"B1–B2. Если вы уже говорите и читаете, но с ошибками.",tC:"Продвинутый",tCd:"C1 и выше, подготовка к IELTS.",idk:"Не знаю",start:"Начать",q:"Вопрос",of:"из",lv:"Ваш примерный уровень",sc:"Правильных ответов",nt:"Это быстрая ориентировка, а не официальная оценка. Ответ «Не знаю» лучше, чем угадывание: он ничего не отнимает, а результат остаётся честным. Точный уровень определит преподаватель на бесплатном уроке.",rec:"Рекомендуем",up:"Результат высокий. Попробуйте тест уровнем выше.",down:"Этот тест оказался сложным. Попробуйте тест уровнем ниже.",prof:"Заполнить мини-профиль",cta:"Записаться на бесплатный урок",again:"Другой тест"},
+uz:{h:"Ingliz tili darajangizni bilib oling",p:"Darajangizga mos testni tanlang. 15 ta savol, taxminan 5 daqiqa.",pick:"Qayerdan boshlaymiz?",tA:"Boshlangʻich",tAd:"A1–A2. Endi boshlayotgan yoki asosni eslaydiganlar uchun.",tB:"Oʻrta",tBd:"B1–B2. Gapira va oʻqiy olasiz, lekin xatolar bor.",tC:"Yuqori",tCd:"C1 va undan yuqori, IELTS tayyorgarligi.",idk:"Bilmayman",start:"Boshlash",q:"Savol",of:"/",lv:"Taxminiy darajangiz",sc:"Toʻgʻri javoblar",nt:"Bu tezkor yoʻnaltirish, rasmiy baho emas. Taxmin qilgandan koʻra «Bilmayman» deb belgilang: natija halol chiqadi. Aniq darajani oʻqituvchi bepul darsda aniqlaydi.",rec:"Tavsiya etamiz",up:"Natija yuqori. Bir daraja yuqori testni sinab koʻring.",down:"Bu test qiyin boʻldi. Bir daraja pastroq testni sinab koʻring.",prof:"Mini-profilni toʻldirish",cta:"Bepul darsga yozilish",again:"Boshqa test"},
+en:{h:"Find out your English level",p:"Pick the test that matches where you are. 15 questions, about 5 minutes.",pick:"Where do you start?",tA:"Beginner",tAd:"A1–A2. You are starting out or remember the basics.",tB:"Intermediate",tBd:"B1–B2. You speak and read, but with mistakes.",tC:"Advanced",tCd:"C1 and above, IELTS preparation.",idk:"I do not know",start:"Start",q:"Question",of:"of",lv:"Your approximate level",sc:"Correct answers",nt:"This is a quick guide, not an official score. Choosing “I do not know” is better than guessing: it costs nothing and keeps the result honest. A teacher will confirm your exact level in the free lesson.",rec:"We recommend",up:"A high score. Try the test one level up.",down:"This test was hard. Try the test one level down.",prof:"Fill in a mini-profile",cta:"Book a free lesson",again:"Another test"}};
+var $=function(s){return document.querySelector(s)};
+var L="ru",tk=null,i=0,sc=0,state="pick";
+try{var sv=localStorage.getItem("sz_lang");if(T[sv])L=sv;else{var n=(navigator.language||"ru").slice(0,2);if(T[n])L=n}}catch(e){}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function render(){
+  var d=T[L],b=$("#tBox");b.textContent="";
+  $("#tH").textContent=d.h;$("#tP").textContent=d.p;
+  [].forEach.call(document.querySelectorAll("[data-tl]"),function(x){x.setAttribute("aria-pressed",x.dataset.tl===L)});
+  if(state==="pick"){
+    b.appendChild(el("p","qn",d.pick));
+    [["A",d.tA,d.tAd],["B",d.tB,d.tBd],["C",d.tC,d.tCd]].forEach(function(t){var x=el("button","qo");x.type="button";x.appendChild(el("b","",t[1]));x.appendChild(document.createElement("br"));x.appendChild(el("span","",t[2]));x.onclick=function(){tk=t[0];state="q";i=0;sc=0;render();window.scrollTo(0,0)};b.appendChild(x)});
+  }else if(state==="q"){
+    var Q=TR[tk].q;
+    var pr=el("div","qp");var bar=el("i");bar.style.width=(i/Q.length*100)+"%";pr.appendChild(bar);b.appendChild(pr);
+    b.appendChild(el("p","qn",d.q+" "+(i+1)+" "+d.of+" "+Q.length));
+    b.appendChild(el("p","qq",Q[i][0]));
+    var ord=[0,1,2,3].sort(function(){return Math.random()-.5});ord.forEach(function(k){var x=el("button","qo",Q[i][1][k]);x.type="button";x.onclick=function(){if(k===Q[i][2])sc++;next()};b.appendChild(x)});
+    var z=el("button","qo",d.idk);z.type="button";z.style.color="#6E6E73";z.style.borderStyle="dashed";z.onclick=next;b.appendChild(z);
+  }else{
+    var r=TR[tk].lv(sc);
+    try{localStorage.setItem("sz_level",JSON.stringify({l:r.l,t:tk,ts:Date.now()}))}catch(e){}
+    b.appendChild(el("p","qn",d.lv));b.appendChild(el("div","qr",r.l));
+    b.appendChild(el("p","qn",d.sc+": "+sc+" / "+TR[tk].q.length));
+    b.appendChild(el("p","lead",d.rec+": "+r.r));
+    if(r.s>0&&tk!=="C")b.appendChild(el("p","",d.up));
+    if(r.s<0)b.appendChild(el("p","",d.down));
+    b.appendChild(el("p","",d.nt));
+    var c0=el("a","btn",d.prof);c0.href="#profile";c0.style.marginRight="10px";b.appendChild(c0);
+    var c=el("a","btn y",d.cta);c.href="https://t.me/speakyz_lern_english_bot?start=test";c.style.marginRight="10px";b.appendChild(c);
+    var a2=el("button","btn g",d.again);a2.type="button";a2.style.color="#1D1D1F";a2.onclick=function(){state="pick";render()};b.appendChild(a2);
+  }
+}
+function next(){i++;if(i>=TR[tk].q.length)state="r";render();window.scrollTo(0,0)}
+[].forEach.call(document.querySelectorAll("[data-tl]"),function(x){x.addEventListener("click",function(){L=x.dataset.tl;try{localStorage.setItem("sz_lang",L)}catch(e){}render()})});
+render();
+})();
+</script>
+<script>
+(function(){
+var KEY="sz_profile";
+var P={
+ru:{h:"Мини-профиль",p:"Одна минута: расскажите о целях и времени, и мы подберём формат и преподавателя. Данные хранятся только на вашем устройстве и уходят, когда вы сами нажмёте «Открыть Telegram».",name:"Имя",lvl:"Уровень",lvlAuto:"из теста",lvlNone:"Не знаю",goal:"Цель",goals:{speaking:"Разговорный",ielts:"IELTS",grammar:"Грамматика",vocab:"Слова",other:"Другое"},band:"Целевой балл IELTS",hrs:"Часов в неделю",time:"Удобное время",times:{Morning:"Утро",Afternoon:"День",Evening:"Вечер"},days:"Удобные дни",fmt:"Формат",fmts:{Any:"Любой",Offline:"Офлайн",Online:"Онлайн"},tch:"Преподаватель",tchAny:"Любой",gaps:"Что даётся труднее всего",gp:{Grammar:"Грамматика",Vocabulary:"Слова",Speaking:"Страх говорить",Listening:"Аудирование",Writing:"Письмо",Pronunciation:"Произношение",Time:"Мало времени"},note:"Пожелания",sug:"Что мы советуем",msg:"Сообщение для команды",copy:"Скопировать",open:"Открыть Telegram",ok:"Скопировано. Вставьте в чат Telegram.",no:"Выделите текст и скопируйте вручную.",clear:"Очистить",first:"Первый урок Speaking бесплатный, преподаватель уточнит уровень.",rIELTS:"Курс IELTS",rClub:"Speaking club",rGram:"Super Grammar and Vocab",rInd:"Индивидуальные уроки: план строится под ваше время",rWr:"Writing 8.0",rLi:"Listening 8.0",rSp:"Speaking 8.0",rRd:"Reading 8.0"},
+uz:{h:"Mini-profil",p:"Bir daqiqa: maqsad va vaqtingizni yozing, biz format va oʻqituvchini tanlaymiz. Maʻlumotlar faqat qurilmangizda saqlanadi va «Telegramni ochish» tugmasini bosganingizdagina yuboriladi.",name:"Ism",lvl:"Daraja",lvlAuto:"testdan",lvlNone:"Bilmayman",goal:"Maqsad",goals:{speaking:"Nutq",ielts:"IELTS",grammar:"Grammatika",vocab:"Lugʻat",other:"Boshqa"},band:"IELTS maqsad bali",hrs:"Haftada soat",time:"Qulay vaqt",times:{Morning:"Ertalab",Afternoon:"Kunduzi",Evening:"Kechqurun"},days:"Qulay kunlar",fmt:"Format",fmts:{Any:"Farqi yoʻq",Offline:"Oflayn",Online:"Onlayn"},tch:"Oʻqituvchi",tchAny:"Farqi yoʻq",gaps:"Eng qiyin narsa",gp:{Grammar:"Grammatika",Vocabulary:"Lugʻat",Speaking:"Gapirishdan qoʻrqish",Listening:"Tinlab tushunish",Writing:"Yozish",Pronunciation:"Talaffuz",Time:"Vaqt kam"},note:"Istaklar",sug:"Nimani tavsiya qilamiz",msg:"Jamoa uchun xabar",copy:"Nusxalash",open:"Telegramni ochish",ok:"Nusxalandi. Telegram chatiga qoʻying.",no:"Matnni belgilab, qoʻlda nusxalang.",clear:"Tozalash",first:"Speaking boʻyicha birinchi dars bepul, oʻqituvchi darajangizni aniqlaydi.",rIELTS:"IELTS kursi",rClub:"Speaking club",rGram:"Super Grammar and Vocab",rInd:"Individual darslar: reja vaqtingizga moslanadi",rWr:"Writing 8.0",rLi:"Listening 8.0",rSp:"Speaking 8.0",rRd:"Reading 8.0"},
+en:{h:"Mini-profile",p:"One minute: tell us your goal and your time, and we will suggest a format and a teacher. Your answers stay on your device and are sent only when you press “Open Telegram”.",name:"Name",lvl:"Level",lvlAuto:"from the test",lvlNone:"I do not know",goal:"Goal",goals:{speaking:"Speaking",ielts:"IELTS",grammar:"Grammar",vocab:"Vocabulary",other:"Other"},band:"IELTS target band",hrs:"Hours per week",time:"Convenient time",times:{Morning:"Morning",Afternoon:"Afternoon",Evening:"Evening"},days:"Convenient days",fmt:"Format",fmts:{Any:"Any",Offline:"Offline",Online:"Online"},tch:"Teacher",tchAny:"Any",gaps:"What is hardest for you",gp:{Grammar:"Grammar",Vocabulary:"Vocabulary",Speaking:"Fear of speaking",Listening:"Listening",Writing:"Writing",Pronunciation:"Pronunciation",Time:"Little time"},note:"Wishes",sug:"What we suggest",msg:"Message for the team",copy:"Copy",open:"Open Telegram",ok:"Copied. Paste it in the Telegram chat.",no:"Select the text and copy it manually.",clear:"Clear",first:"Your first Speaking lesson is free; the teacher will confirm your level.",rIELTS:"IELTS course",rClub:"Speaking club",rGram:"Super Grammar and Vocab",rInd:"Individual lessons: the plan is built around your time",rWr:"Writing 8.0",rLi:"Listening 8.0",rSp:"Speaking 8.0",rRd:"Reading 8.0"}};
+var $=function(s){return document.querySelector(s)};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+var L="ru";try{var sv=localStorage.getItem("sz_lang");if(P[sv])L=sv;else{var n=(navigator.language||"ru").slice(0,2);if(P[n])L=n}}catch(e){}
+var TEACH=["Mr. Ozod","Mr. Kamron","Mrs. Farangiz","Mrs. Laziza"];
+var LV=["A1","A2","B1","B2","C1","C2"];
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){return{}}}
+var S=load();
+if(!S.lvl){try{var lv=JSON.parse(localStorage.getItem("sz_level")||"null");if(lv&&lv.l){S.lvl=lv.l.replace("+","").slice(0,2);if(LV.indexOf(S.lvl)<0)S.lvl="";S.auto=!!S.lvl}}catch(e){}}
+S.gaps=S.gaps||[];
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function chips(host,name,opts,cur,multi,cb){var w=el("div","chips");opts.forEach(function(o){var l=el("label");var i=el("input");i.type=multi?"checkbox":"radio";i.name=name;i.value=o[0];i.checked=multi?cur.indexOf(o[0])>=0:cur===o[0];i.onchange=function(){cb(o[0],i.checked)};l.appendChild(i);l.appendChild(el("span","",o[1]));w.appendChild(l)});host.appendChild(w)}
+function field(host,label){host.appendChild(el("b","pf",label))}
+function suggest(){
+  var d=P[L],r=[];
+  var g=S.goal,gp=S.gaps||[];
+  if(g==="ielts"){r.push(d.rIELTS);if(gp.indexOf("Writing")>=0)r.push(d.rWr);if(gp.indexOf("Listening")>=0)r.push(d.rLi);if(gp.indexOf("Speaking")>=0)r.push(d.rSp)}
+  else if(g==="grammar"||g==="vocab"){r.push(d.rGram);r.push(d.rClub)}
+  else{r.push(d.rClub)}
+  if(S.hrs==="1-2"||gp.indexOf("Time")>=0)r.push(d.rInd);
+  return r;
+}
+function message(){
+  var o=["Hello Speakyz! I would like a free lesson. My mini-profile:"];
+  if(S.name)o.push("Name: "+S.name);
+  o.push("Level: "+(S.lvl||"not sure"));
+  if(S.goal)o.push("Goal: "+P.en.goals[S.goal]+(S.goal==="ielts"&&S.band?" (target band "+S.band+")":""));
+  if(S.hrs)o.push("Hours per week: "+S.hrs);
+  if(S.time)o.push("Time: "+S.time+(S.days?", "+S.days:""));
+  else if(S.days)o.push("Days: "+S.days);
+  if(S.fmt)o.push("Format: "+S.fmt);
+  if(S.tch)o.push("Teacher: "+S.tch);
+  if(S.gaps.length)o.push("Hardest: "+S.gaps.join(", "));
+  if(S.note)o.push("Wishes: "+S.note);
+  return o.join("\n");
+}
+function refresh(){var d=P[L];save();var u=$("#mpSug");u.textContent="";suggest().forEach(function(x){u.appendChild(el("li","",x))});$("#mpMsg").value=message()}
+function build(){
+  var d=P[L],b=$("#mpBox");b.textContent="";
+  $("#mpH").textContent=d.h;$("#mpP").textContent=d.p;
+  [].forEach.call(document.querySelectorAll("[data-pl]"),function(x){x.setAttribute("aria-pressed",x.dataset.pl===L)});
+  field(b,d.name);var ni=el("input","msg");ni.style.minHeight="0";ni.value=S.name||"";ni.setAttribute("aria-label",d.name);ni.oninput=function(){S.name=ni.value.slice(0,60);refresh()};b.appendChild(ni);
+  field(b,d.lvl+(S.auto?" ("+d.lvlAuto+")":""));chips(b,"plv",[["",d.lvlNone]].concat(LV.map(function(x){return[x,x]})),S.lvl||"",false,function(v){S.lvl=v;S.auto=false;refresh()});
+  field(b,d.goal);chips(b,"pg",Object.keys(d.goals).map(function(k){return[k,d.goals[k]]}),S.goal||"",false,function(v){S.goal=v;refresh();build()});
+  if(S.goal==="ielts"){field(b,d.band);var bs=["5.5","6.0","6.5","7.0","7.5","8.0"];chips(b,"pb",bs.map(function(x){return[x,x]}),S.band||"",false,function(v){S.band=v;refresh()})}
+  field(b,d.hrs);chips(b,"ph",[["1-2","1–2"],["3-4","3–4"],["5+","5+"]],S.hrs||"",false,function(v){S.hrs=v;refresh()});
+  field(b,d.time);chips(b,"pt",Object.keys(d.times).map(function(k){return[k,d.times[k]]}),S.time||"",false,function(v){S.time=v;refresh()});
+  field(b,d.days);var di=el("input","msg");di.style.minHeight="0";di.value=S.days||"";di.setAttribute("aria-label",d.days);di.oninput=function(){S.days=di.value.slice(0,60);refresh()};b.appendChild(di);
+  field(b,d.fmt);chips(b,"pf",Object.keys(d.fmts).map(function(k){return[k,d.fmts[k]]}),S.fmt||"",false,function(v){S.fmt=v;refresh()});
+  field(b,d.tch);chips(b,"pc",[["",d.tchAny]].concat(TEACH.map(function(x){return[x,x]})),S.tch||"",false,function(v){S.tch=v;refresh()});
+  field(b,d.gaps);chips(b,"pgp",Object.keys(d.gp).map(function(k){return[k,d.gp[k]]}),S.gaps,true,function(v,on){var i=S.gaps.indexOf(v);if(on&&i<0)S.gaps.push(v);if(!on&&i>=0)S.gaps.splice(i,1);refresh()});
+  field(b,d.note);var ta=el("textarea","msg");ta.style.minHeight="80px";ta.value=S.note||"";ta.setAttribute("aria-label",d.note);ta.oninput=function(){S.note=ta.value.slice(0,300);refresh()};b.appendChild(ta);
+  b.appendChild(el("h3","",d.sug));var u=el("ul");u.id="mpSug";b.appendChild(u);b.appendChild(el("p","",d.first));
+  b.appendChild(el("h3","",d.msg));var m=el("textarea","msg");m.id="mpMsg";m.readOnly=true;m.setAttribute("aria-label",d.msg);b.appendChild(m);
+  var cta=el("div","cta");cta.style.justifyContent="flex-start";
+  var cp=el("button","btn g",d.copy);cp.type="button";cp.style.color="#1D1D1F";
+  var op=el("a","btn y",d.open);op.href=window.szTg?szTg("manager"):"https://t.me/speakyz_lern_english_bot";
+  var cl=el("button","btn g",d.clear);cl.type="button";cl.style.color="#6E6E73";
+  cta.appendChild(cp);cta.appendChild(op);cta.appendChild(cl);b.appendChild(cta);
+  var st=el("p","");st.id="mpSt";st.setAttribute("role","status");st.style.color="#6E6E73";b.appendChild(st);
+  cp.onclick=function(){var v=$("#mpMsg"),s=$("#mpSt");function ok(){s.textContent=P[L].ok}function no(){v.removeAttribute("readonly");v.select();s.textContent=P[L].no}try{navigator.clipboard.writeText(v.value).then(ok,no)}catch(e){no()}};
+  cl.onclick=function(){S={gaps:[]};try{localStorage.removeItem(KEY)}catch(e){}build()};
+  refresh();
+}
+[].forEach.call(document.querySelectorAll("[data-pl]"),function(x){x.addEventListener("click",function(){L=x.dataset.pl;try{localStorage.setItem("sz_lang",L)}catch(e){}build()})});
+addEventListener("hashchange",function(){if(location.hash==="#profile"){var t=load();if(!S.lvl&&t.lvl){}try{var lv=JSON.parse(localStorage.getItem("sz_level")||"null");if(lv&&lv.l&&(S.auto||!S.lvl)){var v=lv.l.replace("+","").slice(0,2);if(LV.indexOf(v)>=0){S.lvl=v;S.auto=true}}}catch(e){}build()}});
+build();
+})();
+</script>
+<script>
+(function(){
+var T={
+ru:{h:"Бесплатные инструменты IELTS",p:"Калькуляторы баллов и генератор вопросов для Speaking. Без регистрации.",t1:"Итоговый Band",n1:"Среднее арифметическое четырёх частей, округлённое до ближайшего 0.5.",names:["Listening","Reading","Writing","Speaking"],t2:"Listening и Reading: баллы в Band",l:"Правильных ответов в Listening (0–40)",r:"Правильных ответов в Reading (0–40)",n2:"Перевод Academic приблизительный: шкала меняется от теста к тесту.",t3:"Генератор вопросов Speaking",nq:"Новый вопрос",n3:"Ответьте вслух за 30–90 секунд и запишите себя на телефон.",part:"Часть",pre:"Расскажите, что это, когда это было, и объясните, почему это важно для вас."},
+uz:{h:"Bepul IELTS vositalari",p:"Ball kalkulyatorlari va Speaking savollari generatori. Ro\u02BByxatdan o\u02BBtmasdan.",t1:"Umumiy Band",n1:"To\u02BBrt qismning o\u02BBrtacha qiymati, eng yaqin 0.5 gacha yaxlitlanadi.",names:["Listening","Reading","Writing","Speaking"],t2:"Listening va Reading: ballni Bandga o\u02BBtkazish",l:"Listening to\u02BBg\u02BBri javoblar (0\u201340)",r:"Reading to\u02BBg\u02BBri javoblar (0\u201340)",n2:"Academic uchun taxminiy o\u02BBtkazish: shkala testdan testga o\u02BBzgaradi.",t3:"Speaking savollari generatori",nq:"Yangi savol",n3:"30\u201390 soniya ovoz chiqarib javob bering va telefonga yozib oling.",part:"Qism",pre:"Bu nima ekanini, qachon bo\u02BBlganini va nega siz uchun muhimligini tushuntiring."},
+en:{h:"Free IELTS tools",p:"Band score calculators and a Speaking question generator. No sign-up.",t1:"Overall Band",n1:"The average of the four parts, rounded to the nearest 0.5.",names:["Listening","Reading","Writing","Speaking"],t2:"Listening and Reading: raw score to Band",l:"Listening correct answers (0\u201340)",r:"Reading correct answers (0\u201340)",n2:"Academic conversion is approximate: the scale varies between tests.",t3:"Speaking question generator",nq:"New question",n3:"Answer out loud for 30\u201390 seconds and record yourself.",part:"Part",pre:"Say what it is, when it happened, and explain why it matters to you."}};
+var P1=["Do you work or study?","What do you do in your free time?","Tell me about your hometown.","Do you prefer mornings or evenings?","Do you like cooking?","How do you usually spend your weekends?","What kind of weather do you like?","Do you use social media much?","Is public transport good in your city?","What is your favourite food?","Do you enjoy shopping?","How do you keep in touch with friends?","Do you like reading?","What did you do yesterday?","Would you like to live abroad?","What technology do you use most?"];
+var P2=["Describe a place you like to visit in your free time.","Describe a person who has influenced you.","Describe a skill you would like to learn.","Describe a time when you helped someone.","Describe a difficult decision you made.","Describe a book or film that you enjoyed.","Describe a journey you remember well.","Describe a piece of technology you use every day."];
+var P3=["Some people say technology is making us less intelligent. To what extent do you agree?","Should governments spend more on the arts or on science?","Why do some people find it so hard to change their habits?","Is competition good for children?","How might the role of teachers change over the next twenty years?","Why do people choose to live in big cities?","Do you think people are happier now than in the past?","What are the advantages and disadvantages of working from home?","What makes a society developed? Is GDP the right measure?","Is privacy a luxury or a right in the digital age?","Can money buy happiness beyond a certain point?","Is it better to be a specialist or a generalist?","Should university be free for everyone?","Is it ethical to use AI to do your homework?","Should celebrities be role models?","If everyone worked four days a week, who would benefit most and who would lose out?"];
+var LB=[[39,9],[37,8.5],[35,8],[32,7.5],[30,7],[26,6.5],[23,6],[18,5.5],[16,5],[13,4.5],[11,4],[0,3.5]];
+var RB=[[39,9],[37,8.5],[35,8],[33,7.5],[30,7],[27,6.5],[23,6],[19,5.5],[15,5],[13,4.5],[10,4],[0,3.5]];
+var $=function(s){return document.querySelector(s)};
+var L='ru',part=1;
+try{var sv=localStorage.getItem('sz_lang');if(T[sv])L=sv;else{var n=(navigator.language||'ru').slice(0,2);if(T[n])L=n}}catch(e){}
+function band(tab,v){v=Math.max(0,Math.min(40,parseInt(v,10)||0));for(var i=0;i<tab.length;i++)if(v>=tab[i][0])return tab[i][1]}
+function f(x){return x.toFixed(1)}
+var opts='';for(var b=4;b<=9;b+=.5)opts+='<option value="'+b+'"'+(b===7?' selected':'')+'>'+f(b)+'</option>';
+function overall(){var sum=0;for(var i=0;i<4;i++)sum+=parseFloat($('#sb'+i).value);$('#o1r').textContent=f(Math.round(sum/4*2)/2)}
+function build(){var g=$('#o1g');g.textContent='';for(var i=0;i<4;i++){var d=document.createElement('div');var l=document.createElement('label');l.textContent=T[L].names[i];var s=document.createElement('select');s.className='sel';s.id='sb'+i;s.innerHTML=opts;s.onchange=overall;d.appendChild(l);d.appendChild(s);g.appendChild(d)}overall()}
+function keep(){var v=[];for(var i=0;i<4;i++){var e=$('#sb'+i);v.push(e?e.value:'7')}return v}
+function text(){var d=T[L],v=keep();
+  $('#oH').textContent=d.h;$('#oP').textContent=d.p;$('#o1t').textContent=d.t1;$('#o1n').textContent=d.n1;
+  build();for(var i=0;i<4;i++)$('#sb'+i).value=v[i];overall();
+  $('#o2t').textContent=d.t2;$('#o2l').textContent=d.l;$('#o2r').textContent=d.r;$('#o2n').textContent=d.n2;
+  $('#o3t').textContent=d.t3;$('#o3b').textContent=d.nq;$('#o3n').textContent=d.n3;
+  [].forEach.call(document.querySelectorAll('[data-ol]'),function(x){x.setAttribute('aria-pressed',x.dataset.ol===L)});
+  var pp=$('#o3p');pp.textContent='';[1,2,3].forEach(function(k){var b=document.createElement('button');b.type='button';b.textContent=d.part+' '+k;b.setAttribute('aria-pressed',k===part);b.onclick=function(){part=k;text();ask()};pp.appendChild(b)});
+}
+function ask(){var a=part===1?P1:part===2?P2:P3;var q=a[Math.floor(Math.random()*a.length)];$('#o3q').textContent=part===2?q+' '+T[L].pre:q}
+function calc(){$('#oLb').textContent=f(band(LB,$('#oL').value));$('#oRb').textContent=f(band(RB,$('#oR').value))}
+[].forEach.call(document.querySelectorAll('[data-ol]'),function(x){x.addEventListener('click',function(){L=x.dataset.ol;try{localStorage.setItem('sz_lang',L)}catch(e){}text()})});
+$('#oL').oninput=calc;$('#oR').oninput=calc;$('#o3b').onclick=ask;
+text();calc();ask();
+})();
+</script>
+<script>
+(function(){
+var API='/api/chat';
+var $=function(s){return document.querySelector(s)};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function pick(a){return a[Math.floor(Math.random()*a.length)]}
+var L='ru';
+function readLang(){try{var sv=localStorage.getItem('sz_lang');if(sv==='ru'||sv==='uz'||sv==='en')return sv;var n=(navigator.language||'ru').slice(0,2);if(n==='uz'||n==='en')return n}catch(e){}return 'ru'}
+L=readLang();
+function setLang(l){L=l;try{localStorage.setItem('sz_lang',l)}catch(e){}}
+
+/* ================= UI TEXT ================= */
+var U={
+ru:{
+ mH:"Пробники IELTS",mP:"Мини-пробники Reading и Listening с таймером и автопроверкой. Writing и Speaking тренируйте на вкладке «Практика».",
+ tabs:[["reading","Reading","10 вопросов · 15 мин"],["listening","Listening","9 вопросов · 8 мин"],["writing","Writing","Практика →"],["speaking","Speaking","Практика →"]],
+ start:"Начать",submit:"Сдать",again:"Пройти ещё раз",score:"Результат",band:"Примерный Band",of:"из",your:"Ваш ответ",corr:"Правильный ответ",
+ bandNote:"Это мини-тест, шкала приблизительная. Официальный балл дадут только на настоящем экзамене.",
+ play:"Прослушать",plays:"Прослушиваний осталось",noAudio:"Ваш браузер не умеет озвучивать текст. Попросите преподавателя прочитать транскрипт.",transcript:"Транскрипт",
+ readIntro:"Прочитайте текст и ответьте на вопросы. На всё 15 минут.",lisIntro:"Нажмите «Прослушать» (можно 2 раза), затем ответьте. На всё 8 минут.",typeAns:"Ответ (не более двух слов или цифр)",
+ mNote:"Тексты, вопросы и задания написаны Speakyz с нуля и не являются материалами настоящего IELTS.",variant:"Вариант",
+ pH:"Практика Speaking и Writing",pP:"Темы как на экзамене, с идеями и лексикой. Включите таймер, говорите и сразу прослушайте себя.",
+ pTabs:[["speaking","Генератор тем Speaking","Part 1, 2 и 3 с записью голоса"],["writing","Генератор тем Writing","Task 1 и Task 2 с таймером и счётчиком слов"]],
+ part:"Часть",newTopic:"Новая тема",hints:"Идеи и лексика",ideas:"Идеи",vocab:"Полезные слова и фразы",
+ prep:"Подготовка",talk:"Говорите",rec:"Идёт запись",rStart:"Начать с таймером и записью",rStop:"Остановить",
+ listen:"Прослушайте себя",dl:"Скачать запись",noMic:"Микрофон недоступен или запрещён в браузере. Можно просто говорить вслух по таймеру.",
+ sTx:"Что вы сказали (подставляется автоматически, если браузер умеет распознавать речь; можно поправить)",
+ aiFb:"Разбор от ИИ",aiBusy:"ИИ проверяет...",aiShort:"Нужно хотя бы 20 слов.",aiShortW:"Нужно хотя бы 50 слов.",aiFail:"ИИ-проверка пока недоступна. Покажите работу преподавателю или попробуйте позже.",
+ wType1:"Task 1 · 20 мин · от 150 слов",wType2:"Task 2 · 40 мин · от 250 слов",words:"слов",task:"Задание",wStart:"Запустить таймер",wDone:"Время вышло. Можно получить разбор.",
+ pNote:"Все темы и задания написаны Speakyz с нуля и не являются материалами настоящего IELTS. Оценки ИИ ориентировочные.",
+ tH:"Support Teacher",tP:"Личный ИИ-учитель: объясняет грамматику, исправляет ошибки, тренирует Speaking и Writing на уровне Band 9. Это искусственный интеллект, а не человек.",
+ tName:"Support Teacher",tRole:"ИИ-учитель английского и IELTS",
+ tModes:[["free","Вопрос учителю"],["grammar","Исправь мой текст"],["speaking","Говорим по-английски"],["writing","Проверь Writing"],["vocab","Слова и фразы"]],
+ tHi:{free:"Привет! Я Support Teacher. Спросите про грамматику, IELTS или курс, и я объясню шаг за шагом.",grammar:"Пришлите любой английский текст, и я исправлю ошибки и объясню каждую из них.",speaking:"Давайте поговорим по-английски. Нажмите на микрофон и скажите что-нибудь, а я отвечу голосом и поправлю ошибки. Можно начать с «Hello, can we practise IELTS Speaking Part 1?»",writing:"Вставьте своё эссе вместе с заданием. Я оценю его по четырём критериям IELTS и покажу, как поднять балл.",vocab:"Назовите тему (например, Education или Environment), и я дам слова, коллокации и примеры для band 7+."},
+ tSug:{free:["Как поднять Speaking с 6 до 7?","Объясни Present Perfect","Какой курс мне выбрать?"],grammar:["Yesterday I go to the shop and buyed some bread.","I am agree with this opinion."],speaking:["Hello, can we practise IELTS Speaking Part 1?","Ask me a Part 3 question about technology."],writing:["Как построить Task 2 за 40 минут?"],vocab:["Environment","Education","Technology"]},
+ tPh:"Напишите сообщение...",tSend:"Отправить",tMic:"Говорить",tMicOn:"Слушаю...",tVoice:"Озвучивать ответы",tSpeak:"Прослушать",tErr:"Учитель временно недоступен. Напишите нам в Telegram: @speakyz_lern_english_bot",tClear:"Начать заново",tNoSR:"Ваш браузер не умеет распознавать речь. Попробуйте Chrome или пишите текстом.",
+ tNote:"ИИ может ошибаться. Оценки ориентировочные, а важные вопросы по курсам и оплате решайте через Telegram-бот."},
+uz:{
+ mH:"IELTS sinov testlari",mP:"Taymer va avtomatik tekshiruvli Reading va Listening mini-testlari. Writing va Speaking ni «Amaliyot» boʻlimida mashq qiling.",
+ tabs:[["reading","Reading","10 savol · 15 daq"],["listening","Listening","9 savol · 8 daq"],["writing","Writing","Amaliyot →"],["speaking","Speaking","Amaliyot →"]],
+ start:"Boshlash",submit:"Topshirish",again:"Qaytadan",score:"Natija",band:"Taxminiy Band",of:"/",your:"Javobingiz",corr:"Toʻgʻri javob",
+ bandNote:"Bu mini-test, shkala taxminiy. Rasmiy ballni faqat haqiqiy imtihon beradi.",
+ play:"Eshitish",plays:"Qolgan eshitishlar",noAudio:"Brauzeringiz matnni ovozlashtira olmaydi. Oʻqituvchidan transkriptni oʻqib berishni soʻrang.",transcript:"Transkript",
+ readIntro:"Matnni oʻqing va savollarga javob bering. Hammasi uchun 15 daqiqa.",lisIntro:"«Eshitish» tugmasini bosing (2 marta mumkin), keyin javob bering. 8 daqiqa.",typeAns:"Javob (koʻpi bilan ikki soʻz yoki raqam)",
+ mNote:"Matnlar, savollar va topshiriqlar Speakyz tomonidan noldan yozilgan va haqiqiy IELTS materiali emas.",variant:"Variant",
+ pH:"Speaking va Writing amaliyoti",pP:"Imtihondagidek mavzular, gʻoyalar va lugʻat bilan. Taymerni yoqing, gapiring va oʻzingizni darhol eshiting.",
+ pTabs:[["speaking","Speaking mavzulari generatori","1, 2, 3-qism, ovoz yozish bilan"],["writing","Writing mavzulari generatori","Task 1 va Task 2, taymer va soʻz hisoblagich bilan"]],
+ part:"Qism",newTopic:"Yangi mavzu",hints:"Gʻoyalar va lugʻat",ideas:"Gʻoyalar",vocab:"Foydali soʻz va iboralar",
+ prep:"Tayyorgarlik",talk:"Gapiring",rec:"Yozilmoqda",rStart:"Taymer va yozuv bilan boshlash",rStop:"Toʻxtatish",
+ listen:"Oʻzingizni eshiting",dl:"Yozuvni yuklab olish",noMic:"Mikrofon mavjud emas yoki brauzerda taqiqlangan. Taymer bilan ovoz chiqarib gapirishingiz mumkin.",
+ sTx:"Nima dedingiz (brauzer nutqni taniy olsa, avtomatik toʻldiriladi; tuzatishingiz mumkin)",
+ aiFb:"Sunʼiy intellekt tahlili",aiBusy:"Tekshirilmoqda...",aiShort:"Kamida 20 soʻz kerak.",aiShortW:"Kamida 50 soʻz kerak.",aiFail:"Sunʼiy intellekt tekshiruvi hozircha mavjud emas. Ishni oʻqituvchiga koʻrsating yoki keyinroq urinib koʻring.",
+ wType1:"Task 1 · 20 daq · kamida 150 soʻz",wType2:"Task 2 · 40 daq · kamida 250 soʻz",words:"soʻz",task:"Topshiriq",wStart:"Taymerni yoqish",wDone:"Vaqt tugadi. Tahlil olishingiz mumkin.",
+ pNote:"Barcha mavzu va topshiriqlar Speakyz tomonidan noldan yozilgan va haqiqiy IELTS materiali emas. Sunʼiy intellekt baholari taxminiy.",
+ tH:"Support Teacher",tP:"Shaxsiy sunʼiy intellekt oʻqituvchi: grammatikani tushuntiradi, xatolarni tuzatadi, Speaking va Writing ni Band 9 darajasida mashq qildiradi. Bu sunʼiy intellekt, inson emas.",
+ tName:"Support Teacher",tRole:"Ingliz tili va IELTS boʻyicha AI oʻqituvchi",
+ tModes:[["free","Oʻqituvchiga savol"],["grammar","Matnimni tuzat"],["speaking","Inglizcha gaplashamiz"],["writing","Writing tekshir"],["vocab","Soʻz va iboralar"]],
+ tHi:{free:"Salom! Men Support Teacher. Grammatika, IELTS yoki kurs haqida soʻrang, bosqichma-bosqich tushuntiraman.",grammar:"Istalgan inglizcha matnni yuboring, xatolarni tuzatib, har birini tushuntiraman.",speaking:"Inglizcha gaplashamiz. Mikrofonni bosing va biror narsa ayting, men ovoz bilan javob berib, xatolarni tuzataman. «Hello, can we practise IELTS Speaking Part 1?» dan boshlashingiz mumkin.",writing:"Insho va topshiriqni birga joylang. IELTS ning toʻrt mezoni boʻyicha baholab, ballni qanday oshirishni koʻrsataman.",vocab:"Mavzuni ayting (masalan, Education yoki Environment), men band 7+ uchun soʻzlar, birikmalar va misollar beraman."},
+ tSug:{free:["Speaking ni 6 dan 7 ga qanday koʻtaraman?","Present Perfect ni tushuntir","Qaysi kursni tanlay?"],grammar:["Yesterday I go to the shop and buyed some bread.","I am agree with this opinion."],speaking:["Hello, can we practise IELTS Speaking Part 1?","Ask me a Part 3 question about technology."],writing:["Task 2 ni 40 daqiqada qanday tuzaman?"],vocab:["Environment","Education","Technology"]},
+ tPh:"Xabar yozing...",tSend:"Yuborish",tMic:"Gapirish",tMicOn:"Tinglayapman...",tVoice:"Javoblarni ovozlashtirish",tSpeak:"Eshitish",tErr:"Oʻqituvchi vaqtincha ishlamayapti. Telegramda yozing: @speakyz_lern_english_bot",tClear:"Qaytadan boshlash",tNoSR:"Brauzeringiz nutqni tanimaydi. Chrome da urinib koʻring yoki matn yozing.",
+ tNote:"Sunʼiy intellekt xato qilishi mumkin. Baholar taxminiy, kurs va toʻlov masalalari Telegram-bot orqali hal qilinadi."},
+en:{
+ mH:"IELTS mock tests",mP:"Mini Reading and Listening mocks with a timer and instant marking. Train Writing and Speaking on the Practice tab.",
+ tabs:[["reading","Reading","10 questions · 15 min"],["listening","Listening","9 questions · 8 min"],["writing","Writing","Practice →"],["speaking","Speaking","Practice →"]],
+ start:"Start",submit:"Submit",again:"Try again",score:"Score",band:"Approximate Band",of:"of",your:"Your answer",corr:"Correct answer",
+ bandNote:"This is a mini test and the scale is approximate. Only the real exam gives an official score.",
+ play:"Play audio",plays:"Plays left",noAudio:"Your browser cannot read text aloud. Ask a teacher to read the transcript.",transcript:"Transcript",
+ readIntro:"Read the text and answer the questions. You have 15 minutes.",lisIntro:"Press Play (twice at most), then answer. You have 8 minutes.",typeAns:"Answer (no more than two words or numbers)",
+ mNote:"All texts, questions and tasks were written by Speakyz from scratch and are not real IELTS material.",variant:"Variant",
+ pH:"Speaking and Writing practice",pP:"Exam-style topics with ideas and vocabulary. Start the timer, speak, and listen back to yourself right away.",
+ pTabs:[["speaking","Speaking topic generator","Parts 1, 2 and 3 with voice recording"],["writing","Writing topic generator","Task 1 and Task 2 with a timer and word counter"]],
+ part:"Part",newTopic:"New topic",hints:"Ideas and vocabulary",ideas:"Ideas",vocab:"Useful words and phrases",
+ prep:"Preparation",talk:"Speak",rec:"Recording",rStart:"Start with timer and recording",rStop:"Stop",
+ listen:"Listen to yourself",dl:"Download recording",noMic:"The microphone is unavailable or blocked in your browser. You can still speak out loud against the timer.",
+ sTx:"What you said (filled in automatically if your browser can recognise speech; you can edit it)",
+ aiFb:"AI feedback",aiBusy:"AI is checking...",aiShort:"Write at least 20 words.",aiShortW:"Write at least 50 words.",aiFail:"AI feedback is not available yet. Show your work to a teacher or try later.",
+ wType1:"Task 1 · 20 min · 150+ words",wType2:"Task 2 · 40 min · 250+ words",words:"words",task:"Task",wStart:"Start timer",wDone:"Time is up. You can get feedback now.",
+ pNote:"All topics and tasks were written by Speakyz from scratch and are not real IELTS material. AI scores are estimates.",
+ tH:"Support Teacher",tP:"Your personal AI teacher: explains grammar, corrects mistakes, and coaches Speaking and Writing at a Band 9 level. This is an AI, not a human.",
+ tName:"Support Teacher",tRole:"AI teacher for English and IELTS",
+ tModes:[["free","Ask the teacher"],["grammar","Fix my text"],["speaking","Let's speak English"],["writing","Check my Writing"],["vocab","Words and phrases"]],
+ tHi:{free:"Hi! I am Support Teacher. Ask about grammar, IELTS or choosing a course and I will explain step by step.",grammar:"Send any English text and I will correct the mistakes and explain each one.",speaking:"Let's talk in English. Press the microphone and say something. I will answer out loud and fix your mistakes. You can start with \"Hello, can we practise IELTS Speaking Part 1?\"",writing:"Paste your essay together with the task. I will score it on the four IELTS criteria and show you how to raise the band.",vocab:"Give me a topic (for example Education or Environment) and I will give you words, collocations and examples for band 7+."},
+ tSug:{free:["How do I raise my Speaking from 6 to 7?","Explain the Present Perfect","Which course should I choose?"],grammar:["Yesterday I go to the shop and buyed some bread.","I am agree with this opinion."],speaking:["Hello, can we practise IELTS Speaking Part 1?","Ask me a Part 3 question about technology."],writing:["How do I structure Task 2 in 40 minutes?"],vocab:["Environment","Education","Technology"]},
+ tPh:"Type a message...",tSend:"Send",tMic:"Speak",tMicOn:"Listening...",tVoice:"Read answers aloud",tSpeak:"Listen",tErr:"The teacher is unavailable right now. Message us on Telegram: @speakyz_lern_english_bot",tClear:"Start over",tNoSR:"Your browser cannot recognise speech. Try Chrome or type instead.",
+ tNote:"The AI can make mistakes. Scores are estimates, and for courses and payments use the Telegram bot."}};
+
+/* ================= CONTENT (original, written by Speakyz) ================= */
+var TFNG=["True","False","Not Given"];
+var READS=[{title:"The Bicycle Library of Marenfield",mins:15,paras:[
+"Marenfield, a coastal town of about 40,000 people, opened a bicycle library in 2016. Residents can borrow a bike for up to two weeks, free of charge, with only a library card as identification.",
+"The idea came from a retired engineer, Tomas Hale, who noticed that many of the town's shops were losing customers to a large shopping centre ten kilometres away. He believed that cheaper and easier travel within the town centre would help small businesses. The council was doubtful at first and agreed only to a one-year trial, using 60 bicycles donated by local families.",
+"Within six months, all 60 bicycles were borrowed continuously and a waiting list of 200 names had formed. A survey of shop owners found that 38 percent had noticed more customers on weekdays, although only a small number said their income had risen. Critics argued that the benefit was hard to measure, since the summer of the trial was unusually warm.",
+"The scheme now has 320 bicycles and three part-time mechanics, funded by a small grant and a yearly donation from a local bank. Hale says the biggest surprise was not economic: many older residents who had not cycled for decades returned to it, and several began helping the mechanics as volunteers."],
+qs:[
+{t:"tf",q:"Borrowers must pay a deposit to take a bicycle.",a:1},
+{t:"tf",q:"The council agreed to a permanent scheme straight away.",a:1},
+{t:"tf",q:"Tomas Hale used to own a shop in Marenfield.",a:2},
+{t:"tf",q:"The summer of the trial was warmer than usual.",a:0},
+{t:"mc",q:"What problem did Hale want to address?",o:["Traffic jams in the centre","Small shops losing customers","A lack of public transport"],a:1},
+{t:"mc",q:"After six months of the trial,",o:["some bicycles were never used","all bicycles were in use and people were waiting","many bicycles came back damaged"],a:1},
+{t:"mc",q:"According to Hale, the biggest surprise was that",o:["shop income rose sharply","older residents started cycling again","the bank doubled its donation"],a:1},
+{t:"fill",q:"The scheme currently has ____ bicycles.",a:["320"]},
+{t:"fill",q:"The bicycles used in the trial were donated by ____.",a:["local families","families"]},
+{t:"fill",q:"The mechanics are paid from a small grant and a yearly donation from a ____.",a:["bank","local bank"]}]}
+,{title:"The Seed-Sharing Library",mins:15,paras:[
+"In 2014 a small group of gardeners in the town of Hollow Creek began leaving spare vegetable seeds in a wooden box outside the public library. Anyone could take a packet, grow the plants, and return a few seeds from the harvest at the end of the season. Within two years, the box had grown into a shelf, then a dedicated room, staffed entirely by volunteers.",
+"The idea is not entirely new. Seed libraries have existed in various forms since the 1970s, but Hollow Creek's version attracted attention because it kept careful records of which varieties grew well in the local soil and climate. This information, freely shared, saved new gardeners years of trial and error.",
+"Not every attempt succeeded. In the first summer, almost sixty percent of borrowed seeds were never returned, and the volunteers worried the project would quietly fade away. A university researcher who studied the scheme suggested that people felt embarrassed about failed crops and simply avoided coming back. Once the library began framing the return of seeds as optional rather than expected, participation in the growing seasons that followed rose sharply.",
+"Today the library exchanges more than four thousand seed packets a year and has inspired at least a dozen similar projects in nearby towns. The original founder, a retired botanist named Priya Nair, says the project's real success is not the seeds themselves but the conversations between neighbours who might otherwise never have met."],
+qs:[
+{t:"tf",q:"The seed library began inside a purpose-built room.",a:1},
+{t:"tf",q:"Seed libraries were invented in Hollow Creek.",a:1},
+{t:"tf",q:"Keeping records of local growing results helped new gardeners.",a:0},
+{t:"tf",q:"Participation fell once returning seeds became optional.",a:1},
+{t:"mc",q:"Why did many seeds go unreturned in the first summer?",o:["Gardeners moved away from the town","Gardeners felt embarrassed about failed crops","The library lost its records"],a:1},
+{t:"mc",q:"What is Priya Nair's profession?",o:["Librarian","Retired botanist","University researcher"],a:1},
+{t:"mc",q:"According to Nair, the project's main success is",o:["the number of seed varieties collected","the connections it creates between neighbours","the money it has saved gardeners"],a:1},
+{t:"fill",q:"The seed library now exchanges about ____ packets a year.",a:["4000","four thousand"]},
+{t:"fill",q:"In the first summer, about ____ percent of seeds were not returned.",a:["60","sixty"]},
+{t:"fill",q:"The project has inspired about a dozen similar schemes in nearby ____.",a:["towns"]}]}
+,{title:"The Last Telephone Box",mins:15,paras:[
+"Across the United Kingdom, thousands of red telephone boxes have stood unused for years, made obsolete by mobile phones. Rather than removing them, many villages have adopted the boxes and converted them into something else entirely: tiny libraries, defibrillator stations, art galleries, and even the smallest art gallery in the country, a converted box in Shropshire that measures barely two square metres.",
+"The adoption scheme, run by the phone company that still owns most of the boxes, allows a local community group to take over an unused box for a symbolic fee of one pound. The group then becomes responsible for its maintenance, though the structure itself, including the glass and the frame, must usually be kept in its original condition.",
+"Applications rose steadily after the scheme launched, with several thousand boxes adopted within the first decade. Interest was strongest in rural areas, where residents often had the furthest to travel to reach a real library or a shop. Urban councils, by contrast, were sometimes less enthusiastic, citing concerns about vandalism and the cost of monitoring converted boxes in busier neighbourhoods.",
+"Supporters argue that the scheme preserves a piece of design history while giving it a genuinely useful second life. Critics counter that it does little to address the decline of real rural services, such as post offices and bus routes, that the boxes cannot replace."],
+qs:[
+{t:"tf",q:"All adopted telephone boxes are used as libraries.",a:1},
+{t:"tf",q:"Communities pay a large fee to adopt a box.",a:1},
+{t:"tf",q:"The exterior of an adopted box usually must stay unchanged.",a:0},
+{t:"tf",q:"Urban councils were always more enthusiastic than rural ones.",a:1},
+{t:"mc",q:"Where is the smallest art gallery mentioned in the passage?",o:["London","Shropshire","Scotland"],a:1},
+{t:"mc",q:"Why was interest strongest in rural areas?",o:["Rural boxes were cheaper to adopt","Residents often travelled far for services","Rural councils offered grants"],a:1},
+{t:"mc",q:"What is one criticism of the scheme?",o:["It damages the original design of the boxes","It fails to replace declining rural services","It is too expensive for most communities"],a:1},
+{t:"fill",q:"A community can adopt a box for a symbolic fee of ____ pound.",a:["1","one"]},
+{t:"fill",q:"Several ____ boxes were adopted within the first decade.",a:["thousand","thousands"]},
+{t:"fill",q:"Urban councils raised concerns about cost and ____.",a:["vandalism"]}]}
+,{title:"Why Some Offices Are Going Quiet",mins:15,paras:[
+"A growing number of companies are redesigning their offices around a simple idea: silence should be available on demand. The trend, sometimes called quiet-zoning, divides open-plan floors into sections where conversation and phone calls are discouraged, alongside collaborative areas where noise is expected and accepted.",
+"The shift follows years of complaints about open-plan offices, which were originally introduced to encourage collaboration but have instead been blamed by many employees for constant interruption. Surveys conducted by workplace researchers consistently rank noise as one of the top three complaints about modern offices, alongside temperature and a lack of privacy.",
+"Early adopters report mixed results. One technology company that introduced strict quiet zones found that focused work improved, measured by a reduction in the average time needed to complete coding tasks, but some staff felt the rules created an atmosphere that was unfriendly and overly formal. In response, the company relaxed its policy, allowing quiet zones to operate only during fixed hours each morning.",
+"Architects who design these spaces note that success depends less on signage and more on genuine buy-in from staff. A quiet zone enforced only by posted rules tends to fail within months, whereas one that employees themselves requested and helped to design is far more likely to last."],
+qs:[
+{t:"tf",q:"Quiet-zoning removes all collaborative spaces from an office.",a:1},
+{t:"tf",q:"Open-plan offices were originally designed to encourage teamwork.",a:0},
+{t:"tf",q:"Noise is rarely mentioned as a complaint in workplace surveys.",a:1},
+{t:"tf",q:"The technology company abandoned quiet zones completely.",a:1},
+{t:"mc",q:"What did the technology company's quiet zones improve?",o:["Employee satisfaction scores","The time needed to complete coding tasks","The number of meetings held"],a:1},
+{t:"mc",q:"Why did the company later relax its quiet-zone policy?",o:["Staff found the atmosphere unfriendly","The zones cost too much to maintain","Managers preferred open discussion"],a:0},
+{t:"mc",q:"According to architects, what makes a quiet zone succeed long-term?",o:["Clear signage throughout the office","Genuine involvement of staff in its design","Strict enforcement by managers"],a:1},
+{t:"fill",q:"Noise ranks among the top ____ complaints about modern offices.",a:["3","three"]},
+{t:"fill",q:"The company's quiet zones now operate only during fixed hours each ____.",a:["morning"]},
+{t:"fill",q:"A quiet zone enforced only by rules tends to fail within ____.",a:["months"]}]}
+,{title:"The Rise of the Repair Cafe",mins:15,paras:[
+"On the first Saturday of every month, a community hall in Dunford fills with broken toasters, torn jackets, and bicycles with flat tyres. Volunteers with experience in electronics, sewing, and mechanics sit at tables, helping owners fix their own belongings rather than throwing them away. The event, known as a repair cafe, now has thousands of equivalents worldwide.",
+"The concept began in Amsterdam in 2009, started by a former journalist who had grown frustrated watching usable appliances end up in landfill simply because repair seemed more expensive or complicated than replacement. The first event attracted only a handful of visitors, but word spread quickly through local environmental groups.",
+"Independent studies of repair cafes have found that roughly seventy percent of items brought in are successfully fixed on the spot, with the rest requiring parts that are not available that day. Organisers stress that the goal is not only to save individual items but to rebuild a culture in which people expect things to be mendable rather than disposable.",
+"Manufacturers have reacted differently to the movement. Some have begun publishing repair manuals and selling spare parts more openly, partly in response to new laws in several countries that require certain products to be designed for easier repair. Others continue to argue that complex modern electronics are too intricate for amateur repair to be realistic or safe."],
+qs:[
+{t:"tf",q:"Repair cafes only accept electronic items.",a:1},
+{t:"tf",q:"The first repair cafe took place in Amsterdam.",a:0},
+{t:"tf",q:"The founder of the repair cafe movement was a former journalist.",a:0},
+{t:"tf",q:"All items brought to a repair cafe are always fixed successfully.",a:1},
+{t:"mc",q:"Why did the founder start the first repair cafe?",o:["He wanted to start a business","He was frustrated by usable items being thrown away","He needed volunteers for a project"],a:1},
+{t:"mc",q:"What proportion of items are typically fixed on the spot?",o:["About thirty percent","About fifty percent","About seventy percent"],a:2},
+{t:"mc",q:"How have some manufacturers responded to the movement?",o:["By opposing all new repair laws","By publishing repair manuals and parts","By closing their repair departments"],a:1},
+{t:"fill",q:"Dunford's repair cafe meets on the first ____ of every month.",a:["saturday"]},
+{t:"fill",q:"The movement began in the city of ____.",a:["amsterdam"]},
+{t:"fill",q:"Some countries now require products to be designed for easier ____.",a:["repair"]}]}
+];
+var LISS=[{title:"Workshop booking",mins:8,
+text:"Good morning, Riverside Community Centre. Hello, I would like to join the photography workshop you advertised. Of course. The workshop runs on Saturdays, starting at ten o'clock and finishing at one. It costs thirty-five pounds, and that includes all materials. Is there a student discount? Yes, students pay twenty-five pounds, but you need to bring your card. Great. Where is it held? In Room Four, on the second floor, next to the cafe. If you arrive early, please do not use the main entrance because it is closed for repairs. Use the side door on Mill Lane. And do I need my own camera? Not necessarily. We have six cameras to borrow, but they go quickly, so reserve one. The teacher is Ms Okafor, and she suggests wearing comfortable shoes, because the group will walk to the river for the second half. Perfect. My name is Daria Petrov, that is P, E, T, R, O, V. Thank you, Ms Petrov. The next workshop starts on the fourteenth of March.",
+qs:[
+{t:"fill",q:"Workshop day: ____",a:["saturday","saturdays"]},
+{t:"fill",q:"Start time: ____",a:["10","ten","10 00","10am","10 am","10 oclock","ten oclock"]},
+{t:"fill",q:"Standard price: £ ____",a:["35","thirty five"]},
+{t:"fill",q:"Student price: £ ____",a:["25","twenty five"]},
+{t:"fill",q:"Room number: ____",a:["4","four"]},
+{t:"mc",q:"Which entrance should be used?",o:["The main entrance","The side door on Mill Lane","The cafe door"],a:1},
+{t:"fill",q:"Number of cameras to borrow: ____",a:["6","six"]},
+{t:"mc",q:"What will the group do in the second half?",o:["Visit a museum","Walk to the river","Edit photos in the cafe"],a:1},
+{t:"fill",q:"Booking name (surname): ____",a:["petrov"]}]}
+,{title:"Booking a cycling tour",mins:8,
+text:"Good morning, Riverside Cycling Tours, how can I help? Hello, I would like to book a tour for this summer. Of course, can I take your name? Daniel Hughes, that is H, U, G, H, E, S. Thank you. And a contact number? It is zero seven seven double oh, nine eight four, three one two. How many people will there be? Three of us, no sorry, four, my brother is coming too. Which date would you like? Saturday the fourteenth of June if possible. I am afraid the fourteenth is fully booked, the next free Saturday is the twenty first. That is fine. The tour starts outside the City Museum at ten o'clock and lasts about three hours, with a stop for refreshments. What is the price? It is thirty pounds per person, but for a group of four or more it comes to twenty five pounds each. Do we need to bring anything? Bikes and helmets are provided, but please bring a waterproof jacket in case the weather changes. One more thing, one of my friends is vegetarian, is that a problem? Not at all, I will make a note. I will send a confirmation by email.",
+qs:[
+{t:"fill",q:"Customer surname: ____",a:["hughes"]},
+{t:"fill",q:"Number of people in the group: ____",a:["4","four"]},
+{t:"fill",q:"Date of the tour: Saturday the ____ of June",a:["21","21st","twenty one","twenty first"]},
+{t:"fill",q:"Starting point: outside the ____",a:["city museum","museum"]},
+{t:"fill",q:"Length of tour: about ____ hours",a:["3","three"]},
+{t:"fill",q:"Price per person in a group of four: £ ____",a:["25","twenty five"]},
+{t:"mc",q:"What should the group bring themselves?",o:["Bikes","Helmets","A waterproof jacket"],a:2},
+{t:"fill",q:"One person in the group is ____.",a:["vegetarian"]},
+{t:"mc",q:"How will the booking be confirmed?",o:["By phone","By email","By post"],a:1}]}
+,{title:"Joining a gym",mins:8,
+text:"Hi, I am calling about membership at Parkview Fitness. Sure, are you interested in a monthly or annual plan? What is the difference in price? Monthly is forty five pounds, and the annual plan works out at thirty two pounds a month if you pay up front. That sounds better. Is there a joining fee? There is usually a joining fee of twenty pounds, but it is waived this month for new members. Great, what facilities are included? The gym floor, both swimming pools, and three weekly classes are included. Classes are extra after that, five pounds each. What are the opening hours? We open at six in the morning and close at eleven at night on weekdays, and on weekends we are open from eight until six. Do I need to book the pool? Only for the smaller pool, which is used for lessons, the main pool is open access. Is parking available? Yes, there are forty spaces at the back of the building, free for members. Can I bring a guest? Members can bring one guest per month for free, after that it is ten pounds per visit.",
+qs:[
+{t:"fill",q:"Monthly membership price: £ ____",a:["45","forty five"]},
+{t:"fill",q:"Annual plan, cost per month: £ ____",a:["32","thirty two"]},
+{t:"fill",q:"Joining fee this month: £ ____",a:["0","free","waived","nothing"]},
+{t:"fill",q:"Number of weekly classes included: ____",a:["3","three"]},
+{t:"mc",q:"Which pool requires booking?",o:["The main pool","The smaller pool","Both pools"],a:1},
+{t:"fill",q:"Weekday closing time: ____",a:["11","11pm","eleven","23:00","11 pm"]},
+{t:"fill",q:"Number of free parking spaces: ____",a:["40","forty"]},
+{t:"mc",q:"How many free guest visits are allowed per month?",o:["None","One","Two"],a:1},
+{t:"fill",q:"Extra guest visits cost £ ____ each.",a:["10","ten"]}]}
+,{title:"University accommodation enquiry",mins:8,
+text:"Good afternoon, Student Housing Office. Hi, I have an offer to study here and I want to ask about accommodation. Congratulations. Are you looking at halls of residence or private housing? Halls, I think, for the first year. We have three halls close to campus, Birchwood, Fenton Court, and Lake View. Birchwood is the cheapest, at ninety eight pounds a week, but it has shared bathrooms. Fenton Court is one hundred and twenty pounds a week with an en suite bathroom. Lake View is the most expensive at one hundred and forty five pounds, but it includes breakfast and dinner. That is helpful, thank you. When is the application deadline? You need to apply by the thirty first of July for the September intake. Is there a deposit? Yes, a deposit of two hundred pounds, which is refunded at the end of the contract if there is no damage. Can I choose my flatmates? You can request to live with up to three named people if they are also applying. Is there a quiet study area in the halls? Each hall has a shared study room, and Lake View also has individual study pods on the ground floor.",
+qs:[
+{t:"fill",q:"Cheapest hall: ____",a:["birchwood"]},
+{t:"fill",q:"Birchwood weekly price: £ ____",a:["98","ninety eight"]},
+{t:"fill",q:"Fenton Court weekly price: £ ____",a:["120","one hundred and twenty","one hundred twenty"]},
+{t:"mc",q:"Which hall includes meals?",o:["Birchwood","Fenton Court","Lake View"],a:2},
+{t:"fill",q:"Application deadline: ____ of July",a:["31","31st","the thirty first","thirty first"]},
+{t:"fill",q:"Deposit amount: £ ____",a:["200","two hundred"]},
+{t:"mc",q:"When is the deposit refunded?",o:["Before moving in","At the end of the contract","After one term"],a:1},
+{t:"fill",q:"Students can request to live with up to ____ named people.",a:["3","three"]},
+{t:"fill",q:"Lake View has individual study ____ on the ground floor.",a:["pods"]}]}
+,{title:"Reporting a lost bag",mins:8,
+text:"Hello, lost property, how can I help? Hi, I left my bag on the number twelve bus yesterday evening. I am sorry to hear that, can you describe it? It is a grey backpack with a red zip on the front pocket. Do you know roughly what time you were travelling? Around half past six, I got on near the train station. Did you keep your ticket? No, I paid by card. That is fine, we can check the records. What was inside the bag? My laptop, a water bottle, and a blue folder with university papers. We do have a grey backpack here, handed in this morning, can you confirm the brand? I think it says Trekster on the strap. Yes, that matches. You will need to bring photo identification to collect it, and it will be held here for fourteen days before it is passed to the main lost property office in town. What are your opening hours? We are open Monday to Friday, nine until five, and Saturday mornings until noon. Is there a fee to collect it? There is a small handling fee of three pounds, payable in cash or by card.",
+qs:[
+{t:"fill",q:"Bus number: ____",a:["12","twelve"]},
+{t:"fill",q:"Colour of the bag: ____",a:["grey","gray"]},
+{t:"fill",q:"Approximate time of travel: ____",a:["6:30","half past six","18:30","6.30"]},
+{t:"mc",q:"How did the caller pay for the bus?",o:["Cash","By card","Did not pay"],a:1},
+{t:"fill",q:"Brand name on the strap: ____",a:["trekster"]},
+{t:"fill",q:"The bag will be held for ____ days.",a:["14","fourteen"]},
+{t:"mc",q:"What must the caller bring to collect the bag?",o:["A bus ticket","Photo identification","A receipt"],a:1},
+{t:"fill",q:"Saturday opening hours: until ____",a:["noon","12","12pm","midday"]},
+{t:"fill",q:"Handling fee: £ ____",a:["3","three"]}]}
+];
+
+var SP1=[
+{t:"Home",q:["Do you live in a house or a flat?","What is your favourite room at home, and why?","Would you like to move to a different home in the future?"],ideas:["Say what type of home and who you live with","Give one thing you like and one thing you would change","Mention the neighbourhood: quiet, central, close to shops"],vocab:["spacious / cramped","a cosy corner","within walking distance","I'd love to upgrade to...","it has a lot of natural light"]},
+{t:"Food",q:["Do you like trying new food?","What did you eat yesterday?","Do you prefer eating at home or in restaurants?"],ideas:["Name one new dish you tried and how it tasted","Compare cooking at home with eating out: cost, time, atmosphere","Mention family recipes or national dishes"],vocab:["mouth-watering","a home-cooked meal","to be a picky eater","I'm keen on spicy food","it's an acquired taste"]},
+{t:"Daily routine",q:["What do you usually do in the evenings?","Are you a morning person or a night owl?","Would you like to change your daily routine?"],ideas:["Describe a typical evening in order","Explain why you work better at one time of day","Say what you would change and the benefit"],vocab:["to wind down","to stick to a routine","I'm a night owl","to squeeze in some exercise","hectic / relaxed schedule"]},
+{t:"Transport",q:["How do you usually get to work or school?","Is public transport good in your city?","Would you like to have a car?"],ideas:["Say how long the journey takes and the cost","Mention the metro, buses, traffic jams","Give pros and cons of owning a car"],vocab:["to commute","rush hour","a reliable service","congested roads","to avoid the crowds"]},
+{t:"Friends and free time",q:["Do you prefer to spend time alone or with friends?","How often do you see your friends?","What do you like doing at weekends?"],ideas:["Choose a side but admit the other has benefits","Give a specific recent example","Mention hobbies, sport, family time"],vocab:["to catch up with","to hang out","a close-knit group","I need some me-time","to recharge my batteries"]},
+{t:"Weather and seasons",q:["What is your favourite season?","Does the weather affect your mood?","What do you do on a very hot or very cold day?"],ideas:["Name the season and two reasons","Describe how you feel in bad weather","Mention clothes, food, activities"],vocab:["scorching / freezing","it's pouring with rain","to be under the weather","a breath of fresh air","the weather lifts my spirits"]}];
+var SP2=[
+{t:"A teacher who helped you",q:"Describe a teacher who helped you learn something.\n\nYou should say:\n- who the person was\n- what they taught you\n- how they taught you\n\nand explain why this was helpful.",ideas:["Start with who and when you met","Give one memorable lesson or moment","End with how it still helps you today"],vocab:["to be a source of inspiration","patient and encouraging","to go the extra mile","it boosted my confidence","I owe a lot to..."]},
+{t:"A relaxing place",q:"Describe a place where you feel relaxed.\n\nYou should say:\n- where it is\n- how often you go there\n- what you do there\n\nand explain why it makes you relaxed.",ideas:["Describe what you can see and hear","Say who you go with or if you go alone","Link the place to a feeling: calm, free, safe"],vocab:["peaceful and secluded","away from the hustle and bustle","to unwind","a tranquil atmosphere","it takes my mind off work"]},
+{t:"A useful app",q:"Describe a useful app on your phone.\n\nYou should say:\n- what it is\n- when you started using it\n- what you use it for\n\nand explain why it is useful.",ideas:["Explain what problem it solves","Mention a time it saved you effort or money","Say whether you would recommend it"],vocab:["user-friendly","I can't live without it","to save time","it keeps me organised","a handy tool"]},
+{t:"A memorable trip",q:"Describe a trip you remember well.\n\nYou should say:\n- where you went\n- who you went with\n- what you did there\n\nand explain why it was memorable.",ideas:["Set the scene: when, where, with whom","Tell the story in order, then one surprise","Finish with what you learnt or felt"],vocab:["a once-in-a-lifetime experience","breathtaking scenery","off the beaten track","it was an eye-opener","to make lasting memories"]}];
+var SP3=[
+{q:"Why do some people find it difficult to learn a foreign language?",ideas:["Lack of practice and fear of mistakes","Not enough time or motivation","Different grammar from the mother tongue"],vocab:["to lack confidence","immersion","a steep learning curve","to be reluctant to speak","consistency is key"]},
+{q:"How has technology changed the way people study?",ideas:["Online courses and apps make learning flexible","Easy access to information, but also distraction","Teachers' role is shifting to guiding"],vocab:["at one's fingertips","remote learning","a double-edged sword","to be easily distracted","personalised learning"]},
+{q:"Should children be taught to manage money at school?",ideas:["Early habits last a lifetime","Parents may not always teach it","It should be practical, not only theory"],vocab:["financial literacy","to budget wisely","to live within one's means","a practical skill","to build good habits"]},
+{q:"Do you think people today have enough free time?",ideas:["Long working hours and commuting","Free time is often spent on phones","Quality of rest matters more than quantity"],vocab:["work-life balance","to be tied up with work","to be glued to a screen","to make time for","burnout"]}];
+
+var WT1=[
+{p:"The table shows the average number of hours per week that three age groups spent on different kinds of exercise in a European town. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",tbl:[["Age group","Walking","Cycling","Gym"],["18-29","3.5","2.0","2.5"],["30-49","3.0","1.5","1.5"],["50+","4.5","0.5","0.5"]],ideas:["Overview first: which activity is most popular and which age group is most active","Compare the highest and lowest figures","Group the data, do not describe every number"],vocab:["the highest figure","by contrast","a marked difference","accounted for","remained the lowest"]},
+{p:"The table shows the percentage of households with internet access in four countries in 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",tbl:[["Country","2010","2020"],["Country A","45","92"],["Country B","62","95"],["Country C","20","68"],["Country D","78","98"]],ideas:["Overview: every country rose, the biggest rise and the highest final figure","Compare the starting points of the countries","Use fractions, doubled, tripled where true"],vocab:["rose sharply","almost doubled","stood at","a threefold increase","the gap narrowed"]},
+{p:"The table shows the average monthly cost, in dollars, of four household expenses for a family in two cities. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",tbl:[["Expense","City X","City Y"],["Rent","900","650"],["Food","400","450"],["Transport","120","80"],["Energy","150","110"]],ideas:["Overview: the biggest expense and which city is more expensive overall","Note the one exception where City Y costs more","Compare ratios, not only numbers"],vocab:["the most expensive item","considerably higher than","slightly less","with the exception of","roughly half"]}];
+var WT2=[
+{p:"Some people think that cities should limit the number of private cars in the centre. Others believe this takes away personal freedom. Discuss both views and give your own opinion.",ideas:["View 1: less pollution, less traffic, safer streets","View 2: freedom of movement, people with disabilities, shops","Opinion: limit cars but improve public transport first"],vocab:["to alleviate congestion","carbon emissions","a viable alternative","to restrict access","on balance, I believe"]},
+{p:"Many people believe that children spend too much time on screens. What are the causes of this, and what can be done to solve the problem?",ideas:["Causes: cheap devices, busy parents, social media, games","Solutions: time limits, outdoor clubs, parents as role models","Link each solution to a cause"],vocab:["to be addicted to","sedentary lifestyle","to set boundaries","to lead by example","detrimental to health"]},
+{p:"Some people say that university education should be free for everyone. To what extent do you agree or disagree?",ideas:["Agree: equal opportunity, skilled workforce","Disagree: costs to taxpayers, less value if free","Give your position clearly in the introduction"],vocab:["equal access","a burden on taxpayers","to pursue higher education","tuition fees","to foster social mobility"]},
+{p:"In some countries, young people are encouraged to take a year off between school and university. Do the advantages of this outweigh the disadvantages?",ideas:["Advantages: maturity, work experience, clearer career choice","Disadvantages: losing study habits, cost, falling behind","State whether advantages outweigh and why"],vocab:["a gap year","to gain life experience","to lose momentum","hands-on experience","a well-informed decision"]}];
+
+/* ================= HELPERS ================= */
+var tmr=null;
+function stopT(){if(tmr){clearInterval(tmr);tmr=null}}
+function fmt(s){var m=Math.floor(s/60),r=s%60;return m+':'+(r<10?'0':'')+r}
+function norm(s){return String(s).toLowerCase().replace(/[£.,'’‘:;!?\-]/g,' ').replace(/\s+/g,' ').replace(/^(the|a) /,'').trim()}
+function toBand(n,t){var p=n/t;return p>=.95?8.5:p>=.85?7.5:p>=.75?7:p>=.65?6.5:p>=.55?6:p>=.45?5.5:p>=.35?5:p>=.25?4.5:p>=.15?4:3.5}
+function countdown(sec,out,done){stopT();var left=sec;out.textContent=fmt(left);out.classList.remove('low');tmr=setInterval(function(){left--;out.textContent=fmt(Math.max(left,0));out.classList.toggle('low',left<=10);if(left<=0){stopT();done&&done()}},1000)}
+function words(s){var m=s.trim().match(/\S+/g);return m?m.length:0}
+function post(payload,cb){
+  fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+  .then(function(r){return r.json().then(function(d){if(!r.ok)throw new Error(d.error||'x');return d})})
+  .then(function(d){cb(null,d.reply)}).catch(function(e){cb(e)})}
+function hintBox(item,d){var dt=el('details','hint');dt.appendChild(el('summary','',d.hints));
+  dt.appendChild(el('b','',d.ideas));var ul=el('ul');item.ideas.forEach(function(x){ul.appendChild(el('li','',x))});dt.appendChild(ul);
+  dt.appendChild(el('b','',d.vocab));var u2=el('ul');item.vocab.forEach(function(x){u2.appendChild(el('li','',x))});dt.appendChild(u2);return dt}
+function tabsRow(host,list,cur,cls,fn){host.textContent='';host.className=cls;list.forEach(function(t){var b=el('button','',t[1]);b.type='button';b.appendChild(el('small','',t[2]));b.setAttribute('aria-pressed',t[0]===cur);b.onclick=function(){fn(t[0])};host.appendChild(b)})}
+
+/* ---- voice recorder (MediaRecorder + optional speech recognition) ---- */
+function Recorder(){
+  var mr=null,chunks=[],stream=null,rc=null,txt='',active=false;
+  var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  return {
+    ok:function(){return !!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia&&window.MediaRecorder)},
+    start:function(cb){
+      navigator.mediaDevices.getUserMedia({audio:true}).then(function(s){
+        stream=s;chunks=[];txt='';active=true;mr=new MediaRecorder(s);
+        mr.ondataavailable=function(e){if(e.data&&e.data.size)chunks.push(e.data)};mr.start();
+        if(SR){try{rc=new SR();rc.lang='en-US';rc.continuous=true;rc.interimResults=false;
+          rc.onresult=function(e){for(var i=e.resultIndex;i<e.results.length;i++){if(e.results[i].isFinal)txt+=e.results[i][0].transcript+' '}};
+          rc.onend=function(){if(active){try{rc.start()}catch(x){}}};rc.onerror=function(){};rc.start()}catch(x){rc=null}}
+        cb(null)}).catch(function(e){cb(e)})},
+    stop:function(cb){active=false;if(rc){try{rc.stop()}catch(x){}rc=null}
+      if(!mr||mr.state==='inactive'){cb(null,'');return}
+      mr.onstop=function(){if(stream)stream.getTracks().forEach(function(t){t.stop()});cb(new Blob(chunks,{type:mr.mimeType||'audio/webm'}),txt.trim())};mr.stop()},
+    abort:function(){active=false;if(rc){try{rc.abort()}catch(x){}rc=null}if(mr&&mr.state!=='inactive'){mr.onstop=null;try{mr.stop()}catch(x){}}if(stream)stream.getTracks().forEach(function(t){t.stop()})}
+  }}
+var curRec=null;
+function killRec(){if(curRec){curRec.abort();curRec=null}}
+
+/* ================= MOCK TESTS (Reading / Listening) ================= */
+var mTab='reading',mBox=$('#mBox'),mReadIdx=0,mLisIdx=0;
+function saveProgress(kind,title,score,total,band){
+  try{var k='sz_progress',a=JSON.parse(localStorage.getItem(k)||'[]');
+    a.push({ts:Date.now(),kind:kind,title:title,score:score,total:total,band:band});
+    if(a.length>200)a=a.slice(a.length-200);
+    localStorage.setItem(k,JSON.stringify(a))}catch(e){}}
+function quiz(cfg,pre,kind){
+  var d=U[L];mBox.textContent='';
+  var intro=el('div','pass');intro.appendChild(el('h3','',cfg.title));intro.appendChild(el('p','',pre));
+  var go=el('button','btn',d.start);go.type='button';intro.appendChild(go);mBox.appendChild(intro);
+  go.onclick=function(){
+    mBox.textContent='';var bar=el('div','mt');bar.appendChild(el('b','',cfg.title));var tm=el('span','tm');bar.appendChild(tm);
+    var sub=el('button','btn y',d.submit);sub.type='button';bar.appendChild(sub);mBox.appendChild(bar);
+    var plays=2,synth=window.speechSynthesis;
+    if(cfg.text){var ap=el('div','pass');var pb=el('button','btn',d.play);pb.type='button';var pc=el('span','',d.plays+': 2');pc.style.marginLeft='12px';
+      ap.appendChild(pb);ap.appendChild(pc);if(!synth||!window.SpeechSynthesisUtterance)ap.appendChild(el('p','note',d.noAudio));
+      pb.onclick=function(){if(plays<=0||!synth)return;plays--;pc.textContent=d.plays+': '+plays;synth.cancel();var u=new SpeechSynthesisUtterance(cfg.text);u.lang='en-GB';u.rate=.92;synth.speak(u);if(plays<=0)pb.disabled=true};mBox.appendChild(ap)}
+    else{var ps=el('div','pass');ps.appendChild(el('h3','',cfg.title));cfg.paras.forEach(function(x){ps.appendChild(el('p','',x))});mBox.appendChild(ps)}
+    var cards=cfg.qs.map(function(q,i){
+      var c=el('div','qc');c.appendChild(el('p','',(i+1)+'. '+q.q));var g=null;
+      if(q.t==='fill'){g=el('input');g.type='text';g.setAttribute('aria-label',d.typeAns);g.autocomplete='off';c.appendChild(g)}
+      else{var opts=q.t==='tf'?TFNG:q.o;g=[];opts.forEach(function(o,k){var lb=el('label');var r=el('input');r.type='radio';r.name='q'+i;r.value=k;lb.appendChild(r);lb.appendChild(document.createTextNode(' '+o));c.appendChild(lb);g.push(r)})}
+      mBox.appendChild(c);return {c:c,g:g,q:q}});
+    var finished=false;
+    function finish(){if(finished)return;finished=true;stopT();if(synth)synth.cancel();sub.disabled=true;var sc=0;
+      cards.forEach(function(o){var q=o.q,ok=false,mine='',ans='';
+        if(q.t==='fill'){mine=o.g.value;ok=q.a.indexOf(norm(mine))>=0;ans=q.a[0];o.g.disabled=true}
+        else{var opts=q.t==='tf'?TFNG:q.o,pk=-1;o.g.forEach(function(r,k){if(r.checked)pk=k;r.disabled=true});mine=pk>=0?opts[pk]:'';ok=pk===q.a;ans=opts[q.a]}
+        if(ok)sc++;o.c.classList.add(ok?'ok':'bad');
+        if(!ok)o.c.appendChild(el('small','',d.your+': '+(mine||'-')+' · '+d.corr+': '+ans))});
+      var bandVal=toBand(sc,cfg.qs.length);
+      if(kind)saveProgress(kind,cfg.title,sc,cfg.qs.length,bandVal);
+      var res=el('div','pass');res.appendChild(el('h3','',d.score+': '+sc+' '+d.of+' '+cfg.qs.length));
+      var bn=el('div','big',bandVal.toFixed(1));bn.appendChild(el('small','',d.band));res.appendChild(bn);res.appendChild(el('p','note',d.bandNote));
+      if(cfg.text){res.appendChild(el('b','',d.transcript));res.appendChild(el('p','',cfg.text))}
+      var ag=el('button','btn g',d.again);ag.type='button';ag.style.color='#1D1D1F';ag.onclick=renderMock;res.appendChild(ag);
+      mBox.appendChild(res);res.scrollIntoView({behavior:'smooth',block:'start'})}
+    sub.onclick=finish;countdown(cfg.mins*60,tm,finish)}}
+function renderMock(){
+  stopT();var d=U[L];
+  $('#mH').textContent=d.mH;$('#mP').textContent=d.mP;$('#mNote').textContent=d.mNote;
+  tabsRow($('#mTabs'),d.tabs,mTab,'mk',function(k){if(k==='writing'||k==='speaking'){pTab=k;location.hash='#practice';return}mTab=k;renderMock()});
+  var mVar=$('#mVariant');
+  if(mTab==='reading'||mTab==='listening'){
+    var arr=mTab==='reading'?READS:LISS,idx=mTab==='reading'?mReadIdx:mLisIdx;
+    var vtabs=arr.map(function(_,n){return [String(n),String(n+1),'']});
+    mVar.hidden=false;mVar.innerHTML='';
+    var lbl=el('span','note',d.variant+': ');lbl.style.marginRight='8px';mVar.appendChild(lbl);
+    var inner=el('span');mVar.appendChild(inner);
+    tabsRow(inner,vtabs,String(idx),'mk',function(k){if(mTab==='reading')mReadIdx=+k;else mLisIdx=+k;renderMock()});
+    quiz(arr[idx],mTab==='reading'?d.readIntro:d.lisIntro,mTab)
+  } else {mVar.hidden=true;mVar.innerHTML=''}}
+
+/* ================= PRACTICE (Speaking / Writing generators) ================= */
+var pTab='speaking',pBox=$('#pBox'),spPart=1;
+function speakingGen(){
+  killRec();stopT();var d=U[L];pBox.textContent='';
+  var sw=el('div','slang');[1,2,3].forEach(function(k){var b=el('button','',d.part+' '+k);b.type='button';b.setAttribute('aria-pressed',k===spPart);b.onclick=function(){spPart=k;speakingGen()};sw.appendChild(b)});pBox.appendChild(sw);
+  var item=spPart===1?pick(SP1):spPart===2?pick(SP2):pick(SP3);
+  var card=el('div','pass');card.appendChild(el('h3','',d.part+' '+spPart+(item.t?': '+item.t:'')));
+  if(spPart===1){var ul=el('ul','qlist');item.q.forEach(function(x){ul.appendChild(el('li','',x))});card.appendChild(ul)}
+  else card.appendChild(el('p','qtext',spPart===2?item.q:item.q));
+  card.appendChild(hintBox(item,d));pBox.appendChild(card);
+
+  var bar=el('div','mt');var lab=el('b','',d.part+' '+spPart);var tm=el('span','tm');var total=spPart===1?120:spPart===2?120:90;tm.textContent=fmt(spPart===2?60:total);
+  var go=el('button','btn y',d.rStart);go.type='button';var stop=el('button','btn',d.rStop);stop.type='button';stop.hidden=true;
+  var nq=el('button','btn g',d.newTopic);nq.type='button';nq.style.color='#1D1D1F';nq.onclick=speakingGen;
+  bar.appendChild(lab);bar.appendChild(tm);bar.appendChild(go);bar.appendChild(stop);bar.appendChild(nq);pBox.appendChild(bar);
+  var st=el('p','note');pBox.appendChild(st);
+  var res=el('div');res.hidden=true;pBox.appendChild(res);
+  var rec=Recorder(),running=false;
+  function finishRec(){
+    if(!running)return;running=false;stopT();stop.hidden=true;go.hidden=false;go.disabled=false;lab.textContent=d.part+' '+spPart;
+    if(!rec.ok()||!curRec){st.textContent=d.noMic;return}
+    rec.stop(function(blob,text){curRec=null;st.textContent='';res.hidden=false;res.textContent='';
+      if(blob&&blob.size){var box=el('div','pass');box.appendChild(el('h3','',d.listen));var au=el('audio');au.controls=true;au.src=URL.createObjectURL(blob);box.appendChild(au);
+        var a=el('a','btn g',d.dl);a.href=au.src;a.download='speakyz-speaking.'+((blob.type||'').indexOf('mp4')>=0?'m4a':'webm');a.style.cssText='color:#1D1D1F;margin-left:12px';box.appendChild(a);res.appendChild(box);setTimeout(function(){au.focus()},50)}
+      res.appendChild(el('p','qn',d.sTx));var ta=el('textarea','wa');ta.style.minHeight='120px';ta.value=text||'';ta.setAttribute('aria-label',d.sTx);res.appendChild(ta);
+      var fb=el('button','btn',d.aiFb);fb.type='button';fb.style.marginTop='14px';res.appendChild(fb);var out=el('div','fb');out.hidden=true;res.appendChild(out);
+      fb.onclick=function(){if(words(ta.value)<20){out.hidden=false;out.textContent=d.aiShort;return}
+        fb.disabled=true;out.hidden=false;out.textContent=d.aiBusy;
+        post({mode:'speaking',lang:L,messages:[{role:'user',content:'Question (Part '+spPart+'): '+(item.q.join?item.q.join(' '):item.q)+'\n\nTranscript of the answer:\n'+ta.value}]},function(e,r){fb.disabled=false;out.textContent=e?d.aiFail:r})};
+      res.scrollIntoView({behavior:'smooth',block:'nearest'})})}
+  function talkPhase(){
+    lab.textContent=d.rec;stop.hidden=false;
+    if(rec.ok()){curRec=rec;rec.start(function(err){if(err){curRec=null;st.textContent=d.noMic}})}else st.textContent=d.noMic;
+    countdown(spPart===2?120:total,tm,finishRec)}
+  go.onclick=function(){running=true;res.hidden=true;res.textContent='';st.textContent='';go.hidden=true;
+    if(spPart===2){lab.textContent=d.prep;stop.hidden=false;countdown(60,tm,talkPhase)}else talkPhase()};
+  stop.onclick=function(){if(lab.textContent===d.prep){stopT();talkPhase();return}finishRec()};
+  if(!rec.ok())st.textContent=d.noMic}
+function writingGen(){
+  killRec();stopT();var d=U[L];pBox.textContent='';
+  var type=writingGen.type||1;
+  var sw=el('div','slang');[[1,d.wType1],[2,d.wType2]].forEach(function(k){var b=el('button','',k[1]);b.type='button';b.setAttribute('aria-pressed',k[0]===type);b.onclick=function(){writingGen.type=k[0];writingGen()};sw.appendChild(b)});pBox.appendChild(sw);
+  var item=type===1?pick(WT1):pick(WT2),mins=type===1?20:40,minW=type===1?150:250;
+  var card=el('div','pass');card.appendChild(el('h3','',d.task+' '+type));card.appendChild(el('p','',item.p));
+  if(item.tbl){var tb=el('table');tb.style.cssText='border-collapse:collapse;width:100%;margin:6px 0 12px';item.tbl.forEach(function(r,ri){var tr=el('tr');r.forEach(function(c){var td=el(ri?'td':'th','',c);td.style.cssText='border:1px solid #D2D2D7;padding:8px 12px;text-align:left';tr.appendChild(td)});tb.appendChild(tr)});card.appendChild(tb)}
+  card.appendChild(hintBox(item,d));pBox.appendChild(card);
+  var bar=el('div','mt');var wc=el('b','','0 / '+minW+' '+d.words);var tm=el('span','tm');tm.textContent=fmt(mins*60);
+  var st=el('button','btn y',d.wStart);st.type='button';var nq=el('button','btn g',d.newTopic);nq.type='button';nq.style.color='#1D1D1F';nq.onclick=writingGen;
+  bar.appendChild(wc);bar.appendChild(tm);bar.appendChild(st);bar.appendChild(nq);pBox.appendChild(bar);
+  var ta=el('textarea','wa');ta.setAttribute('aria-label','Essay');pBox.appendChild(ta);
+  ta.oninput=function(){var n=words(ta.value);wc.textContent=n+' / '+minW+' '+d.words;wc.style.color=n>=minW?'#1FA463':''};
+  st.onclick=function(){st.disabled=true;countdown(mins*60,tm,function(){ta.readOnly=true;out.hidden=false;out.textContent=d.wDone});ta.focus()};
+  var fb=el('button','btn',d.aiFb);fb.type='button';fb.style.marginTop='14px';pBox.appendChild(fb);var out=el('div','fb');out.hidden=true;pBox.appendChild(out);
+  fb.onclick=function(){if(words(ta.value)<50){out.hidden=false;out.textContent=d.aiShortW;return}
+    fb.disabled=true;out.hidden=false;out.textContent=d.aiBusy;
+    post({mode:'writing',lang:L,messages:[{role:'user',content:'Task prompt: '+item.p+(item.tbl?'\nTable data: '+JSON.stringify(item.tbl):'')+'\n\nStudent essay:\n'+ta.value}]},function(e,r){fb.disabled=false;out.textContent=e?d.aiFail:r})}}
+function renderPractice(){
+  stopT();killRec();var d=U[L];
+  $('#pH').textContent=d.pH;$('#pP').textContent=d.pP;$('#pNote').textContent=d.pNote;
+  tabsRow($('#pTabs'),d.pTabs,pTab,'mk two',function(k){pTab=k;renderPractice()});
+  if(pTab==='speaking')speakingGen();else writingGen()}
+
+/* ================= AI TEACHER (full page) ================= */
+var tMode='free',tHist=[],tBusy=false,tVoice=false,tRc=null;
+var TM=$('#tcM'),TI=$('#tcI'),SR2=window.SpeechRecognition||window.webkitSpeechRecognition;
+function bubble(t,c){var b=el('div','am '+c);b.appendChild(el('span','',t));TM.appendChild(b);TM.scrollTop=TM.scrollHeight;
+  if(c==='a'&&t!=='...'){var sp=el('button','sp','🔊');sp.type='button';sp.setAttribute('aria-label',U[L].tSpeak);sp.onclick=function(){speak(b.firstChild.textContent)};b.appendChild(sp)}return b}
+function speak(text){var s=window.speechSynthesis;if(!s||!window.SpeechSynthesisUtterance)return;s.cancel();var u=new SpeechSynthesisUtterance(text);u.lang=/[Ѐ-ӿ]/.test(text)?'ru-RU':'en-GB';u.rate=.95;
+  var av=$('#tcAv');u.onstart=function(){av.classList.add('talk')};u.onend=u.onerror=function(){av.classList.remove('talk')};s.speak(u)}
+function tChips(){var s=$('#tcS');s.textContent='';if(tHist.length)return;U[L].tSug[tMode].forEach(function(t){var b=el('button','',t);b.type='button';b.onclick=function(){tSend(t)};s.appendChild(b)})}
+function tReset(){tHist=[];TM.textContent='';bubble(U[L].tHi[tMode],'a');tChips();var s=window.speechSynthesis;if(s)s.cancel()}
+function tSend(t){t=(t||'').trim();if(!t||tBusy)return;tBusy=true;$('#tcS').textContent='';bubble(t,'u');tHist.push({role:'user',content:t});TI.value='';
+  var w=bubble('...','a');
+  post({mode:'teacher',sub:tMode,lang:L,messages:tHist.slice(-10)},function(e,r){
+    if(e){w.firstChild.textContent=U[L].tErr;tHist.pop()}else{w.firstChild.textContent=r;tHist.push({role:'assistant',content:r});
+      var sp=el('button','sp','🔊');sp.type='button';sp.onclick=function(){speak(r)};w.appendChild(sp);if(tVoice)speak(r)}
+    tBusy=false;TM.scrollTop=TM.scrollHeight})}
+function renderTeacher(){
+  var d=U[L];$('#aiH').textContent=d.tH;$('#aiP').textContent=d.tP;$('#tcName').textContent=d.tName;$('#tcRole').textContent=d.tRole;$('#tcNote').textContent=d.tNote;
+  TI.placeholder=d.tPh;$('#tcG').textContent=d.tSend;$('#tcMicT').textContent=d.tMic;$('#tcVT').textContent=d.tVoice;$('#tcClr').textContent=d.tClear;
+  var md=$('#tcModes');md.textContent='';d.tModes.forEach(function(m){var b=el('button','',m[1]);b.type='button';b.setAttribute('aria-pressed',m[0]===tMode);b.onclick=function(){tMode=m[0];renderTeacher();tReset()};md.appendChild(b)});
+  if(!tHist.length){TM.textContent='';bubble(d.tHi[tMode],'a')}tChips()}
+$('#tcF').addEventListener('submit',function(e){e.preventDefault();tSend(TI.value)});
+$('#tcV').addEventListener('change',function(e){tVoice=e.target.checked;if(!tVoice&&window.speechSynthesis)speechSynthesis.cancel()});
+$('#tcClr').addEventListener('click',tReset);
+$('#tcMic').addEventListener('click',function(){
+  var d=U[L],lbl=$('#tcMicT');
+  if(tRc){try{tRc.stop()}catch(x){}return}
+  if(!SR2){bubble(d.tNoSR,'a');return}
+  try{tRc=new SR2();tRc.lang=tMode==='speaking'?'en-US':(L==='ru'?'ru-RU':L==='uz'?'uz-UZ':'en-US');tRc.interimResults=false;tRc.continuous=false;
+    tRc.onresult=function(e){var s='';for(var i=0;i<e.results.length;i++)s+=e.results[i][0].transcript;TI.value=s};
+    tRc.onend=function(){tRc=null;lbl.textContent=U[L].tMic;$('#tcMic').classList.remove('on');if(TI.value.trim()&&tMode==='speaking')tSend(TI.value)};
+    tRc.onerror=function(){tRc=null;lbl.textContent=U[L].tMic;$('#tcMic').classList.remove('on')};
+    tRc.start();lbl.textContent=d.tMicOn;$('#tcMic').classList.add('on')}catch(x){tRc=null}});
+
+/* ================= language + routing glue ================= */
+function renderAll(){renderMock();renderPractice();renderTeacher();[].forEach.call(document.querySelectorAll('[data-ml]'),function(x){x.setAttribute('aria-pressed',x.dataset.ml===L)})}
+[].forEach.call(document.querySelectorAll('[data-ml]'),function(x){x.addEventListener('click',function(){setLang(x.dataset.ml);tHist=[];renderAll()})});
+addEventListener('hashchange',function(){
+  var h=location.hash||'';stopT();killRec();if(window.speechSynthesis)speechSynthesis.cancel();
+  var nl=readLang();if(nl!==L){L=nl;tHist=[];renderAll()}
+  else if(h==='#practice')renderPractice();
+  if(h==='#teacher'&&!tHist.length)renderTeacher()});
+renderAll();
+})();
+</script>
+<script>
+(function(){
+var CHECKED='31.10.2026';
+/* ug = typical undergraduate minimum; each row cites the official page it came from */
+var ROWS=[
+{u:"University of Oxford",c:"UK",ug:"7.0\u20137.5",note:{ru:"\u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0430\u0434\u0430\u0451\u0442\u0441\u044f \u043d\u0430 \u043a\u0430\u0436\u0434\u043e\u043c \u043a\u0443\u0440\u0441\u0435. \u00abHigher level\u00bb (\u043c\u043d\u043e\u0433\u0438\u0435 \u043a\u0443\u0440\u0441\u044b): 7.5, \u043c\u0438\u043d\u0438\u043c\u0443\u043c 7.0 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0440\u0430\u0437\u0434\u0435\u043b\u0443",uz:"daraja har bir kursda belgilanadi. \u00abHigher level\u00bb (ko\u02BBp kurslar): 7.5, har bir bo\u02BBlimda kamida 7.0",en:"level is set per course. \u201cHigher level\u201d (many courses): 7.5, minimum 7.0 in each component"},src:"ox.ac.uk",url:"https://ox.ac.uk/node/8767107"},
+{u:"University of Cambridge",c:"UK",ug:"7.5",note:{ru:"\u00ab\u043e\u0431\u044b\u0447\u043d\u043e 7.5, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e 7.0 \u0438 \u0432\u044b\u0448\u0435 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0440\u0430\u0437\u0434\u0435\u043b\u0443\u00bb",uz:"\u00abodatda 7.5, har bir bo\u02BBlimda 7.0 va undan yuqori\u00bb",en:"\u201cnormally 7.5 overall, usually 7.0 or above in each element\u201d"},src:"undergraduate.study.cam.ac.uk",url:"https://www.undergraduate.study.cam.ac.uk/apply/before/entry-requirements"},
+{u:"UCL (University College London)",c:"UK",ug:"6.5\u20137.0",note:{ru:"\u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c \u2014 Level 1 (6.5, \u043c\u0438\u043d\u0438\u043c\u0443\u043c 6.0 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0440\u0430\u0437\u0434\u0435\u043b\u0443); \u0441\u0430\u043c\u044b\u0435 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043a\u0443\u0440\u0441\u044b \u0434\u043e 8.0",uz:"ko\u02BBpchilik dasturlar \u2014 Level 1 (6.5, har bir bo\u02BBlimda kamida 6.0); eng talabchan kurslar 8.0 gacha",en:"most programmes use Level 1 (6.5 overall, min 6.0 each); most demanding courses up to 8.0"},src:"ucl.ac.uk",url:"https://www.ucl.ac.uk/prospective-students/undergraduate/how-apply/english-language-requirements"},
+{u:"University of Edinburgh",c:"UK",ug:"6.5",note:{ru:"\u043c\u0438\u043d\u0438\u043c\u0443\u043c 5.5 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0440\u0430\u0437\u0434\u0435\u043b\u0443; \u0434\u043b\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c \u0432\u044b\u0448\u0435",uz:"har bir bo\u02BBlimda kamida 5.5; ba\u02BCzi dasturlar uchun yuqoriroq",en:"minimum 5.5 in each component; higher for some programmes"},src:"ed.ac.uk",url:"https://www.ed.ac.uk/studying/undergraduate/entry-requirements/english-language"},
+{u:"University of Manchester",c:"UK",ug:"6.0\u20137.0",note:{ru:"\u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0444\u0430\u043a\u0443\u043b\u044c\u0442\u0435\u0442\u0430 \u0438 \u043a\u0443\u0440\u0441\u0430; \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430 \u2014 7.0",uz:"fakultet va kursga bog\u02BBliq; tibbiyot \u2014 7.0",en:"varies by faculty and course; Medicine \u2014 7.0"},src:"manchester.ac.uk",url:"https://www.manchester.ac.uk/study/international/admissions/undergraduate-application-process/undergraduate-entry-requirements/"},
+{u:"University of Melbourne",c:"Australia",ug:"6.5",note:{ru:"\u043c\u0438\u043d\u0438\u043c\u0443\u043c 6.0 \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0440\u0430\u0437\u0434\u0435\u043b\u0443. \u0414\u0430\u043d\u043d\u044b\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b \u0434\u043b\u044f \u043c\u0430\u0433\u0438\u0441\u0442\u0440\u0430\u0442\u0443\u0440\u044b (coursework); \u0431\u0430\u043a\u0430\u043b\u0430\u0432\u0440\u0438\u0430\u0442 \u0443\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435",uz:"har bir bo\u02BBlimda kamida 6.0. Sahifa magistratura (coursework) uchun; bakalavriatni saytda aniqlang",en:"minimum 6.0 in each band. Figures are for graduate coursework; check the site for undergraduate"},src:"study.unimelb.edu.au",url:"https://study.unimelb.edu.au/how-to-apply/english-language-requirements/2025-english-language-requirements"},
+{u:"Nazarbayev University",c:"Kazakhstan",ug:"6.0",note:{ru:"\u043c\u0438\u043d\u0438\u043c\u0443\u043c: 6.0 Writing, 5.5 \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435; Foundation-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0430 \u2014 \u043e\u0442 5.5",uz:"minimal: Writing 6.0, qolganlari 5.5; Foundation dasturi \u2014 5.5 dan",en:"minimum: 6.0 Writing, 5.5 others; Foundation programme from 5.5"},src:"apply.nu.edu.kz",url:"https://apply.nu.edu.kz/en/admissions"}
+];
+var T={
+ru:{h:"Требования вузов к IELTS",p:"Типичные минимумы IELTS для бакалавриата в популярных университетах. Это ориентир, а не гарантия: требования различаются по программе и могут меняться.",warn:"Проверяйте точный балл на официальном сайте вуза перед подачей документов. Здесь только отправная точка.",cols:["Университет","Страна","IELTS (бак.)","Примечание","Источник"],foot:"Данные проверены вручную на официальных страницах университетов. Дата проверки: "+CHECKED+". Список пополняется. Многие американские университеты (Harvard, MIT, Stanford) не публикуют жёсткий минимум IELTS, поэтому их здесь нет."},
+uz:{h:"Universitetlarning IELTS talablari",p:"Mashhur universitetlarda bakalavriat uchun odatiy IELTS minimumlari. Bu yo\u02BBnaltiruvchi ma\u02BClumot, kafolat emas: talablar dastur bo\u02BByicha farqlanadi va o\u02BBzgarishi mumkin.",warn:"Hujjat topshirishdan oldin aniq ballni universitetning rasmiy saytidan tekshiring. Bu yerda faqat boshlang\u02BBich nuqta.",cols:["Universitet","Davlat","IELTS (bak.)","Izoh","Manba"],foot:"Ma\u02BBlumotlar universitetlarning rasmiy sahifalarida qo\u02BBlda tekshirilgan. Tekshirilgan sana: "+CHECKED+". Ro\u02BByxat to\u02BBldirilib boriladi. Ko\u02BBpgina AQSH universitetlari (Harvard, MIT, Stanford) qat\u02BBiy IELTS minimumini e\u02BClon qilmaydi, shuning uchun ular bu yerda yo\u02BBq."},
+en:{h:"University IELTS requirements",p:"Typical undergraduate IELTS minimums at popular universities. This is a starting point, not a guarantee: requirements vary by programme and can change.",warn:"Always confirm the exact score on the university's official page before applying. This is only a starting point.",cols:["University","Country","IELTS (UG)","Note","Source"],foot:"Data checked manually on each university's official pages. Checked: "+CHECKED+". The list is being expanded. Many US universities (Harvard, MIT, Stanford) do not publish a fixed IELTS minimum, so they are not listed."}};
+var $=function(s){return document.querySelector(s)};
+var L='ru';try{var sv=localStorage.getItem('sz_lang');if(T[sv])L=sv;else{var n=(navigator.language||'ru').slice(0,2);if(T[n])L=n}}catch(e){}
+function render(){
+  var d=T[L];$('#uvH').textContent=d.h;$('#uvP').textContent=d.p;$('#uvWarn').textContent=d.warn;$('#uvFoot').textContent=d.foot;
+  [].forEach.call(document.querySelectorAll('[data-ul]'),function(x){x.setAttribute('aria-pressed',x.dataset.ul===L)});
+  var box=$('#uvTable');box.innerHTML='';
+  var wrap=document.createElement('div');wrap.className='uvw';
+  var tbl=document.createElement('table');tbl.className='uvt';
+  var thead=document.createElement('tr');d.cols.forEach(function(c){var th=document.createElement('th');th.textContent=c;thead.appendChild(th)});tbl.appendChild(thead);
+  ROWS.forEach(function(r){var tr=document.createElement('tr');
+    var cells=[r.u,r.c,r.ug,r.note[L],null];
+    cells.forEach(function(v,i){var td=document.createElement('td');
+      if(i===4){var a=document.createElement('a');a.href=r.url;a.target='_blank';a.rel='noopener';a.textContent=r.src;td.appendChild(a)}
+      else td.textContent=v;
+      if(i===0)td.className='uvn';if(i===2)td.className='uvb';tr.appendChild(td)});
+    tbl.appendChild(tr)});
+  wrap.appendChild(tbl);box.appendChild(wrap);
+}
+[].forEach.call(document.querySelectorAll('[data-ul]'),function(x){x.addEventListener('click',function(){L=x.dataset.ul;try{localStorage.setItem('sz_lang',L)}catch(e){}render()})});
+render();
+})();
+</script>
+<script>
+(function(){
+var T={
+ru:{h:"Мой прогресс",p:"История ваших пробников Reading и Listening, сохранённая в этом браузере.",chartT:"Band по неделям",listT:"История попыток",clear:"Очистить историю",empty:"Пока нет ни одной попытки. Пройдите пробник во вкладке «Mock tests».",col:["Дата","Тип","Текст","Балл","Band"],local:"Данные хранятся только в этом браузере на этом устройстве и никуда не отправляются.",confirm:"Удалить всю историю? Это нельзя отменить."},
+uz:{h:"Mening progressim",p:"Reading va Listening sinov testlaringiz tarixi, shu brauzerda saqlanadi.",chartT:"Haftalar bo\u02BByicha Band",listT:"Urinishlar tarixi",clear:"Tarixni tozalash",empty:"Hali birorta urinish yo\u02BBq. \u00ABMock tests\u00BB bo\u02BBlimida sinov testini topshiring.",col:["Sana","Turi","Matn","Ball","Band"],local:"Ma\u02BBlumotlar faqat shu brauzerda, shu qurilmada saqlanadi va hech qayerga yuborilmaydi.",confirm:"Butun tarixni o\u02BBchirishni xohlaysizmi? Buni bekor qilib bo\u02BBlmaydi."},
+en:{h:"My progress",p:"Your Reading and Listening mock-test history, saved in this browser.",chartT:"Band over the weeks",listT:"Attempt history",clear:"Clear history",empty:"No attempts yet. Take a mock test on the \u201CMock tests\u201D tab.",col:["Date","Type","Text","Score","Band"],local:"Data is stored only in this browser on this device and is never sent anywhere.",confirm:"Delete all history? This cannot be undone."}};
+var $=function(s){return document.querySelector(s)};
+var L='ru';try{var sv=localStorage.getItem('sz_lang');if(T[sv])L=sv;else{var n=(navigator.language||'ru').slice(0,2);if(T[n])L=n}}catch(e){}
+function load(){try{return JSON.parse(localStorage.getItem('sz_progress')||'[]')}catch(e){return[]}}
+function weekKey(ts){var d=new Date(ts),onejan=new Date(d.getFullYear(),0,1);var wk=Math.ceil((((d-onejan)/864e5)+onejan.getDay()+1)/7);return d.getFullYear()+'-W'+wk}
+function render(){
+  var d=T[L],data=load();
+  $('#pgH').textContent=d.h;$('#pgP').textContent=d.p+' '+d.local;$('#pgChartT').textContent=d.chartT;$('#pgListT').textContent=d.listT;$('#pgClear').textContent=d.clear;
+  [].forEach.call(document.querySelectorAll('[data-gl]'),function(x){x.setAttribute('aria-pressed',x.dataset.gl===L)});
+  var cb=$('#pgChart'),lb=$('#pgList');cb.innerHTML='';lb.innerHTML='';
+  if(!data.length){cb.innerHTML='';var p=document.createElement('p');p.className='note';p.textContent=d.empty;lb.appendChild(p);$('#pgChartBox').style.display='none';return}
+  $('#pgChartBox').style.display='';
+  var byWeek={};data.forEach(function(r){var k=weekKey(r.ts);(byWeek[k]=byWeek[k]||[]).push(r.band)});
+  var weeks=Object.keys(byWeek).sort();
+  var pts=weeks.map(function(k){var a=byWeek[k];return a.reduce(function(s,x){return s+x},0)/a.length});
+  var W=Math.max(320,Math.min(760,weeks.length*70)),H=220,PAD=34;
+  var svg='<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;max-width:'+W+'px;height:auto" role="img">';
+  for(var g=0;g<=9;g+=3){var y=H-PAD-(g/9)*(H-2*PAD);svg+='<line x1="'+PAD+'" y1="'+y+'" x2="'+W+'" y2="'+y+'" stroke="#E3E3E8" stroke-width="1"/><text x="2" y="'+(y+4)+'" font-size="10" fill="#6E6E73">'+g+'</text>'}
+  var pathPts=pts.map(function(v,i){var x=PAD+(weeks.length>1?i/(weeks.length-1):0)*(W-PAD-10);var y=H-PAD-(v/9)*(H-2*PAD);return[x,y]});
+  var dAttr=pathPts.map(function(p,i){return(i===0?'M':'L')+p[0].toFixed(1)+' '+p[1].toFixed(1)}).join(' ');
+  svg+='<path d="'+dAttr+'" fill="none" stroke="#2A3CFF" stroke-width="2.5"/>';
+  pathPts.forEach(function(p,i){svg+='<circle cx="'+p[0].toFixed(1)+'" cy="'+p[1].toFixed(1)+'" r="4" fill="#FF4B2B"/><text x="'+p[0].toFixed(1)+'" y="'+H+'" font-size="9" fill="#6E6E73" text-anchor="middle">'+weeks[i].split('-W')[1]+'</text>'});
+  svg+='</svg>';cb.innerHTML=svg;
+  var tbl=document.createElement('table');tbl.style.cssText='width:100%;border-collapse:collapse';
+  var thead=document.createElement('tr');d.col.forEach(function(c){var th=document.createElement('th');th.textContent=c;th.style.cssText='text-align:left;padding:8px 10px;border-bottom:2px solid #1D1D1F;font-size:.82rem';thead.appendChild(th)});tbl.appendChild(thead);
+  data.slice().reverse().forEach(function(r){var tr=document.createElement('tr');
+    var vals=[new Date(r.ts).toLocaleDateString(),r.kind,r.title,r.score+'/'+r.total,r.band.toFixed(1)];
+    vals.forEach(function(v){var td=document.createElement('td');td.textContent=v;td.style.cssText='padding:9px 10px;border-bottom:1px solid #E3E3E8;font-size:.88rem';tr.appendChild(td)});
+    tbl.appendChild(tr)});
+  lb.appendChild(tbl);
+}
+[].forEach.call(document.querySelectorAll('[data-gl]'),function(x){x.addEventListener('click',function(){L=x.dataset.gl;try{localStorage.setItem('sz_lang',L)}catch(e){}render()})});
+addEventListener('hashchange',function(){if(location.hash==='#progress')render()});
+$('#pgClear').addEventListener('click',function(){if(confirm(T[L].confirm)){try{localStorage.removeItem('sz_progress')}catch(e){}render()}});
+render();
+})();
+</script>
+<script>
+(function(){
+var g=document.getElementById('glang');if(!g)return;
+var attrs=['data-sl-l','data-tl','data-pl','data-ol','data-ml','data-ul','data-gl'];
+function cur(){try{var v=localStorage.getItem('sz_lang');if(v==='ru'||v==='uz'||v==='en')return v}catch(e){}var n=(navigator.language||'ru').slice(0,2);return(n==='uz'||n==='en')?n:'ru'}
+function paint(l){[].forEach.call(g.querySelectorAll('button'),function(b){b.setAttribute('aria-pressed',b.dataset.g===l)})}
+function apply(l){try{localStorage.setItem('sz_lang',l)}catch(e){}
+  attrs.forEach(function(a){[].forEach.call(document.querySelectorAll('['+a+'="'+l+'"]'),function(b){b.click()})});
+  document.documentElement.lang=l;paint(l)}
+[].forEach.call(g.querySelectorAll('button'),function(b){b.addEventListener('click',function(){apply(b.dataset.g)})});
+paint(cur());
+})();
+</script>
+<script>
+(function(){var g=document.querySelectorAll("#tpick input");[].forEach.call(g,function(i){i.addEventListener("change",function(){var v=i.value;[].forEach.call(document.querySelectorAll("#teachers .tile"),function(t){var hit=!v||(t.dataset.s||"").split(" ").indexOf(v)>=0;t.classList.toggle("hit",!!v&&hit);t.classList.toggle("dim",!!v&&!hit)})})})})();
+</script>
+<script>
+(function(){
+var SUB={learn:["courses","ielts","teachers","schedule"],practice:["test","mock","practice","teacher","tools"],plan:["progress","profile","university"]};
+var HUB={};Object.keys(SUB).forEach(function(k){SUB[k].forEach(function(p){HUB[p]=k})});
+var TX={
+ru:{courses:"Курсы",ielts:"IELTS",teachers:"Преподаватели",schedule:"Расписание",test:"Тест уровня",mock:"Пробники",practice:"Speaking и Writing",teacher:"AI-учитель",tools:"Инструменты",progress:"Прогресс",profile:"Профиль",university:"Вузы"},
+uz:{courses:"Kurslar",ielts:"IELTS",teachers:"O\u02BBqituvchilar",schedule:"Jadval",test:"Daraja testi",mock:"Mock testlar",practice:"Speaking va Writing",teacher:"AI o\u02BBqituvchi",tools:"Asboblar",progress:"Progress",profile:"Profil",university:"Universitetlar"},
+en:{courses:"Courses",ielts:"IELTS",teachers:"Teachers",schedule:"Schedule",test:"Level test",mock:"Mock tests",practice:"Speaking and Writing",teacher:"AI Teacher",tools:"Tools",progress:"Progress",profile:"My profile",university:"Universities"}};
+var M={
+ru:{home:["Главная"],learn:["Курсы и преподаватели","Курсы, IELTS, преподаватели, расписание"],practice:["Практика онлайн","Тест уровня, пробники, Speaking и Writing, AI-учитель"],plan:["Мой план","Прогресс, профиль, вузы"],shop:["Магазин","Книги и курсы"],contact:["Контакты","Адрес, Telegram, вопросы"]},
+uz:{home:["Bosh sahifa"],learn:["Kurslar va o\u02BBqituvchilar","Kurslar, IELTS, o\u02BBqituvchilar, jadval"],practice:["Onlayn mashq","Daraja testi, mock testlar, Speaking va Writing, AI o\u02BBqituvchi"],plan:["Mening rejam","Progress, profil, universitetlar"],shop:["Do\u02BBkon","Kitoblar va kurslar"],contact:["Aloqa","Manzil, Telegram, savollar"]},
+en:{home:["Home"],learn:["Courses and teachers","Courses, IELTS, teachers, schedule"],practice:["Practice online","Level test, mock tests, Speaking and Writing, AI teacher"],plan:["My plan","Progress, profile, universities"],shop:["Shop","Books and courses"],contact:["Contact","Address, Telegram, questions"]}};
+function lang(){try{var v=localStorage.getItem("sz_lang");if(TX[v])return v}catch(e){}var n=(navigator.language||"ru").slice(0,2);return TX[n]?n:"ru"}
+var CTA={ru:"Бесплатный урок",uz:"Bepul dars",en:"Free lesson"};
+function paintMenu(){var l=lang();[].forEach.call(document.querySelectorAll(".hcta,.mcta"),function(a){a.textContent=CTA[l]});[].forEach.call(document.querySelectorAll("#menuPanel a[data-m]"),function(a){var t=M[l][a.dataset.m];a.querySelector("b").textContent=t[0];var s=a.querySelector("small");if(s)s.textContent=t[1]||""})}
+function paintSub(){var l=lang();[].forEach.call(document.querySelectorAll(".subnav a"),function(a){a.textContent=TX[l][a.dataset.p]})}
+window.szSub=function(n){var hub=HUB[n];[].forEach.call(document.querySelectorAll(".subnav"),function(s){s.remove()});if(!hub)return;
+  var pg=document.getElementById(n);if(!pg)return;var nav=document.createElement("nav");nav.className="subnav";nav.setAttribute("aria-label","Section");
+  SUB[hub].forEach(function(p){var a=document.createElement("a");a.href="#"+p;a.dataset.p=p;if(p===n)a.setAttribute("aria-current","page");nav.appendChild(a)});
+  pg.insertBefore(nav,pg.firstChild);paintSub()};
+paintMenu();
+var g=document.getElementById("glang");if(g)g.addEventListener("click",function(){setTimeout(function(){paintMenu();paintSub()},0)});
+addEventListener("storage",function(){paintMenu();paintSub()});
+var n=(location.hash||"").replace("#","");if(HUB[n])szSub(n);
+})();
+</script>
+<script>
+(function(){
+var RU={"Speak English out loud.": "Говорите по-английски вслух.", "Teacher": "Учитель", "You": "Вы", "Quick fix": "Быстрая правка", "Book your free first lesson": "Записаться на бесплатный первый урок", "See courses": "Смотреть курсы", "You do not learn to speak by reading rules. You learn by talking, getting corrected, and trying again. At Speakyz every lesson is built around that loop, with small groups, friendly teachers and zero fear of mistakes.": "Говорить не учатся по учебнику с правилами. Говорить учатся, когда говорят, получают исправления и пробуют снова. В Speakyz каждый урок построен вокруг этого круга: малые группы, дружелюбные преподаватели и никакого страха перед ошибками.", "Speak.": "Говорите.", "Fix.": "Исправляйте.", "Repeat.": "Повторяйте.", "Three ways to learn.": "Три способа учиться.", "Pick the format that fits your goal. All of them start with a free lesson.": "Выберите формат под вашу цель. Любой начинается с бесплатного урока.", "Free first course": "Бесплатный первый курс", "Small groups where talking is the lesson.": "Малые группы, где сам урок — это разговор.", "Learn more": "Подробнее", "Exam": "Экзамен", "All four parts, mock tests, feedback.": "Все четыре части, пробные тесты, обратная связь.", "One teacher, one student": "Один преподаватель, один ученик", "Individual lessons": "Индивидуальные уроки", "A plan built around your goal and your time.": "План под вашу цель и ваше время.", "How you start.": "Как начать.", "Take the free lesson": "Придите на бесплатный урок", "Message the Telegram bot and pick a time.": "Напишите нашему Telegram-боту и выберите время.", "Get your level and plan": "Узнайте уровень и получите план", "The teacher checks your speaking and recommends a course.": "Преподаватель проверит вашу речь и посоветует курс.", "Join your group": "Присоединяйтесь к группе", "Study in Yunus-Abad or online.": "Учитесь в Юнусабаде или онлайн.", "Ready to change how you speak?": "Готовы изменить свою речь?", "Start your free lesson": "Начать бесплатный урок", "Courses.": "Курсы.", "Not sure which one? Take the free lesson and we will place you.": "Не знаете, какой выбрать? Приходите на бесплатный урок, и мы подберём группу.", "For anyone who understands English but freezes when speaking.": "Для тех, кто понимает английский, но теряется, когда нужно говорить.", "Daily topics: work, travel, study, life": "Темы каждый день: работа, путешествия, учёба, жизнь", "Instant corrections": "Исправления сразу", "Offline or online": "Офлайн или онлайн", "Register for free": "Записаться бесплатно", "For students aiming at a target band.": "Для тех, кто идёт к нужному баллу.", "All four parts": "Все четыре части", "Timed mock tests": "Пробные тесты на время", "See the program": "Смотреть программу", "Interview, work or relocation goals. Flexible time, offline or online.": "Собеседование, работа или переезд. Гибкое время, офлайн или онлайн.", "Message us": "Напишите нам", "IELTS, part by part.": "IELTS по частям.", "Four skills. We train each one on its own, then together.": "Четыре навыка. Сначала тренируем каждый отдельно, потом вместе.", "Speaking": "Speaking (говорение)", "Three parts, one examiner. Full drills for fluency, vocabulary and pronunciation.": "Три части, один экзаменатор. Полная отработка беглости, лексики и произношения.", "Writing": "Writing (письмо)", "Task 1 and Task 2 with structure templates, corrected line by line.": "Task 1 и Task 2 с шаблонами структуры и разбором каждой строки.", "Listening": "Listening (аудирование)", "Real exam audio, note-taking skills and the classic trap questions.": "Настоящие аудио экзамена, навык записи и классические вопросы-ловушки.", "Reading": "Reading (чтение)", "Speed tactics for the 60-minute limit and every question type.": "Тактика скорости для лимита в 60 минут и все типы вопросов.", "Example path: band 4.5 to 7.5. Tell us your start and your target, and we build the plan.": "Пример пути: от 4.5 до 7.5. Назовите свой старт и цель, и мы построим план.", "Ask about IELTS": "Спросить про IELTS", "Your teachers.": "Ваши преподаватели.", "Friendly, direct and focused on making you talk. Choose a teacher and book a lesson with them.": "Дружелюбные, прямые и нацеленные на то, чтобы вы говорили. Выберите преподавателя и запишитесь к нему на урок.", "What do you want to improve?": "Что хотите улучшить?", "Grammar": "Грамматика", "Discussion and confidence": "Дискуссии и уверенность", "Show all": "Показать всех", "Not sure?": "Не уверены?", "Fill in a one-minute profile": "Заполните мини-профиль за минуту", "and we will match you with a teacher.": "и мы подберём вам преподавателя.", "Best match": "Лучший выбор", "Founder and teacher": "Основатель и преподаватель", "Created Speakyz. Keeps lessons light, funny and full of speaking.": "Создал Speakyz. Уроки у него лёгкие, весёлые и полные разговора.", "Light and funny lessons": "Лёгкие и весёлые уроки", "Message Ozod on Telegram": "Написать Ozod в Telegram", "Positive and sharp. Makes hard grammar stick.": "Позитивный и чёткий. Делает так, что сложная грамматика запоминается.", "Positive and sharp": "Позитивный и чёткий", "Message Kamron on Telegram": "Написать Kamron в Telegram", "Speaking and listening": "Speaking и listening", "I’m Farangiz Khaidarova! Your English support is just one message away. Feel free to reach out anytime, and I’ll get back to you ASAP!": "Я Farangiz Khaidarova! Помощь с английским всего в одном сообщении. Пишите в любое время, отвечу как можно скорее!", "Want to improve your speaking and listening skills? I’m right here to help!": "Хотите улучшить speaking и listening? Я здесь, чтобы помочь!", "I’ll support you not only with grammar but also with broadening your worldview. And remember, English isn’t just about grammar — it’s also about how you see the world and recognize opportunities!": "Я помогу не только с грамматикой, но и с расширением кругозора. И помните: английский — это не только грамматика, но и то, как вы видите мир и замечаете возможности!", "Broader worldview": "Широкий кругозор", "Message Farangiz on Telegram": "Написать Farangiz в Telegram", "Creative, supportive and open-minded. Makes lessons engaging through discussions and interactive activities, while inspiring students to think independently and express their ideas with confidence.": "Творческая, поддерживающая и открытая. Делает уроки увлекательными через дискуссии и интерактивные задания и вдохновляет учеников мыслить самостоятельно и уверенно выражать свои идеи.", "Discussions": "Дискуссии", "Interactive activities": "Интерактивные задания", "Confidence": "Уверенность", "Message Laziza on Telegram": "Написать Laziza в Telegram", "Pick your time.": "Выберите время.", "Choose what suits you. We confirm the exact group and time in Telegram.": "Выберите, что вам подходит. Точную группу и время мы подтвердим в Telegram.", "Course": "Курс", "Individual": "Индивидуально", "Format": "Формат", "Offline": "Офлайн", "Online": "Онлайн", "Any": "Любой", "Time": "Время", "Morning": "Утро", "Afternoon": "День", "Evening": "Вечер", "Copy message": "Скопировать сообщение", "Open Telegram": "Открыть Telegram", "Come to us, or join from home.": "Приходите к нам или занимайтесь из дома.", "Yunus-Abad, 19 kv., near School 257, Tashkent": "Юнусабад, 19 кв., рядом со школой 257, Ташкент", "Group and individual lessons on video": "Групповые и индивидуальные уроки по видеосвязи", "Support and manager": "Поддержка и менеджер", "Telegram bot": "Telegram-бот", "Channel": "Канал", "Questions.": "Вопросы.", "Is the first lesson really free?": "Первый урок правда бесплатный?", "Yes. Register through the Telegram bot and choose a time.": "Да. Запишитесь через Telegram-бота и выберите время.", "Can I study online?": "Можно учиться онлайн?", "Yes. Groups and individual lessons both run online.": "Да. И группы, и индивидуальные уроки проходят онлайн.", "I do not know my level. Is that a problem?": "Я не знаю свой уровень. Это проблема?", "No. The teacher checks your level in the first lesson and suggests a group.": "Нет. Преподаватель определит уровень на первом уроке и предложит группу.", "Do you prepare for IELTS from zero?": "Вы готовите к IELTS с нуля?", "We build a plan from your current level to your target band. Tell us both when you message us.": "Мы строим план от вашего нынешнего уровня до нужного балла. Назовите оба, когда напишете нам.", "Support": "Поддержка", "Manager": "Менеджер", "Telegram channel": "Telegram-канал", "Instagram": "Instagram", "Admin": "Админ"},UZ={"Speak English out loud.": "Ingliz tilida ovoz chiqarib gapiring.", "Teacher": "Oʻqituvchi", "You": "Siz", "Quick fix": "Tezkor tuzatish", "Book your free first lesson": "Birinchi bepul darsga yozilish", "See courses": "Kurslarni koʻrish", "You do not learn to speak by reading rules. You learn by talking, getting corrected, and trying again. At Speakyz every lesson is built around that loop, with small groups, friendly teachers and zero fear of mistakes.": "Gapirishni qoidalarni oʻqib oʻrganib boʻlmaydi. Gapirishni gapirib, tuzatish olib va qayta urinib oʻrganiladi. Speakyz’da har bir dars shu aylanaga qurilgan: kichik guruhlar, samimiy oʻqituvchilar va xato qilishdan qoʻrqmaslik.", "Speak.": "Gapiring.", "Fix.": "Tuzating.", "Repeat.": "Takrorlang.", "Three ways to learn.": "Oʻqishning uch yoʻli.", "Pick the format that fits your goal. All of them start with a free lesson.": "Maqsadingizga mos formatni tanlang. Barchasi bepul dars bilan boshlanadi.", "Free first course": "Birinchi kurs bepul", "Small groups where talking is the lesson.": "Kichik guruhlar: darsning oʻzi — suhbat.", "Learn more": "Batafsil", "Exam": "Imtihon", "All four parts, mock tests, feedback.": "Toʻrtala qism, sinov testlari, fikr-mulohaza.", "One teacher, one student": "Bitta oʻqituvchi, bitta oʻquvchi", "Individual lessons": "Individual darslar", "A plan built around your goal and your time.": "Maqsad va vaqtingizga mos reja.", "How you start.": "Qanday boshlanadi.", "Take the free lesson": "Bepul darsga keling", "Message the Telegram bot and pick a time.": "Telegram-botimizga yozing va vaqtni tanlang.", "Get your level and plan": "Darajangizni bilib, reja oling", "The teacher checks your speaking and recommends a course.": "Oʻqituvchi nutqingizni tekshirib, kurs tavsiya qiladi.", "Join your group": "Guruhingizga qoʻshiling", "Study in Yunus-Abad or online.": "Yunusobodda yoki onlayn oʻqing.", "Ready to change how you speak?": "Nutqingizni oʻzgartirishga tayyormisiz?", "Start your free lesson": "Bepul darsni boshlash", "Courses.": "Kurslar.", "Not sure which one? Take the free lesson and we will place you.": "Qaysi birini tanlashni bilmayapsizmi? Bepul darsga keling, guruhni biz tanlaymiz.", "For anyone who understands English but freezes when speaking.": "Ingliz tilini tushunadigan, lekin gapirishda dovdirab qoladiganlar uchun.", "Daily topics: work, travel, study, life": "Kundalik mavzular: ish, sayohat, oʻqish, hayot", "Instant corrections": "Xatolar darhol tuzatiladi", "Offline or online": "Oflayn yoki onlayn", "Register for free": "Bepul yozilish", "For students aiming at a target band.": "Kerakli ballga intilayotganlar uchun.", "All four parts": "Toʻrtala qism", "Timed mock tests": "Vaqt bilan sinov testlari", "See the program": "Dasturni koʻrish", "Interview, work or relocation goals. Flexible time, offline or online.": "Intervyu, ish yoki koʻchish maqsadlari. Qulay vaqt, oflayn yoki onlayn.", "Message us": "Bizga yozing", "IELTS, part by part.": "IELTS qismma-qism.", "Four skills. We train each one on its own, then together.": "Toʻrtta koʻnikma. Avval har birini alohida, keyin birga mashq qilamiz.", "Speaking": "Speaking (gapirish)", "Three parts, one examiner. Full drills for fluency, vocabulary and pronunciation.": "Uch qism, bitta imtihon oluvchi. Ravonlik, lugʻat va talaffuzni toʻliq mashq qilish.", "Writing": "Writing (yozish)", "Task 1 and Task 2 with structure templates, corrected line by line.": "Task 1 va Task 2: tuzilma shablonlari va har bir qatorni tuzatish.", "Listening": "Listening (tinlab tushunish)", "Real exam audio, note-taking skills and the classic trap questions.": "Haqiqiy imtihon audiolari, yozib borish koʻnikmasi va klassik tuzoq savollar.", "Reading": "Reading (oʻqish)", "Speed tactics for the 60-minute limit and every question type.": "60 daqiqalik limit uchun tezlik taktikasi va barcha savol turlari.", "Example path: band 4.5 to 7.5. Tell us your start and your target, and we build the plan.": "Yoʻl namunasi: 4.5 dan 7.5 gacha. Boshlangʻich va maqsad ballingizni ayting, rejani biz tuzamiz.", "Ask about IELTS": "IELTS haqida soʻrash", "Your teachers.": "Sizning oʻqituvchilaringiz.", "Friendly, direct and focused on making you talk. Choose a teacher and book a lesson with them.": "Samimiy, ochiq va sizni gapirtirishga yoʻnaltirilgan. Oʻqituvchini tanlang va u bilan darsga yoziling.", "What do you want to improve?": "Nimani yaxshilamoqchisiz?", "Grammar": "Grammatika", "Discussion and confidence": "Munozara va ishonch", "Show all": "Hammasini koʻrsatish", "Not sure?": "Ishonchingiz komilmi?", "Fill in a one-minute profile": "Bir daqiqalik mini-profilni toʻldiring", "and we will match you with a teacher.": "va biz sizga oʻqituvchi tanlaymiz.", "Best match": "Eng mos", "Founder and teacher": "Asoschi va oʻqituvchi", "Created Speakyz. Keeps lessons light, funny and full of speaking.": "Speakyz’ni yaratgan. Darslari yengil, quvnoq va suhbatga boy.", "Light and funny lessons": "Yengil va quvnoq darslar", "Message Ozod on Telegram": "Ozod ga Telegramda yozish", "Positive and sharp. Makes hard grammar stick.": "Ijobiy va aniq. Murakkab grammatikani yodda qoldiradi.", "Positive and sharp": "Ijobiy va aniq", "Message Kamron on Telegram": "Kamron ga Telegramda yozish", "Speaking and listening": "Speaking va listening", "I’m Farangiz Khaidarova! Your English support is just one message away. Feel free to reach out anytime, and I’ll get back to you ASAP!": "Men Farangiz Xaydarovaman! Ingliz tilidagi yordam bir xabar uzoqligida. Istalgan vaqtda yozing, imkon qadar tez javob beraman!", "Want to improve your speaking and listening skills? I’m right here to help!": "Speaking va listening koʻnikmalarini yaxshilamoqchimisiz? Yordam berishga tayyorman!", "I’ll support you not only with grammar but also with broadening your worldview. And remember, English isn’t just about grammar — it’s also about how you see the world and recognize opportunities!": "Men sizga nafaqat grammatika bilan, balki dunyoqarashingizni kengaytirishda ham yordam beraman. Esda tuting: ingliz tili faqat grammatika emas, u dunyoni qanday koʻrishingiz va imkoniyatlarni payqashingiz hamdir!", "Broader worldview": "Keng dunyoqarash", "Message Farangiz on Telegram": "Farangiz ga Telegramda yozish", "Creative, supportive and open-minded. Makes lessons engaging through discussions and interactive activities, while inspiring students to think independently and express their ideas with confidence.": "Ijodkor, qoʻllab-quvvatlovchi va ochiq fikrli. Darslarni munozara va interaktiv mashqlar orqali qiziqarli qiladi, oʻquvchilarni mustaqil fikrlashga va gʻoyalarini ishonch bilan bayon qilishga ilhomlantiradi.", "Discussions": "Munozaralar", "Interactive activities": "Interaktiv mashqlar", "Confidence": "Ishonch", "Message Laziza on Telegram": "Laziza ga Telegramda yozish", "Pick your time.": "Vaqtingizni tanlang.", "Choose what suits you. We confirm the exact group and time in Telegram.": "Oʻzingizga mosini tanlang. Aniq guruh va vaqtni Telegramda tasdiqlaymiz.", "Course": "Kurs", "Individual": "Individual", "Format": "Format", "Offline": "Oflayn", "Online": "Onlayn", "Any": "Farqi yoʻq", "Time": "Vaqt", "Morning": "Ertalab", "Afternoon": "Kunduzi", "Evening": "Kechqurun", "Copy message": "Xabarni nusxalash", "Open Telegram": "Telegramni ochish", "Come to us, or join from home.": "Bizga keling yoki uydan qoʻshiling.", "Yunus-Abad, 19 kv., near School 257, Tashkent": "Yunusobod, 19-kvartal, 257-maktab yaqinida, Toshkent", "Group and individual lessons on video": "Video orqali guruh va individual darslar", "Support and manager": "Yordam va menejer", "Telegram bot": "Telegram-bot", "Channel": "Kanal", "Questions.": "Savollar.", "Is the first lesson really free?": "Birinchi dars rostdan bepulmi?", "Yes. Register through the Telegram bot and choose a time.": "Ha. Telegram-bot orqali yoziling va vaqtni tanlang.", "Can I study online?": "Onlayn oʻqisam boʻladimi?", "Yes. Groups and individual lessons both run online.": "Ha. Guruh ham, individual darslar ham onlayn oʻtadi.", "I do not know my level. Is that a problem?": "Darajamni bilmayman. Bu muammomi?", "No. The teacher checks your level in the first lesson and suggests a group.": "Yoʻq. Oʻqituvchi darajangizni birinchi darsda aniqlab, guruh taklif qiladi.", "Do you prepare for IELTS from zero?": "IELTSga noldan tayyorlaysizlarmi?", "We build a plan from your current level to your target band. Tell us both when you message us.": "Hozirgi darajangizdan maqsad ballingizgacha reja tuzamiz. Bizga yozganda ikkalasini ham ayting.", "Support": "Yordam", "Manager": "Menejer", "Telegram channel": "Telegram-kanal", "Instagram": "Instagram", "Admin": "Admin"},WPEN="You do not learn to speak by reading rules. You learn by talking, getting corrected, and trying again. At Speakyz every lesson is built around that loop, with small groups, friendly teachers and zero fear of mistakes.";
+var D={ru:RU,uz:UZ};
+var IDS=["home","courses","ielts","teachers","schedule","contact"];
+function lang(){try{var v=localStorage.getItem("sz_lang");if(v==="ru"||v==="uz"||v==="en")return v}catch(e){}var n=(navigator.language||"ru").slice(0,2);return(n==="uz"||n==="en")?n:"ru"}
+window.szLang=lang;
+var nodes=[];
+IDS.concat(["footer"]).forEach(function(id){var root=document.getElementById(id)||document.querySelector(id);if(!root)return;var w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,null);var n;
+  while(n=w.nextNode()){var p=n.parentNode;if(!p||/^(SCRIPT|STYLE)$/.test(p.nodeName)||p.closest("svg,#wp,.w"))continue;var t=n.nodeValue.replace(/\s+/g," ").trim();if(!t)continue;nodes.push({n:n,o:n.nodeValue,k:t})}});
+function apply(l){document.documentElement.lang=l;
+  nodes.forEach(function(x){var t=l==="en"?null:D[l][x.k];if(!t){x.n.nodeValue=x.o;return}var lead=x.o.match(/^\s*/)[0],trail=x.o.match(/\s*$/)[0];x.n.nodeValue=lead+t+trail});
+  if(window.szWp)szWp(l==="en"?WPEN:(D[l][WPEN]||WPEN))}
+apply(lang());
+var g=document.getElementById("glang");if(g)g.addEventListener("click",function(){setTimeout(function(){apply(lang())},0)});
+})();
+</script>
+</body>
+</html>
